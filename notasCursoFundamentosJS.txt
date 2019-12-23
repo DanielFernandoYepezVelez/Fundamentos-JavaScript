@@ -1,0 +1,371 @@
+CLASE #1 (Console.log())
+Todo lo que se defina en el codigo como por ejemplo
+variables, funciones, objetos, arrays, etc. Puedo
+interacturar con estos elementos a través de la consola
+del navegador o puedo ver sus valores con un console.log()
+desde el codigo.
+
+Cuando hablo de interacturar quiero decir que puedo ver,
+modificar y realizar otras operaciones con los valores que
+tienen dichos elementos.
+
+DEBBUGER escribiendo esta palabra en el codigo puedo ver el
+contenido de las variables, funciones, objetos, arrays, etc,
+que tengo en el codigo.
+----------------------------------------------------------------
+
+CLASE #2 (Strings o cadena de carcateres)
+Trabajando con los strings o cadena de caracteres.Cuando yo
+aplico una función a un string lo que en realidad estoy
+haciendo es invocar o llamar una función o atributo ya creado
+y establecido por JS, exclusivamente para los strings.
+
+Otro tema es la interpolación o template string que me permite
+concatenar variables con strings y tener muy presente que
+dentro de las llaves puedo escribir codigo JS!.
+En el ejemplo de las llaves se invocó una función para una
+variable de tipo string. <=> `${nombre.toUpperCase()}`
+
+Recordar que al invocar la propiedad .length, esta empieza
+su conteo desde el 1 y una cadena de caracteres inicia el
+conteo desde el 0.
+----------------------------------------------------------------
+
+CLASE #3 (Valores Númericos)
+En JS tenemos un modulo global que se llama Math y es el modulo
+de las matemáticas, es decir, este modulo cuenta con métodos que
+me permiten realizar diferentes operaciones matemáticas.
+
+Debo adaptarme en aplicar un método o función en una sola linea
+de codigo para que sea más legible y esa linea de codigo debe
+estar en una variable, en conclusión, los metodos o funciones
+se les van a aplicar a las variables definidas.
+----------------------------------------------------------------
+
+CLASE #4 (Funciones)
+Reutilizar fragmentos de codigo en diferentes segmentos de un
+programa.
+----------------------------------------------------------------
+
+CLASE #5 (Alcance de las Funciones)
+WINDOW:
+Es el objeto padre de todo lo que este en el navegador,
+por ende, el puede acceder a todo lo que se este ejecutando
+en el BROWSER.
+
+Cuando una variable se define de forma global, yo puedo acceder
+a ella a través del objeto global window, porque la variable global
+se la a asignado a dicho objeto, porque se definio de forma global
+y además se esta ejecutando en el BROWSER.
+
+"Efecto de lado" es cuando una función va a modificar variables
+que no estan definidas dentro de dicha función o va a tocar cosas
+dentro del codigo del programa que a esa función no le corresponde
+y eso es algo que se debe evitar casi siempre.
+
+Para evitar que una función modifique variables globales
+le defino parametros y juego con los valores de los parametros y no
+con los de la variable global.(ESTO ELIMINA EL EFECTO DE LADO).
+Vale destacar que los parametros no existen de forma global, sino
+de forma local y con su respectivo valor local.
+
+Recordar el scope de las variables dentro de una 
+función.
+----------------------------------------------------------------
+
+CLASE #6 Y #7 (OBJETOS DESTRUCTURANDO)
+Formas de llamar los objetos en la funciones.
+
+La destructuración de objetos nos sirve para no alterar un 
+objeto original, sino que retornamos un nuevo objeto
+con los nuevos cambios aplicados.{Ver el codigo
+fuente de la clase}. 5 FORMAS.
+----------------------------------------------------------------
+
+CLASE #8 (PARAMETROS POR VALOR Y PARAMETROS POR REFERENCIA)
+JS se comporta diferente con los objetos(ARRAYS) que son definidos
+por referencia y por valor.
+
+Los parametros por valor solo cambia los valores para esa función.
+
+Los objetos que se definen como parametros, son pasados por referencia, eso
+quiere decir, que si los modificamos dentro del cuerpo de la función su
+valor se va a ver modificado fuera de esa función tambien, es decir,
+en el objeto original.TAMBIEN PASA LO MISMO CON LOS ARRAYS que son
+definidos como parametros son pasados por referencia.
+
+Esto se puede aplicar por dos cosas:
+por que se quiere que el objeto o alguna propiedad del objeto se vea
+modifcada despues de invocar la función o para retornar un nuevo objeto.
+El nuevo objeto que se retorna debe tener lo mismo del anterior, excepto
+las propiedades que se modifcaron. {Ver codigo fuente de la clase}.
+-----------------------------------------------------------
+
+CLASE #9 (COMPARACIONES EN JS)
+En JS las comparaciones son diferentes
+para los datos primitivos y para los objetos.
+En los objetos los afecta siempre y cuando esten
+aputando a la misma referencia, es decir, al
+mismo espacio en la memoria ram. {Ver codigo fuente de la clase}.
+-----------------------------------------------------------
+
+CLASE #10 (Condicionales)
+{Ver codigo fuente de la clase}.
+-----------------------------------------------------------
+
+CLASE #11 (Funciones que retornan)
+La idea es desglosar las funciones en funciones cada vez más
+pequeñas y estas funciones más pequeñas nos van a retornar los
+valores que necesitemos.
+
+Las funciones siempre van a retornar un objeto que
+tengan las mismas propiedades, esto aplica en el caso de que
+una funcion mas pequeña esta en el interior de una función
+más grande.{Ver codigo fuente de la clase}.
+-----------------------------------------------------------
+
+CLASE #12 (Arrow Functions)
+Se les pone const para dar a entender que es una funcion y
+no es una variable.
+
+Cuando tenemos definido un solo parametro podemos quitar los
+parentesis.
+
+Si lo único que hace la función es retornar algo podemos
+quitar el return y las llaves.
+
+Los Arrow Functions permiten destructurar objetos.
+-----------------------------------------------------------
+
+CLASE DE LA #13 A LA #16 (ESTRUCTURAS ALGORITMICAS)
+No tome nota de esos tema, ya los conozco.
+-----------------------------------------------------------
+
+CLASE #17 (INTRODUCCIÓN ARRAYS)
+Manejo de arrays normal.{Ver codigo fuente de la clase}.
+-----------------------------------------------------------
+
+CLASE #18 (FILTER ARRAYS)
+Para filtrar necesitamos dos cosas, la primera es un array
+y la segunda es una condición, y esa condición es una función.
+
+Vamos a filtrar arrays con la función .filter() que lleva
+como parametro una condición que es una función.A dicha
+función no se le agrega parentesis.
+
+.filter() el va a recorrer e iterar a cada uno de los elementos
+del array y todos los valores se van a almacenar en los
+o en el parametro de la funcion que tiene como parametro la
+función .filter()
+
+.filter() nos va a devolver un array con las nuevas caracteristicas
+establecidas, pero filtradas y obtenidas a partir del array original,
+es decir, la referencia para obtener la nueva información siempre
+va a ser el array ORIGINAL.
+
+Podemos destructurar la función de .filter() por sus atributos.
+-----------------------------------------------------------
+
+CLASE #19 (MAP ARRAYS)
+Esta función me transformar el array original.
+
+Si no quiero que transforme mi array original, puedo
+retornar un nuevo array.
+
+.map() tiene las mismas caracteristicas a .filter(), con respecto
+al funcionamiento y a la sintaxys.
+-----------------------------------------------------------
+
+CLASE #20 (REDUCE ARRAYS)
+Lo que hace esta función es reducir un array a un valor unico.
+
+Para implementar esta función necesitamos dos cosas, un array
+y como segundo argumento el acumulador, donde se va a albergar el
+valor total.
+
+En los parametros de la funcion declarada, recibe como primer
+argumento el acumulador y posteriormente los valores de la función.
+-----------------------------------------------------------
+
+CLASE DEL #21 A LA #23 (DECLARANDO OBJETOS(PROTOTIPOS))
+Los proptotipos se definen con la creación de funciones y
+lo que existe dentro de la función es lo que se va a ejecutar
+cuando se cree o se instancie un nuevo objeto de ese
+proptotipo.
+
+El proptotipo(Clase) de un objeto es la referencia de la instancia
+que se le aplico al mismo objeto.
+
+Los metodos se crean con funciones pero se agrega la palabra prototype
+y el nombre del prototipo donde va a funcionar ese metodo.
+{Ver codigo fuente de la clase}.
+
+Existe la palabra debugger para parar la ejecución y saber que 
+variable es quién.
+
+Cuando aplico una función de tipo Arrow Functions estoy cambiando con
+el contexto del this, por que este es equivalente al objeto window,
+entonces, todos los atributos del objeto persona seran indefinidos,
+por que this ya no hace referencia a la persona en este caso, sino
+al objeto global window y en este objeto esos a tributos no estan 
+definidos, es decir, los atributos estan definidos de forma local.
+-----------------------------------------------------------
+
+CLASE #24 (HERENCIA ENTRE PROTOTIPOS(Objetos))
+En JS existe la herencia prototipal y no la herencia
+como la concemos en otros lenguajes de programación, pero
+apartir de ES5, podemos aplicar herencia entre clases normal.
+{Volver a ver clase, aunque es confusa}.
+-----------------------------------------------------------
+
+CLASE #25 (ES5,ES6,ES7,ES8 POO(CLASES Y HERENCIA))
+Los atributos y los métodos no se pueden llamar iguales,
+porque se crea un conflicto en la clase.
+-----------------------------------------------------------
+
+CLASE #26 (PASAR FUNCIONES COMO PARAMETROS)
+En JS hay valores que se comportan como false y otros
+como true cuando se ponen dentro de un IF o 
+cuando se ponen a evaluar un valor de tipo BOOLEAN:
+
+Falsos:
+null.
+cero(0).
+string(DEBE ESTAR VACIO).
+undefined(Cuando existe en el programa pero no esta definido).
+
+Verdaderos:
+objeto(aunque este vacio).
+array(aunque este vacio).
+string(NO DEBE ESTAR VACIO).
+{Ver codigo fuente de la clase}.
+-----------------------------------------------------------
+
+CLASE #27 Y #28 (ASYNCRONISMO EN JS!)
+JS! solo puede hacer una cosa o una tarea a la
+vez.
+
+Aunque JS! no es multitarea, puede delegar la
+ejecución de ciertas funciones a otros procesos.
+
+Esto es un modelo de concurrencia que se llama
+Event Loop(ejecución del código).
+
+JS! tiene algo que se llama la pila de ejecución o
+CallStack donde pone la llamada a las funciones
+segun el orden de ejecución de nuestro programa,
+si una función llama a otra entonces esta se 
+agrega a la pila. Cuando termina de ejecutar una
+función la saca de la pila y la bota.
+
+EJEMPLO:
+En una parte del programa necesitamos conocer el
+precio del BitCoin por que se pagaron con
+dinero mexicano, entonces el navegador va a
+traer la información cuando la sirva el servidor
+y al regresar llama una función que se 
+denomina "CallBack" es una función que JS! ejecutara 
+cuando llegue la respuesta del servidor
+Mientras tanto seguira la ejecución de
+la pila o programa principal.
+
+Cuando llegue la respuesta el CallBack ira a
+parar en la cola de tareas, aqui las tareas
+se encolan de acuerdo al orden en que van llegando.
+
+QUE TAREAS VAN A PARAR A LA COLA DE TAREAS:
+PETICIONES A LOS SERVIDORES.
+INTERACCIONES VISUALES.
+LA NAVEGACIÓN CLEI AND INSIDE.
+LOS EVENTOS QUE SE REALIZAN CADA CIERTO TIEMPO.
+TAREAS AIGNADAS EN UN FUTURO.
+INTERACTIVIDAD CON EL DOM.
+LOS ALERTS.
+PEDIDOS DE DATOS A UNA API (EXTERNA).
+REQUEST EXTERNO(JQUERY O FETCH).
+
+Solo cuando el programa principal o la pila de
+ejecución se quede sin funciones. JS! va a ir
+a la cola de tareas a buscar las funciones 
+que estan alli para ejecutarlas.
+
+Se debe de tener cuidado de no generar
+un cuello de botella o saturación en la
+pila de ejecución, por que si JS! se queda
+ejecutando tareas muy pesadas las funciones de
+la cola de tareas se van a tardar mucho en
+ejecutarse.
+
+REPETIR ANTES DE DORMIR
+NO DEBO BLOQUEAR EL EVENT LOOP;
+PARA QUE EL PROGRAMA SEA FLUIDO.
+-----------------------------------------------------------
+
+CLASE #29 (CALLBAKCS Asincronismo(Un solo REQUEST))
+La idea es acceder a los datos de Star Wars en nuestro
+programa y poder hacer lo que queramos con ellos.
+
+arguments es una variable que tienen todas las
+funciones para darnos en un array todos los
+parametros que recibe dicha función.
+
+CallBack es una función que se va a ejecutar en un
+futuro, si el REQUEST es true.(Asincronismo).
+
+Accediendo a un solo personaje. {Ver codigo Fuente}
+-----------------------------------------------------------
+
+CLASE #30 (Asincronismo en su Maxima Expresión(Multiples REQUEST))
+No se en que orden me va a llegar los datos.
+-----------------------------------------------------------
+
+CLASE #31 (Orden de pedida sea el orden de llegada (CALLBAKCS))
+La unica forma de obtener el orden de los Multiples REQUEST
+es siguiendo el orden de los CALLBAKCS durante la ejecución
+del programa.
+
+vamos hacer a través de un CallBack un REQUEST y dentro
+de ese REQUEST otro REQUEST y asi sucesivamente; y todo
+esto a través de los CALLBAKCS.
+
+Si seguimos la estructura anteriormente mencionada vamos
+a tener algo que se llama el CallBack Hell o el infierno
+de los CALLBAKCS.
+
+Cuando se obtenga el personaje 1, inmediatamente
+se va a llama a la otra función que es el personaje 2
+y asi sucesivamente para todos los CALLBAKCS.
+{Ver codigo fuente de la clase}.
+-----------------------------------------------------------
+
+CLASE #32 (Manejo de errores en la conexion con CALLBAKCS)
+El método .fail() se va a concatenar al metodo de JQUERY
+.get() que se va a ejecutar si hay algun problema en la
+ejecución del programa, además recibe un CallBack como
+parametro.
+
+En la pestaña de la consola de Network desabilito
+el cache y me pongo offline, para ver la ejecución
+del método .fail().
+-----------------------------------------------------------
+
+CLASE #33 (Solucionando el CallBack Hell con las Promesas)
+Menciono los polifyls, para soportar promesas en caso tal,
+de que un navegador no lo soporte, pero ya casi todos hoy
+en día lo hacen.
+
+Las promesas son valores que aún no concemos.
+
+
+
+
+
+-----------------------------------------------------------
+
+
+
+
+
+
+
+
