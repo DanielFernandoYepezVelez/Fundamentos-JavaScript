@@ -5,7 +5,7 @@ interacturar con estos elementos a través de la consola
 del navegador o puedo ver sus valores con un console.log()
 desde el codigo.
 
-Cuando hablo de interacturar quiero decir que puedo ver,
+Cuando hablo de interactuar quiero decir que puedo ver,
 modificar y realizar otras operaciones con los valores que
 tienen dichos elementos.
 
