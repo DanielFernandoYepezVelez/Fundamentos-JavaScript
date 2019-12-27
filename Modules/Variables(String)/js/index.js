@@ -23,7 +23,7 @@ console.log(secondLetterLastNameMayus);
 let lengthCompleteName = completeName.length;
 console.log(lengthCompleteName);
 
-/* Obtengo un rango de letras de un string principal referenciando la posición */
+/* Obtengo un rango de letras de un string principal referenciando las posiciones */
 let strCompleteName = completeName.substr(0, 4);
 console.log(strCompleteName);
 
