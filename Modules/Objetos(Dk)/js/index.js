@@ -52,6 +52,7 @@ console.log(goku.IsIntelligent);
 console.log(goku.IsSayayin);
 console.log('-----------------------------------------');
 
+/* Delete properties Object */
 delete goku.IsIntelligent;
 console.log(goku.name);
 console.log(goku.wife);
@@ -66,4 +67,49 @@ if (!goku.IsIntelligent) {
 }
 
 console.log(goku.IsSayayin);
+console.log('-----------------------------------------');
+
+/* Objeto que contiene otro objeto u otros objetos como propiedades */
+let gohan = {
+    name: 'Gohan',
+    age: 18
+}
+
+let milk = {
+    name: 'Milk',
+    isTerricola: true,
+    husband: goku,
+    son: gohan
+}
+
+console.log(milk);
+console.log('-----------------------------------------');
+
+/* Objeto que contiene otro objeto u otros objetos como propiedades 
+Además, se puede agregar un objeto Directamente */
+let milk2 = {
+    name: 'Milk',
+    isTerricola: true,
+    husband: goku,
+    son: gohan,
+    padre: {
+        name: 'Ms Satan',
+        mother: false,
+        brother: false,
+        sister: false
+    }
+}
+
+console.log(milk2);
+console.log('-----------------------------------------');
+
+/* Declaracion de objetos vacios, Como los que se 
+aplican en nodeJS, para tener encuenta!! */
+let objetoVacio = {};
+console.log('objetoVacio =>', objetoVacio);
+console.log('-----------------------------------------');
+
+/* Agregando Propiedad Al objeto Vacio */
+objetoVacio.propiedad = 'Primera Propiedad Del Objeto Vacio';
+console.log(objetoVacio);
 console.log('-----------------------------------------');
