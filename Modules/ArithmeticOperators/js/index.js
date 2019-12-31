@@ -28,3 +28,8 @@ const discountPercentage = 0.2;
 
 console.log('MULTIPLICATION =>', servicePrize * discountPercentage);
 console.log('----------------------------------------');
+
+/* NOTAS => Tener presente la jerarquia de los
+operadores Aritmeticos (*, /, +, -) Se ejecutan
+de izquierda a derecha cuando tienen el mismo
+nivel de jerarquia */
