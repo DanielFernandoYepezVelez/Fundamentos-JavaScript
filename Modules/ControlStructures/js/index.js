@@ -125,3 +125,54 @@ if (month === 'January') {
     console.log('El mes no se encontró');
 }
 console.log('------------------------------');
+
+/* Condicional Swicht */
+const weekDay = 7;
+
+switch (weekDay) {
+    case 1:
+        console.log('Hoy es LUNES');
+        break;
+
+    case 2:
+        console.log('Hoy es MARTES');
+        break;
+
+    case 3:
+        console.log('Hoy es MIERCOLES');
+        break;
+
+    case 4:
+        console.log('Hoy es JUEVES');
+        break;
+
+    case 5:
+        console.log('Hoy es VIERNES');
+        break;
+
+    default:
+        console.log('TODAY IS WEEKEND');
+        break;
+}
+console.log('------------------------------');
+
+/* Otra Forma De Utilizar Los CASOS */
+
+const colorFondoMes = 'April';
+
+switch (colorFondoMes) {
+    case 'January':
+    case 'February':
+        console.log('Fondo WHITE');
+        break;
+
+    case 'March':
+    case 'April':
+        console.log('Fondo RED');
+        break;
+
+    default:
+        console.log('No Tenemos Color De Fondo');
+        break;
+}
+console.log('------------------------------');
