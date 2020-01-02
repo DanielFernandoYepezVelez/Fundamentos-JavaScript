@@ -1,0 +1,193 @@
+CONTENIDO REALMENTE VALIOSO MUY MUY VALIOSO:
+EL BOM(BROWSER OBJECT MODEL) Y EL DOM(DOCUMENT OBJECT MODEL):
+
+               BOM(BROWSER OBJECT MODEL)
+|-------------------------window
+|       ---------------------|----------------------
+|       |        |        |       |        |       |
+|    frames[] history location navigator screen document =====>
+|
+|              DOM(DOCUMENT OBJECT MODEL)
+|            anchors[] applets[] areas[] embeds[]
+|               /         /        /       /
+|------document-----------------------------
+                \         \        \       \
+              forms[]  image[]  layers[]  links[]
+
+EXPLICACIÓN DE DIAGRAMA ANTERIOR:
+El BOM(BROWSER OBJECT MODEL) es todo lo que se ve en el
+navegador, es decir, la ventana completamente, incluyendo
+el contenido de la misma y todo esto lo maneja con objetos.
+
+EL BOM(BROWSER OBJECT MODEL) en su interior tiene un objeto
+principal que se llama "WINDOW" este objeto en su interior
+tiene atributos y métodos. Algunos de sus atributos y métodos
+se comportan como "OBJETOS" que tienen sus propios atributos
+y métodos, pero a su vez, se comportan como atributos o métodos
+para el objeto principal "WINDOW" y son los siguientes:
+
+                     window
+   ---------------------|----------------------
+   |        |       |         |       |       |
+frames[] history location navigator screen document
+
+En el interior de uno de los objetos llamado "document"
+encontramos el DOM(Document Object Model) y aquí se
+encuentra todo el contenido de un website, es decir,
+toda la estructura del HTML que se divide en las dos
+etiquetas principales que son el HEAD y el BODY.
+
+                 (DOCUMENT OBJECT MODEL)
+              anchors[] applets[] areas[] embeds[]
+                /         /        /       /
+ ------document-----------------------------
+                \         \        \       \
+              forms[]  image[]  layers[]  links[]
+----------------------------------------------------------
+
+BOM(BROWSER OBJECT MODEL):
+PROPIEDADES(Objetos) DEL OBJETO PRINCIPAL DEL BOM "WINDOW":
+NOMBRE VENTANA => window.name;
+ANCHO VENTANA => window.outerWidth;
+ALTO VENTANA => window.outerHeight;
+ANCHO INTERNO VENTANA => window.innerWidth;
+ALTO INTERNO VENTANA => window.innerHeight;
+SCROLL HORIZONTAL VENTANA => window.pageXOffset;
+SCROLL VERTICAL VENTANA => window.pageYOffset;
+DISTANCIA IZQUIERDA VENTANA => window.screenX;
+DISTANCIA SUPERIOR VENTANA => window.screenY;
+(OBJETO)NOMBRE NAVEGADOR => window.navigator.vendor;
+
+MÉTODOS(Objetos) DEL OBJETO PRINCIPAL DEL BOM "WINDOW":
+VENTANA ALERTA => window.alert();
+ABRIR VENTANA => window.open("./ayuda.html", "_blank", "width = 300, 
+height = 300");
+CERRAR VENTANA => window.close();
+--------------------------------------------------------------
+
+DOCUMENT OBJECTO MODEL(DOM):
+En este Objeto se encuentra toda la estructura HTML de mi web-site y es útil
+para acceder u obtener los "VALORES ó DATOS" de los elementos o nodos de 
+HTML, a través de los propios atributos de cada elemento o nodo HTML, pero
+todo esto se maneja desde JavaScript por medio del OBJETO "DOCUMENT" con sus
+respectivos métodos y atributos. Lo que permite generar una pagina web
+dinámica con JavaScript.
+
+MÉTODOS PARA OBTENER LOS DATOS DE LA ESTRUCTURA HTML A TRAVÉS DEL OBJETO 
+"DOCUMENT":
+=========================document.querySelector();=========================
+Selección Selectores => etiqueta, clase, id, atributo.
+Tipo => No es de tipo Array.
+Funciona => Si tenemos varios selectores de cualquier tipo siempre se trae
+el primero que se encuentre, pero si le indicamos el selector nos devuelve
+el indicado.
+
+Sintaxys:
+Etiqueta => document.querySelector('p');
+Clase => document.querySelector('[class=uno]');
+ID => document.querySelector('[id=uno]');
+Atributo => document.querySelector('[type="uno"]');
+
+=========================document.querySelectorAll();=========================
+Selección Selectores => etiqueta, clase, id, atributo.
+Tipo => Es de tipo Array.
+Funciona => El indice funciona de acuerdo al argumento de tipo selector 
+que se le indique al método, es decir, si existen 8 selectores iguales 
+de tipo clase el va a traer el que le indiquemos en el indice, pero solo
+con respecto a la clase que pasamos como argumento.
+
+Sintaxys:
+Etiqueta => document.querySelectorAll('li')[0];
+Clase => document.querySelectorAll('[class=uno]'[1]); (Ya existe una clase en la posición cero).
+ID => document.querySelectorAll('[id=uno]'[1]); (Ya existe un id en la posición cero).
+Atributo => document.querySelectorAll('[type="uno"]'[1]); (Ya existe una type en la posición cero).
+
+=========================document.getElementsByTagName();=========================
+Selección Selectores => etiqueta.
+Tipo => Es de tipo Array.
+Funciona => El indice funciona de acuerdo al argumento solo de selector de 
+etiqueta que se le indique al método, es decir, el indice alberga la etiqueta
+seleccionada.
+
+Sintaxys:
+Etiqueta => document.getElementsByTagName('section')[0];
+Etiqueta => document.getElementsByTagName('section')[1];
+
+=========================document.getElementsByClassName();=========================
+Selección Selectores => clase.
+Tipo => Es de tipo Array.
+Funciona => El indice funciona de acuerdo al argumento solo de selector de 
+clase que se le indique al método, es decir, el indice alberga la clase
+seleccionada.
+
+Sintaxys:
+clase => document.getElementsByClassName('articulo1')[0];
+clase => document.getElementsByClassName('articulo2')[0];
+clase => document.getElementsByClassName('articulo3')[0];
+clase => document.getElementsByClassName('articulo1')[1];
+clase => document.getElementsByClassName('articulo2')[1];
+clase => document.getElementsByClassName('articulo3')[1];
+
+=========================document.getElementById();=========================
+Selección Selectores => id.
+Tipo > No es de tipo Array.
+Funciona => Retorna el elemento HTML que tenga el id, recordar que dicho id
+debe ser unico, en el caso de que se repita siempre devuelve el primero que
+en cuentre en todo el programa.
+
+Sintaxys:
+id => document.getElementById('nuevoUno');
+id => document.getElementById('nuevoDos');
+id => document.getElementById('nuevoTres');
+----------------------------------------------------------------------
+
+NOTA INDICE = El indice del array del elemento o nodo, se le puede aplicar
+directamente a la variable que alberga dicho nodo o elemento a treves 
+del documento.
+---------------------------------------------------------------------
+
+CREANDO NODOS(Elementos HTML) Y AGREGANDOLOS AL HTML A TRAVÉS DEL
+DOM(Document Object Model):
+Cuando Hablamos de crear nodos, hablamos de crear un nuevo elemento 
+o etiqueta html, pero desde javaScript.
+
+Para agregar un "Nodo" o Elemento en el DOM(Document Object Model),
+se deben seguir los siguientes pasos:
+
+/* Creando un "NODO" */
+var creandoNodo = window.document.createElement('p');
+
+/* Creando contenido interno del nuevo "NODO" */
+var contenidoNodo = window.document.createTextNode('SOY EL HEADER #5 CREADO Y AGREGADO DESDE JAVASCRIPT');
+
+/* Adjuntando el nuevo "NODO" con su contenido interno */
+creandoNodo.appendChild(contenidoNodo);
+
+/* Agregando atributos(CSS) al elemento o "NODO" creado(Opcional)*/
+creandoNodo.setAttribute("align","center");
+
+/* Darle vida al "Nodo" agregandolo al document(HTML)
+ Lo puedo hacer a través de cualquier selector conocido*/
+document.querySelector('header').appendChild(creandoNodo);
+
+/* Aquí al agregarle el body, le indicamos que se ponga al final
+de todo nuestro contenido */
+document.body.appendChild(creandoNodo);
+-------------------------------------------------------------------
+
+POSICIONAMIENTO DINÁMICO Y EXACTO DE TODOS LOS NODOS QUE DESEAMOS CREAR:
+Creando Nodo.
+Creando Contenido Interno.
+Adjuntando Nodo y Contenido Interno.
+Establecer Atributos(Opcional).
+Elemento Padre(ParentNodo).
+Elemento Referencial.
+InsertBefore.
+---------------------------------------------------------------------
+
+MODIFICANDO CONTENIDO DE NODOS EXISTENTES:
+innerHTML = "<h1>Nuevo Texto</h1>"; PERMITE INTERPRETAR LAS ETIQUETAS HTML.
+contentText = "Nuevo Texto"; NO PERMITE INTERPRETAR LAS ETIQUETAS HTML.
+--------------------------------------------------------------------------
+
+REEMPLAZANDO NODOS DEL DOM(Document Object Model):

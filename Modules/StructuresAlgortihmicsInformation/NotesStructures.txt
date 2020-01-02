@@ -1,0 +1,42 @@
+CONDICIONALES:
+Operador Ternario.
+Simple o Cerrada.
+Compuesta o Abierta.
+Condicional Anidada.
+Swicht o Casos.
+--------------------------------------------------------------------------
+
+CICLOS:
+while.
+do-while.
+for.
+
+break.
+continue.
+Contadores(Cuentan).
+Acumuladores(Suman).
+--------------------------------------------------------------------------
+
+ARRAYS:
+Unidimensionales.
+Bidimensionales(Matrices).
+Tridimensionales.
+Multidimensionales.
+--------------------------------------------------------------------------
+
+FUNCIONES:
+Reutilizar fragmentos de código que se van a repetir constantemente en el
+programa. Las funciones se tienen que ver como """VALORES"""" que retornan
+algo.
+
+Porcedimientos(UNA FUNCIÓN QUE NO RETORNA NADA).
+Funciones Sin Parametros Definidos.
+Funciones Con Parametros Definidos.
+Funciones Anónimas(DONDE SE DEFINEN, SE EJECUTAN AL MISMO TIEMPO).
+Funciones Call-Backs(Función dentro de otra función).
+---------------------------------------------------------------------------
+
+OBJETOS(Clases):
+Propiedades(Atributos).
+Métodos.
+---------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+GUIA DE JAVASCRIPT:
+La puedo encontrar en mozilla.(Es de suma importancia y la documentación
+es muy completa).
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide
+-------------------------------------------------------------------------

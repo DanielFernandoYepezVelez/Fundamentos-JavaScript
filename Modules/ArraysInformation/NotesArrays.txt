@@ -1,0 +1,111 @@
+MÉTODOS Y PROPIEDADES DE LOS ARRAYS(Conocidos):
+
+.lenght; = Renderiza el número de elementos de un array, es decir, 
+su longitud, inicia desde (#1).
+
+.push(); = Estoy agregando un nuevo elemento o "DATO" al final de un array.
+
+.pop(); = Estoy eliminando el ultimo elemento o "DATO" de un array.
+
+.concat(); = Estoy concatenando los elementos de un arreglo, con los
+elementos de otro. También me sirve para concatenar al interior del 
+arreglo diferentes tipos de variables.
+
+.join(); = Permite configurar un arreglo para aplicar un espaciado entre
+cada uno de los elementos y lo renderiza como texto plano.
+
+.sort(); = Permite mostrar los elementos de un arreglo ordenados
+alfabéticamente.
+
+.reverse() = Todos los valores de los indices de un array se ponga de revés,
+los ultimos seran los primeros.
+
+ ------------------------------------------------------------------------
+|ARRAY.FROM                                                              |
+|document.write(`array.from(map): El array esta en la consola`);         |
+|var semanitaHtml = Array.from(document.querySelectorAll(".semanaDias"));|
+|var creacion = semanitaHtml.map(dia => dia.textContent);                |
+|console.log(creacion);                                                  |
+|array.from(map <=> mapear) = me permite convertir una cadena de texto   |
+|desde HTML5 en un array en y para JAVASCRIPT.                           |
+ ------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+BUSCANDO ELEMENTOS O DATOS DENTRO DE UN ARRAY:
+
+.find(); = Busca un elemento o valor que exista en el interior del
+array(SIEMPRE DA EL PRIMER RESULTADO).
+
+.findIndex(); = Busca y Devuelve el indice de un elemento o valor existente 
+en un array.
+
+.filter(); = Busca un elemento o valor y Devuelve todas las veces que exista
+ese elemento o valor en el array.
+
+.some(); = Evalua un parametro dentro de un rango determinado y si los
+valores del array hacen parte de dicho rango, entonces Devuelve un tipo de
+dato lógico(Boolena).
+
+.map() = Permite buscar un elemento en un array y sobre ese elemento incia
+a iterar o buscar y puede devolver el numero de caracteres de ese dato y
+hace lo mismo sobre cada uno de los "DATOS" existente en un arreglo.
+(IMPORTANTISIMA).Devuelve un nuevo Arreglo.
+---------------------------------------------------------------------------
+
+MÉTODOS Y PROPIEDADES DE LAS CADENAS DE CARÁCTERES:
+
+.lenght; = Longitud del número de carácteres de una cadena de texto.
+
+.substring(7); = Recibe un argumento que marca el incio de lo que se requiere
+renderizar por pantalla.
+
+.substr(0, 7); = Recibe dos argumentos para mostrar el inicio y el fin de una
+cadena de caracteres, inicia a contar desde el indice cero(0).
+
+.indexOf('F', 6); = Nos devuelve en que posición se encuentra una letra en
+especifico y se le puede aplicar un segundo argumento y nos dice desde que
+indice se debe empezar a buscar dicha letra.
+
+.lastIndexOf('o'); = Esta se comporta igual que el anterior, lo unico que
+cambia es que el indice se muestra del ultimo hacia el primero.
+
+.match(/expresionRegular/gi); = Recibe como argumento una EXPRESIÓN REGULAR,
+y me devuelve la cadena de texto, dentro de un array.
+
+.charAt(indice); = Recibe como argumento un numero de indice para devolver
+el "DATO" del indice indicado.
+
+.startsWith('letra'); = Le estoy indicando la letra o la palabra con que 
+inicia mi cadena de caracteres. me devuleve un valor de tipo boolean.
+
+.endsWith('palabra'); = Le estoy indicando la letra o la palabra con que 
+termina mi cadena de caracteres. Me devuleve un valor de tipo boolean.
+
+.includes('letra o palabra'); = Le estoy indicando que la letra o la palabra
+tiene alguna coincidencia o relación con mi cadena de caracteres. Me 
+devuleve un valor de tipo boolean.
+
+PRESENTACIÓN VISUAL DE LA CADENA DE CARCATERES:
+.replace(cadena, 'Cadena Nueva'); = Me sirve para reemplazar una cadena de
+texto completa o simplemente una fracción de la cadena existente.
+
+.repeat(2); = Recibe un argumento de tipo numerico y me permite indicar el 
+numero de veces que deseo repetir la cadenas de texto completa.
+
+.slice(16); = Recibe un argumento de tipo numerico y me permite indicar 
+apartir de que indice va iniciar la lectura de la cadena de texto completa.
+
+.split(','); = Es muy util porque me permite pasar datos de una variable a una
+estructura de tipo array y este método recibe como argumento el carácter
+separador que va a indicar a que indice pertenece un valor y a que indice
+pertenece otro.
+
+.trim(); = Me permite pasar por alto los caracteres en blanco que tienen
+una cadena de texto.
+
+.concat(concatenación); = Me permite concatenar textos, numeros etc.
+
+.toUpperCase(cadena); = Convierte texto de minúscula a Mayúscula.
+
+.toLowerCase(cadena); = Convierte texto de Mayúscula a minúscula.
+------------------------------------------------------------------------------

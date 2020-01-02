@@ -1,0 +1,69 @@
+"use strict"; (NO ES OBLIGATORIO).
+No acepta errores en el codigo, porque le estoy diciendo 
+a JS que sea muy riguroso.
+-----------------------------------------------------------------------
+
+QUE SON LAS VARIABLES(const, let, var):
+Es el espacio que se reserva en la memoria RAM de un ordenador, donde
+posteriormente se va a almacenar un valor o Dato y asi, realizar el
+procesamiento de los datos que son requeridos en un sistema de información.
+---------------------------------------------------------------------------
+
+TODOS LOS TIPOS DE DATOS QUE MANEJA JS(Dinámicos):
+TIPOS DE DATOS NÚMERICOS Y PUNTO FLOTANTE:
+NÚMERICOS: Enteros.
+PUNTO FLOTANTE: Decimales.
+
+TIPOS DE DATOS CARÁCTER Y STRING:
+CHAR: Carácter.
+STRING: Cadena.
+
+TIPOS DE DATOS LÓGICOS O BOOLEANOS:
+TRUE: Verdadero.
+FALSE: Falso.
+
+TIPOS DE DATOS COMPUESTOS(Se pueden combinar de "ARRAY a OBJECT"):
+Arrays o Vectores.
+Objects u Objetos.
+
+TIPOS DE DATOS ESPECIALES(LENGUAJE DE PROGRAMACIÓN JAVASCRIPT):
+"Date" => A TRAVÉS DE INSTANCIAR UN OBJETO DE LA CLASE(MODULO) DATE(), 
+OBTENGO DIA, MES, AÑO, HORA, ETC.
+
+"undefined" => ES UNA VARIABLE QUE EXISTE, PERO NO TIENE ASIGNADO
+NINGUN VALOR.
+
+"is not defined" => ES UNA VARIABLE QUE NO EXISTE EN EL CÓDIGO DEL PROGRAMA.
+("""ERROR""").
+
+"null" => ES UNA VARIABLE CON RETORNO VACIO COMO POR EJEMPLO, UN CAMPO DE UN
+FORMULARIO, PERO LA VARIABLE SI EXISTE EN EL PROGRAMA O ASIGNO EL VALOR null
+DIRECTAMENTE.
+
+"NaN" => ES ALGO QUE NO SE PUEDE HACER, ALGO SIN SENTIDO COMO UNA OPERACIÓN
+ARITMÉTICA CON CADENAS DE TEXTO, DIFERENTE AL OPERADOR ARITMÉTICO DE LA
+CONCATENACIÓN.
+
+(BUSCAR):::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+"SIMBOLOS" => SON ÚNICOS E INMUTABLES, SE UTILIZAN COMO IDENTIFICADORES 
+PARA LAS PROPIEDADES DE UN OBJETO.
+-----------------------------------------------------------------------------
+
+AMBITO DE LAS VARIABLES Y FUNCIONES(Scope):
+FUNCIONES INDIVIDUALES:
+GLOBAL => Podemos acceder a las variables desde cualquier parte del código
+del programa.
+
+LOCAL => Son variables creadas dentro de una función y solo pueden ser
+accedidas desde su propia función o una función anidada.
+
+FUNCIONES ANIDADAS:
+1. Desde una o varias funciones anidadas puedo acceder a las variables que
+estén en una función predecesora y traerlas hacia una función hija o función
+interna. PERO desde una función predecesora o padre no se puede acceder
+a las variables que estén en una funcion interna, es decir, en una función
+hija.
+
+NOTA => EL scope funciona También para las funciones, es decir, si no
+corresponde al AMBITO existente, la función no se va a ejecutar(ES6).
+---------------------------------------------------------------------------

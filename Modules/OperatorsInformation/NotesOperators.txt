@@ -1,0 +1,53 @@
+OPERADORES ARITMÉTICOS:
++.
+-.
+*.
+/.
+%.
+-----------------------------------------------------------------------
+
+OPERADORES UNARIOS(Incremento-Decremento):
+i++.
+++i.
+i--.
+--i.
+-----------------------------------------------------------------------
+
+OPERADORES DE ASIGNACIÓN:
+variable0 = 8.
+variable1 += 8.
+variable2 -= 8.
+variable3 *= 8.
+variable4 /= 8.
+variable5 %= 8.
+-----------------------------------------------------------------------
+
+OPERADORES RELACIONALES:
+>.
+>=.
+<.
+<=.
+==.
+===.
+!=.
+!==.
+-----------------------------------------------------------------------
+
+OPERADORES LÓGICOS:
+&&.
+||.
+!.
+-----------------------------------------------------------------------
+
+PRECEDENCIA O JERARQUIA DE TODOS LOS OPERADORES EN PROGRAMACIÓN:
+FUNCIONES() Y/O MÉTODOS().
+OPERADORES UNARIOS.
+PARENTESIS.
+CORCHETES.
+LLAVES.
+POTENCIACIÓN, RADICALES, MULTIPLICACIÓN, DIVISIÓN.
+SUMA, RESTA.
+
+NOTA => Si hay elementos de igual jerarquia en la expresión se van a ejecutar de
+izquierda a derecha, ¡siempre!.
+-----------------------------------------------------------------------
