@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a interactive page with JavaScript for final Project">
+    <meta name="keywords" content="HTML, JavaScript, Project">
+    <meta name="author" content="Daniel Fernando Yepez Velez">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Final</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <main class="border-main">
+
+        <section class="border-section">
+            <!-- Article One -->
+            <article class="card inline">
+                <figure>
+                    <img class="item-cover" src="./assets/gato-hot-dog.png" alt="gato-hot-dog">
+                </figure>
+                <h2>Cat Hot Dog</h2>
+                <div class="row">
+                    <span class="subtitle">Price</span>
+                    <span class="price">$</span>
+                    <span id="etiqueta-precio1" class="price">50</span>
+                </div>
+                <div class="row">
+                    <span class="subtitle">Cantidad</span>
+                    <div class="count">
+                        <figure>
+                            <img id="boton-menos1" class="botton-less" src="./assets/download (1).svg" alt="img-less">
+                        </figure>
+                        <span id="etiqueta-cantidad1" class="quantity">1</span>
+                        <figure>
+                            <img id="boton-mas1" class="botton-add" src="./assets/download.svg" alt="img-add">
+                        </figure>
+                    </div>
+                    <div id="boton-agregar1" class="boton-agregar">Add</div>
+                </div>
+            </article>
+            <!-- Article Two -->
+            <article class="card inline">
+                <figure>
+                    <img class="item-cover" src="./assets/gato-hamburguesa.png" alt="gato-hot-dog">
+                </figure>
+                <h2>Cat Hamburger</h2>
+                <div class="row">
+                    <span class="subtitle">Price</span>
+                    <span class="price">$</span>
+                    <span id="etiqueta-precio2" class="price">40</span>
+                </div>
+                <div class="row">
+                    <span class="subtitle">Cantidad</span>
+                    <div class="count">
+                        <figure>
+                            <img id="boton-menos2" class="botton-less" src="./assets/download (1).svg" alt="img-less">
+                        </figure>
+                        <span id="etiqueta-cantidad2" class="quantity">1</span>
+                        <figure>
+                            <img id="boton-mas2" class="botton-add" src="./assets/download.svg" alt="img-add">
+                        </figure>
+                    </div>
+                    <div id="boton-agregar2" class="boton-agregar">Add</div>
+                </div>
+            </article>
+
+            <article class="card">
+                <h2>Total to Pay</h2>
+
+                <div id="contenedor-etiquetas">
+                    <!-- Interactive JavaScript -->
+                </div>
+
+                <div class="row">
+                    <span class="subtitle">Subtotal</span>
+                    <span class="price">$</span>
+                    <span id="etiqueta-subtotal" class="price">100</span>
+                </div>
+                <div class="row">
+                    <span class="subtitle" id="etiqueta-envio">Send</span>
+                    <span class="price">$</span>
+                    <span class="price" id="valor-envio">5</span>
+                </div>
+                <div class="row">
+                    <span class="subtitle" id="etiqueta-descuento">Discount</span>
+                    <span class="price">$</span>
+                    <span class="price" id="valor-descuento">0</span>
+                </div>
+                <hr>
+                <div class="row-final">
+                    <span class="subtitle">Total</span>
+                    <span class="price">$</span>
+                    <span id="etiqueta-total" class="price">93</span>
+                </div>
+            </article>
+
+        </section>
+
+    </main>
+
+    <script src="./js/index.js"></script>
+</body>
+
+
+</html>
