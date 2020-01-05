@@ -39,6 +39,11 @@ OPERADORES LÓGICOS:
 !.
 -----------------------------------------------------------------------
 
+OPERADORES ESPECIALES:
+typeof.
+delete(Una propiedad de un objeto).
+-----------------------------------------------------------------------
+
 PRECEDENCIA O JERARQUIA DE TODOS LOS OPERADORES EN PROGRAMACIÓN:
 FUNCIONES() Y/O MÉTODOS().
 OPERADORES UNARIOS.

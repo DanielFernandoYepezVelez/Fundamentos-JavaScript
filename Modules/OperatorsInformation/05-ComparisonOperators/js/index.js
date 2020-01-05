@@ -15,7 +15,7 @@ if (edadMenor < 18) {
 } else {
     console.log('Eres Mayor de edad');
 }
-console.log('----------------------------------');
+console.log('-----------------------------');
 
 const edadMayorIgualQue = 18;
 const edadMenorIgualQue = 17;
@@ -33,7 +33,7 @@ if (edadMenorIgualQue <= 17) {
 } else {
     console.log('Eres Mayor de edad');
 }
-console.log('----------------------------------');
+console.log('-----------------------------');
 
 /* Operador igual que */
 const persona = {
@@ -53,7 +53,7 @@ if (persona.age == '26') {
 } else {
     console.log('Los EDAD NO coincide');
 }
-console.log('----------------------------------');
+console.log('-----------------------------');
 
 /* Operador Exactament Igual Con Los Tipos De Datos */
 if (persona.id === 12345) {
@@ -67,7 +67,7 @@ if (persona.age === '26') {
 } else {
     console.log('Los EDAD NO coincide');
 }
-console.log('----------------------------------');
+console.log('-----------------------------');
 
 /* Operador No Igual Que */
 if (persona.id != 12345) {
@@ -81,7 +81,7 @@ if (persona.age != '26') {
 } else {
     console.log('Los EDADES NO Son Diferentes');
 }
-console.log('----------------------------------');
+console.log('-----------------------------');
 
 /* Operador No Igual Que INCLUIDO El Tipo De Dato*/
 if (persona.id !== 12345) {
@@ -95,7 +95,7 @@ if (persona.age !== '26') {
 } else {
     console.log('Los EDADES NO Son Diferentes');
 }
-console.log('----------------------------------');
+console.log('-----------------------------');
 
 /* Operadore Logicos */
 const user = {
@@ -110,7 +110,7 @@ if (user.discount && finalValue >= 200) {
 } else {
     console.log(' NO Aplica promoción De Descuento');
 }
-console.log('----------------------------------');
+console.log('-----------------------------');
 
 /* Operador OR || */
 if (user.discount === false || finalValue >= 200) {
@@ -118,7 +118,7 @@ if (user.discount === false || finalValue >= 200) {
 } else {
     console.log(' NO Aplica promoción De Descuento');
 }
-console.log('----------------------------------');
+console.log('-----------------------------');
 
 /* Operador Not ! */
 const goku = {
@@ -142,4 +142,4 @@ if (!goten.hungry) {
 } else {
     console.log('Goten No Tiene Hambre');
 }
-console.log('----------------------------------');
+console.log('-----------------------------');

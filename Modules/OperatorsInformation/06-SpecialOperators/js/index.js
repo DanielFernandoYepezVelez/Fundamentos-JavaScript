@@ -5,8 +5,8 @@ console.log(typeof {});
 console.log(typeof []);
 console.log(typeof null);
 console.log(typeof undefined);
-console.log(typeof variableUndefined);
-console.log('---------------------------------');
+console.log(typeof variableUndefinedNoExisteEnElPrograma);
+console.log('----------------------------------');
 
 /* Special Operator delete */
 const persona = {
