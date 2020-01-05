@@ -9,7 +9,7 @@ posteriormente se va a almacenar un valor o Dato y asi, realizar el
 procesamiento de los datos que son requeridos en un sistema de información.
 ---------------------------------------------------------------------------
 
-TODOS LOS TIPOS DE DATOS QUE MANEJA JS(Dinámicos):
+TODOS LOS TIPOS DE DATOS QUE MANEJA JavaSCript(Dinámicos):
 TIPOS DE DATOS NÚMERICOS Y PUNTO FLOTANTE:
 NÚMERICOS: Enteros.
 PUNTO FLOTANTE: Decimales.
@@ -66,4 +66,11 @@ hija.
 
 NOTA => EL scope funciona También para las funciones, es decir, si no
 corresponde al AMBITO existente, la función no se va a ejecutar(ES6).
+
+CONCLUSIÓN:
+Toda las variables que estan declradas por fuera de una estructura Algoritmica
+se pueden utilizar por que tienen un Ambito Global.
+Todas las variables que estan declaradas en el interior de una estructura 
+Algoritmica ¡NOOOOO! se pueden utilizar por fuera de dicha estructura 
+Algoritmica donde se ejecuto dicha declaración.
 ---------------------------------------------------------------------------

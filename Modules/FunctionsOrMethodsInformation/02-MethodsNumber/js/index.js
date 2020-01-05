@@ -1,19 +1,3 @@
-let edad = 26;
-
-/* Operadores de asignacion */
-// edad = edad + 1;
-// edad = edad - 1;
-// edad = edad * 1;
-// edad = edad / 1;
-// edad = edad % 1;
-
-/* Operadores de asignacion Simplificados */
-// edad += 1;
-// edad -= 1;
-// edad *= 1;
-// edad /= 1;
-// edad %= 1;
-
 /* Operaciones con decimales */
 let precioVino = 200.3;
 let total = precioVino * 3;

@@ -34,3 +34,17 @@ console.log('---------------------------------');
 z %= 3;
 console.log(z);
 console.log('---------------------------------');
+
+/* Operadores de asignacion */
+// edad = edad + 1;
+// edad = edad - 1;
+// edad = edad * 1;
+// edad = edad / 1;
+// edad = edad % 1;
+
+/* Operadores de asignacion Simplificados */
+// edad += 1;
+// edad -= 1;
+// edad *= 1;
+// edad /= 1;
+// edad %= 1;

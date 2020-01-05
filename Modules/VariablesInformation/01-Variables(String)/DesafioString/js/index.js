@@ -1,3 +1,5 @@
+'use strict';
+
 /* Mostrar la ultima letra ingresada por el usuario */
 let name = window.prompt('Ingresa El Nombre');
 
