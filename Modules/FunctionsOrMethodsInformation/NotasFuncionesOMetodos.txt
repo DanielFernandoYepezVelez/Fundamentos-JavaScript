@@ -1,0 +1,57 @@
+MÉTODOS Y PROPIEDADES DE LAS CADENAS DE CARÁCTERES:
+
+.lenght; = Longitud del número de carácteres de una cadena de texto.
+
+.substring(7); = Recibe un argumento que marca el incio de lo que se requiere
+renderizar por pantalla.
+
+.substr(0, 7); = Recibe dos argumentos para mostrar el inicio y el fin de una
+cadena de caracteres, inicia a contar desde el indice cero(0).
+
+.indexOf('F', 6); = Nos devuelve en que posición se encuentra una letra en
+especifico y se le puede aplicar un segundo argumento y nos dice desde que
+indice se debe empezar a buscar dicha letra.
+
+.lastIndexOf('o'); = Esta se comporta igual que el anterior, lo unico que
+cambia es que el indice se muestra del ultimo hacia el primero.
+
+.match(/expresionRegular/gi); = Recibe como argumento una EXPRESIÓN REGULAR,
+y me devuelve la cadena de texto, dentro de un array.
+
+.charAt(indice); = Recibe como argumento un numero de indice para devolver
+el "DATO" del indice indicado.
+
+.startsWith('letra'); = Le estoy indicando la letra o la palabra con que 
+inicia mi cadena de caracteres. me devuleve un valor de tipo boolean.
+
+.endsWith('palabra'); = Le estoy indicando la letra o la palabra con que 
+termina mi cadena de caracteres. Me devuleve un valor de tipo boolean.
+
+.includes('letra o palabra'); = Le estoy indicando que la letra o la palabra
+tiene alguna coincidencia o relación con mi cadena de caracteres. Me 
+devuleve un valor de tipo boolean.
+
+PRESENTACIÓN VISUAL DE LA CADENA DE CARCATERES:
+.replace(cadena, 'Cadena Nueva'); = Me sirve para reemplazar una cadena de
+texto completa o simplemente una fracción de la cadena existente.
+
+.repeat(2); = Recibe un argumento de tipo numerico y me permite indicar el 
+numero de veces que deseo repetir la cadenas de texto completa.
+
+.slice(16); = Recibe un argumento de tipo numerico y me permite indicar 
+apartir de que indice va iniciar la lectura de la cadena de texto completa.
+
+.split(','); = Es muy util porque me permite pasar datos de una variable a una
+estructura de tipo array y este método recibe como argumento el carácter
+separador que va a indicar a que indice pertenece un valor y a que indice
+pertenece otro.
+
+.trim(); = Me permite pasar por alto los caracteres en blanco que tienen
+una cadena de texto.
+
+.concat(concatenación); = Me permite concatenar textos, numeros etc.
+
+.toUpperCase(cadena); = Convierte texto de minúscula a Mayúscula.
+
+.toLowerCase(cadena); = Convierte texto de Mayúscula a minúscula.
+------------------------------------------------------------------------------

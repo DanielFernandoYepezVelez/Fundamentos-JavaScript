@@ -42,6 +42,15 @@ OPERADORES LÓGICOS:
 OPERADORES ESPECIALES:
 typeof.
 delete(Una propiedad de un objeto).
+1 <=> true.
+0 <=> false
+' ' <=> true.
+'' <=> false.
+{} <=> true.
+{name: 'Daniel'} <=> true.
+[] <=> true.
+['Daniel'] <=> true.
+null <=> false.
 -----------------------------------------------------------------------
 
 PRECEDENCIA O JERARQUIA DE TODOS LOS OPERADORES EN PROGRAMACIÓN:

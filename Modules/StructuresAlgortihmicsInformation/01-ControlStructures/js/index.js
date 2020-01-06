@@ -1,4 +1,4 @@
-/* Condición Con Un Valor Booleano */
+/* Condición Con Un Valor De Tipo Booleano */
 if (true) {
     console.log('La condición se cumple');
 } else {

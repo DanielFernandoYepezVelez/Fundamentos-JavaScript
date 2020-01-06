@@ -20,7 +20,7 @@ personaTwo('Gildardo', 64);
 personaTwo(name, age);
 console.log('---------------------------------');
 
-/* Errores que fucnionan en JavaScript Y se DEbent tener muy encuenta */
+/* Errores que fucionan en JavaScript Y se Deben tener muy encuenta */
 console.log('ERRORES QUE SE DEBEN TENER MUY ENCUENTA CON JAVASCRIPT Y LAS FUNCIONES CON PARAMETROS');
 personaTwo(33, 'Rosario');
 personaTwo();
@@ -59,7 +59,8 @@ for (let index = 0; index < products.length; index++) {
 }
 console.log('---------------------------------');
 
-/* Otro Ejercicio igual */
+/* Otro Ejercicio igual Pero el orden es diferentes del objeto 
+y la funcion */
 const users = [
     { name: 'Daniel', age: 26, nationalition: 'Paisa' },
     { name: 'Daniel Fernando', age: 27, nationalition: 'N/A' },

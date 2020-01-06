@@ -1,5 +1,5 @@
-/* Aqui definimos un array hijo de referencia para definir la longitud de la fila
-del array padre*/
+/* Aqui definimos un array hijo de referencia para definir la longitud 
+de la fila del array padre */
 const arrayBidimensional = [
     [1, 1, 1, 1],
     [1, 1, 1, 1],
