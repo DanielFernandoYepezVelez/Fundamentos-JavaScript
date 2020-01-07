@@ -1,0 +1,70 @@
+  🔒MÉTODOS Y PROPIEDADES DE LOS ARRAYS(Conocidos):
+🔒.lenght; = Renderiza el número de elementos de un
+array, es decir, su longitud, inicia desde (#1).
+
+🔒.push('valorFinal'); = Estoy agregando un nuevo 
+elemento o "DATO" al final de un array.
+
+🔒.unshift('valorInicial'); = Estoy agregando un 
+nuevo elemento o "DATO" al inicio de un array.
+
+🔒.pop(); = Estoy eliminando el ultimo elemento o
+"DATO" de un array.
+
+🔒.shift(); = Estoy eliminando un elemento o "DATO"
+al inicio de un array.
+
+🔒.splice(2, 1); = Estoy eliminando un rango
+de un arreglo, el elemento dos del arreglo se va
+y solo se elimina un solo elemento.
+
+🔒.concat(); = Estoy concatenando los elementos de un 
+arreglo, con los elementos de otro. También me sirve
+para concatenar al interior del arreglo diferentes 
+tipos de variables.
+
+🔒.join(); = Permite configurar un arreglo para aplicar
+un espaciado entre cada uno de los elementos y lo
+renderiza como texto plano.
+
+🔒.sort(); = Permite mostrar los elementos de un arreglo
+ordenados alfabéticamente y También me sirve para
+ordenar los numeros con una función como parametro.
+
+🔒.reverse() = Todos los valores de los indices de un 
+array se ponga de revés, los ultimos seran los 
+primeros.
+
+🔒
+ ------------------------------------------------------------------------
+|ARRAY.FROM                                                              |
+|document.write(`array.from(map): El array esta en la consola`);         |
+|var semanitaHtml = Array.from(document.querySelectorAll(".semanaDias"));|
+|var creacion = semanitaHtml.map(dia => dia.textContent);                |
+|console.log(creacion);                                                  |
+|array.from(map <=> mapear) = me permite convertir una cadena de texto   |
+|desde HTML5 en un array en y para JAVASCRIPT.                           |
+ ------------------------------------------------------------------------
+
+    📌BUSCANDO ELEMENTOS O DATOS DENTRO DE UN ARRAY:
+📌.find(); = Busca un elemento o valor que exista en
+el interior del array(SIEMPRE DA EL PRIMER RESULTADO).
+
+📌.findIndex(); = Busca y Devuelve el indice de un 
+elemento o valor existente en un array.
+
+📌.filter(); = Busca un elemento o valor y Devuelve
+todas las veces que exista ese elemento o valor en el
+array.
+
+📌.some(); = Evalua un parametro dentro de un rango
+determinado y si los valores del array hacen parte de
+dicho rango, entonces Devuelve un tipo de dato 
+lógico(Boolena).
+
+📌.map() = Permite buscar un elemento en un array y 
+sobre ese elemento incia a iterar o buscar y puede 
+devolver el numero de caracteres de ese dato y hace 
+lo mismo sobre cada uno de los "DATOS" existente en
+un arreglo. 
+(IMPORTANTISIMA).Devuelve un nuevo Arreglo.

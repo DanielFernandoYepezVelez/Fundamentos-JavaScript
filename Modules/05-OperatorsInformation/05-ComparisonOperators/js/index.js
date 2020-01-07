@@ -97,7 +97,7 @@ if (persona.age !== '26') {
 }
 console.log('-----------------------------');
 
-/* Operadore Logicos */
+/* Operadores Logicos */
 const user = {
     name: 'Neo',
     discount: true

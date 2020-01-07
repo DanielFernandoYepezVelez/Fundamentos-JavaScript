@@ -6,9 +6,31 @@ let goku = {
     son: true
 }
 
+/* Para Acceder a los mismos
+atributos o metodos de un objeto
+utilizo la palabra this */
+const personaDos = {
+    name: 'Daniel Fernando',
+    lastName: 'Yepez Vélez',
+    profession: 'Development',
+    email: 'danipez.02@gmail.com',
+    age: 27,
+    music: ['Trance', 'Rock', 'Country'],
+    nacimiento: function() {
+        return new Date().getFullYear() - this.age;
+    }
+}
+
 /* Object Complete */
 console.log(goku);
 console.log('tipo de dato: ', typeof goku);
+console.log('-----------------------------------------');
+
+/* Object Complete */
+personaDos.music.push('NuevoAlternativo');
+console.log(personaDos);
+console.log(personaDos.nacimiento());
+console.log('tipo de dato: ', typeof personaDos);
 console.log('-----------------------------------------');
 
 /* Mostrar Object Numbre #1 */

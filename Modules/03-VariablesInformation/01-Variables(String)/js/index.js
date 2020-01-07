@@ -3,7 +3,7 @@
 /* Variables Y Constantes De Tipo String */
 var gretting = 'HELLO FRIEND';
 let completeName = 'Daniel Fernando Yepez Vélez';
-const PI = '\"3.1416\"';
+const PI = '\"3.1416\"'; //Escapar Una Cadena De Carácteres
 
 /* Show Console */
 console.log('Gretting =>', gretting);

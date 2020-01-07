@@ -1,0 +1,48 @@
+            🧶CONSOLA DEL NAVEGADOR
+🧶Todo lo que se defina en el codigo como por ejemplo
+variables, funciones, objetos, arrays, DOM, etc.
+Puedo interacturar con estos elementos a través de
+la consola del navegador o puedo ver sus valores
+con un console.log() desde el código JavaScript.
+
+🧶Cuando hablo de interactuar quiero decir que
+puedo ver, modificar y realizar otras operaciones
+con los valores que tienen dichos elementos.
+
+🧶Si escribo en la consola del navegador el objeto
+global del navegador que es "window", me muestra
+todo lo que tenemos allí. Y lo mismo pasa con el
+método y a la vez objeto "document" me muestra
+todo lo que tenemos en el document(body[HTML]).
+
+🧶Tambien puedo escribir cualquier instrucción
+completa que se puede ejecutar con el objeto global
+"window" o con el método Y/U objeto "document".
+
+🧶La consola en ocasiones devuelve undefined porque
+ella trata de retornar algo. Y como no hay nada 
+para retornar muestra dicho mensaje.
+
+🧶DEBBUGER escribiendo esta palabra en el codigo
+puedo ver el contenido de las variables, funciones,
+objetos, arrays, DOM, etc, que tengo en el código
+JavaScript.
+
+            💎CONSOLS IMPORTANTE
+💎console.log('Mensaje log');
+
+💎console.table([1, 2, 3]);
+
+💎console.error('Salio Mal');
+
+💎console.warn('Ojo, Advertencia');
+
+💎console.time('Inicio Tiempo');
+
+💎console.timeEnd('fin Tiempo');
+
+💎console.clear('Limpia el Navegador');
+
+💎NOTA => Si escribimos solo la palabra "console"
+nos van a salir todas las opciones que existen
+en JavaScript.

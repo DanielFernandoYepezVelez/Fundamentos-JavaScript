@@ -1,0 +1,46 @@
+             🎄¿QUE ES ECMAScript?
+🎄Es la especificación para crear un lenguaje de
+scripting.
+
+🎄NOTA => Un lenguaje de script o scripting es un
+lenguaje de programación cuyo código se inserta
+en el documento HTML y asi, ser interpretado por
+un navegador.
+
+🎄Los Navegadores utilizan ECMAScript para 
+interpretar el código JavaScript.
+
+🎄ECMAScript dicta las reglas, detalles y
+lineamientos que un lenguaje de scripting debe
+seguir para ser considerado por ECMAScript.
+
+            🎈VERSIONES DE ECMAScript
+🎈ECMAScript 5.1 (2011): La Version Actual Aunque
+Anticuada.
+
+🎈ECMAScript 2015 (ES6): El nuevo estándar, nuevas
+funciones agregadas y otras se declararon obsoletas.
+Algunas de sus funciones deben ser transpiladas con
+herramientas como Babel para que funcionen.
+
+🎈ECMAScript 2016 (ES7): Incluye nuevas funciones.
+
+🎈ECMAScript 2017 (ES8): Más funciones nuevas como
+Async/Await.
+
+🎈ES.Next: Es la versión en desarrollo, la mayoria
+de sus funciones son propuestas pero aun no esta 
+finalizado.
+
+               🏆¿QUE ES JavaScript?
+🏆Es un lenguaje de scripting que sigue la
+especificación de ECMAScript.
+
+🏆Es un dialecto del lenguaje ECMAScript.
+
+🏆NOTA => dialecto es una lengua que deriva o es
+hija de otra.
+
+🏆JavaScript es el lenguaje en que se programa
+mientras que ECMAScript son las especificaciones
+que el lenguaje debe seguir.

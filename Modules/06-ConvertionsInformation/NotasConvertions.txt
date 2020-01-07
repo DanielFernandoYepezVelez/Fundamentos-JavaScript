@@ -1,0 +1,23 @@
+                🏈String A Number
+🏈Number = Todos los string son convertidos a números.
+
+🏈parseInt = Todos los string son convertidos a 
+numeros enteros.
+
+🏈parseFloat = Todos los string son convertidos a 
+numeros decimales.
+
+🏈toFixed(3); = Solo funciona para tipo de dato númerico
+y controla cuantos numeros decimales quiero que tenga
+el numero que se le aplique este método.
+
+🏈parseFloat(numeroAconvertir).toFixed(2); = Aqui funciona
+para un dato de tipo string y se quiera pasar a numerico
+y controlar el numero de decimales, que debe tener dicho 
+numero.
+
+        📌Number A string
+📌String = Todos los Number a String.
+
+📌toString(); = Todos los tipos de datos a String
+excepto los datos de tipo null y undefined.

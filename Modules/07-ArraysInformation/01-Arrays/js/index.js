@@ -75,6 +75,33 @@ console.log(usersTwo[0].name);
 console.log(usersTwo[2].name);
 console.log('--------------------------------------');
 
+/* Ordenar números con el método .sort() */
+const numbersOrder = [1, 3, 56, 78, 99, 33, 4, 5, 6, 7, 8, 9];
+
+/* Arrow Functions */
+numbersOrder.sort((x, y) => x - y);
+console.log(numbersOrder);
+console.log('--------------------------------------');
+
+/* Function Normal */
+numbersOrder.sort(function(x, y) {
+    return x - y
+});
+console.log(numbersOrder);
+console.log('--------------------------------------');
+
+/* Arrow Functions */
+numbersOrder.sort((x, y) => y - x);
+console.log(numbersOrder);
+console.log('--------------------------------------');
+
+/* Function Normal */
+numbersOrder.sort(function(x, y) {
+    return y - x
+});
+console.log(numbersOrder);
+console.log('--------------------------------------');
+
 /* Arreglo De Arreglos O Arreglo Bidimensional */
 let bidimensionalNumbers = [
     [1, 2, 3],

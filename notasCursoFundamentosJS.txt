@@ -1,36 +1,3 @@
-CLASE #1 (Console.log())
-Todo lo que se defina en el codigo como por ejemplo
-variables, funciones, objetos, arrays, etc. Puedo
-interacturar con estos elementos a través de la consola
-del navegador o puedo ver sus valores con un console.log()
-desde el codigo.
-
-Cuando hablo de interactuar quiero decir que puedo ver,
-modificar y realizar otras operaciones con los valores que
-tienen dichos elementos.
-
-DEBBUGER escribiendo esta palabra en el codigo puedo ver el
-contenido de las variables, funciones, objetos, arrays, etc,
-que tengo en el codigo.
-----------------------------------------------------------------
-
-CLASE #2 (Strings o cadena de carcateres)
-Trabajando con los strings o cadena de caracteres.Cuando yo
-aplico una función a un string lo que en realidad estoy
-haciendo es invocar o llamar una función o atributo ya creado
-y establecido por JS, exclusivamente para los strings.
-
-Otro tema es la interpolación o template string que me permite
-concatenar variables con strings y tener muy presente que
-dentro de las llaves puedo escribir codigo JS!.
-En el ejemplo de las llaves se invocó una función para una
-variable de tipo string. <=> `${nombre.toUpperCase()}`
-
-Recordar que al invocar la propiedad .length, esta empieza
-su conteo desde el 1 y una cadena de caracteres inicia el
-conteo desde el 0.
-----------------------------------------------------------------
-
 CLASE #3 (Valores Númericos)
 En JS tenemos un modulo global que se llama Math y es el modulo
 de las matemáticas, es decir, este modulo cuenta con métodos que

@@ -1,0 +1,62 @@
+🎁OPERADORES ARITMÉTICOS:
+🎁+.
+🎁-.
+🎁*.
+🎁/.
+🎁%.
+
+🏀OPERADORES UNARIOS(Incremento-Decremento):
+🏀i++.
+🏀++i.
+🏀i--.
+🏀--i.
+
+🥉OPERADORES DE ASIGNACIÓN:
+🥉variable0 = 8.
+🥉variable1 += 8.
+🥉variable2 -= 8.
+🥉variable3 *= 8.
+🥉variable4 /= 8.
+🥉variable5 %= 8.
+
+🎆OPERADORES RELACIONALES:
+🎆>.
+🎆>=.
+🎆<.
+🎆<=.
+🎆==.
+🎆===.
+🎆!=.
+🎆!==.
+
+🥽OPERADORES LÓGICOS:
+🥽&&.
+🥽||.
+🥽!.
+
+🥇OPERADORES ESPECIALES:
+🥇typeof.
+🥇delete(Una propiedad de un objeto).
+🥇1 <=> true.
+🥇0 <=> false
+🥇' ' <=> true.
+🥇'' <=> false.
+🥇{} <=> true.
+🥇{name: 'Daniel'} <=> true.
+🥇[] <=> true.
+🥇['Daniel'] <=> true.
+🥇null <=> false.
+
+🛶PRECEDENCIA O JERARQUIA DE TODOS LOS OPERADORES EN
+PROGRAMACIÓN:
+🛶FUNCIONES() Y/O MÉTODOS().
+🛶OPERADORES UNARIOS.
+🛶PARENTESIS.
+🛶CORCHETES.
+🛶LLAVES.
+🛶POTENCIACIÓN, RADICALES, MULTIPLICACIÓN, DIVISIÓN.
+🛶SUMA, RESTA.
+
+🛶NOTA => Si hay elementos de igual jerarquia en la
+expresión se van a ejecutar de izquierda a derecha,
+¡siempre!.
