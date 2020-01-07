@@ -355,17 +355,4 @@ de que un navegador no lo soporte, pero ya casi todos hoy
 en día lo hacen.
 
 Las promesas son valores que aún no concemos.
-
-
-
-
-
 -----------------------------------------------------------
-
-
-
-
-
-
-
-

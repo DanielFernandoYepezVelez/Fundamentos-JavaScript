@@ -4,12 +4,12 @@ const paragraphs = window.document.createElement('p');
 paragraphs.innerHTML = 'HEllo World!';
 
 /* Si solo es requerido agregar el elemento
-en todo el body, posicion no especifica */
+en todo el body, posicion no especificada */
 window.document.body.appendChild(paragraphs);
 console.log('---------------------------------');
 
 /*El nuevo nodo creado adjuntarlo en el
-id indicado del HTML */
+id indicado en el HTML */
 const app = window.document.getElementById('app');
 app.appendChild(paragraphs);
 console.log('---------------------------------');
@@ -17,6 +17,7 @@ console.log('---------------------------------');
 /* Creando Un nodo con etiquetas en Mayúsculas */
 const block = window.document.createElement('DIV');
 
+/* Asignando estilos al elemento creado(DIV) */
 block.style.width = '200px';
 block.style.height = '200px';
 block.style.backgroundColor = 'red';
