@@ -56,13 +56,24 @@ SCROLL HORIZONTAL VENTANA => window.pageXOffset;
 SCROLL VERTICAL VENTANA => window.pageYOffset;
 DISTANCIA IZQUIERDA VENTANA => window.screenX;
 DISTANCIA SUPERIOR VENTANA => window.screenY;
+UBICACIÓN => window.location;
+(OBJETO)PUERTO => window.location.port;
+(OBJETO)HOSTNAME => window.location.hostname;
+(OBJETO)OBTENGO VALORES URL(GET) => window.location.search;
+REDIRECCIONAR => window.location.href = 'https://twitter.com';
+HISTORIA DE NAVEGACIÓN => window.history.go(-2);
+INFORMACIÓN NAVEGADOR => window.navegador;
 (OBJETO)NOMBRE NAVEGADOR => window.navigator.vendor;
+(OBJETO)IDIOMA DEL USUARIO => window.navigator.language;
 
 MÉTODOS(Objetos) DEL OBJETO PRINCIPAL DEL BOM "WINDOW":
 VENTANA ALERTA => window.alert();
 ABRIR VENTANA => window.open("./ayuda.html", "_blank", "width = 300, 
 height = 300");
 CERRAR VENTANA => window.close();
+OBTENER CONSOLA => window.console.log('Consola del Navegador');
+VENTANA CONFIRM => window.confirm();
+VENTANA PROPMT => window.prompt();
 --------------------------------------------------------------
 
 DOCUMENT OBJECTO MODEL(DOM):
@@ -79,11 +90,16 @@ MÉTODOS PARA OBTENER LOS DATOS DE LA ESTRUCTURA HTML A TRAVÉS DEL OBJETO
 Selección Selectores => etiqueta, clase, id, atributo.
 Tipo => No es de tipo Array.
 Funciona => Si tenemos varios selectores de cualquier tipo siempre se trae
-el primero que se encuentre, pero si le indicamos el selector nos devuelve
-el indicado.
+el primero que se encuentre.
+Pero si le indicamos el selector nos devuelve el indicado.
 
 Sintaxys:
 Etiqueta => document.querySelector('p');
+Clase => document.querySelector('.encabezado');
+ID => document.querySelector('#encabezado');
+Atributo => document.querySelector('[type="uno"]');
+
+Indicación Exacta:
 Clase => document.querySelector('[class=uno]');
 ID => document.querySelector('[id=uno]');
 Atributo => document.querySelector('[type="uno"]');

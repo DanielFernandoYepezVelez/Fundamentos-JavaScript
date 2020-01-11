@@ -37,6 +37,11 @@ MISMO TIEMPO).
 🎭Propiedades(Atributos).
 🎭Métodos.
 
+🎪OBJETOS DE TIPO constantemente:
+🎪Yo puedo modificar las Propiedades o metodos de forma
+individual, es decir su valor de forma individual, se
+puede alterar.
+
 🥊THIS
 🥊Para acceder desde el mismo objeto a una propiedad o
 método debeo utilizar la palabra this.
