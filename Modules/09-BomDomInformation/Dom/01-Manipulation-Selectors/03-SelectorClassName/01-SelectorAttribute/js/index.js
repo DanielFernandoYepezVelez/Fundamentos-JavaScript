@@ -3,8 +3,8 @@ const primeraClase = document.getElementsByClassName('primeraClase');
 /* Se convierte Para Poder Utilizar todos 
 los metodos de un array Normal */
 const convertirArray = Array.from(primeraClase);
-console.log(convertirArray);
 console.log(primeraClase);
+console.log(convertirArray);
 
 convertirArray.forEach(function(primeraClase) {
     primeraClase.style.color = 'blue';

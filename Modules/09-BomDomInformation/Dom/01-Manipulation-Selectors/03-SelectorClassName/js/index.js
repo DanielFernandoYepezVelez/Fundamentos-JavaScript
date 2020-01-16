@@ -1,7 +1,9 @@
 /* Al Ejecutar este selector se le puede
-aplicar lo mismo que a los anteriores,
+aplicar los mismos estilos que a los anteriores,
 la diferencia es que este selector me trae
-todas las clases que existen con ese nombre */
+solo selectores de clase y ademas devuelve todas las
+clases que existen con el mismo nombre de la clase
+especificada. */
 const primeraClase = document.getElementsByClassName('primeraClase');
 const convertirArray = Array.from(primeraClase);
 

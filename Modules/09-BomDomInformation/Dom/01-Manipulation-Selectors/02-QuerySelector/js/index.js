@@ -56,3 +56,7 @@ const enlaces = document.querySelector('ul').
 getElementsByClassName('enlaces');
 
 console.log(enlaces);
+
+const convertirArray = Array.from(enlaces);
+console.log(convertirArray);
+console.log('--------------------------');

@@ -40,21 +40,33 @@ gretting.style.background = 'black';
 gretting.style.color = 'white';
 gretting.style.padding = '20px';
 gretting.style.textAlign = 'center';
+// gretting.textContent = 'New Hello World!';
+// gretting.innerText = 'New Hello World!';
+gretting.innerHTML = 'New Hello World!';
 
 /* SUBTITLE */
 subtitle.style.background = 'black';
 subtitle.style.color = 'white';
 subtitle.style.padding = '20px';
 subtitle.style.textAlign = 'center';
+// subtitle.textContent = 'New Hello Friends!';
+// subtitle.innerText = 'New Hello Friends!';
+subtitle.innerHTML = 'New Hello Friends!';
 
 /* CONTENT */
 content.style.background = 'black';
 content.style.color = 'white';
 content.style.padding = '20px';
 content.style.textAlign = 'center';
+// content.textContent = 'New Hello Community';
+// content.innerText = 'New Hello Community';
+content.innerHTML = 'New Hello Community';
 
 /* TEXT-MODIFY */
 textModify.style.background = 'black';
 textModify.style.color = 'white';
 textModify.style.padding = '20px';
 textModify.style.textAlign = 'center';
+// textModify.textContent = 'New The Paragraphs';
+// textModify.innerText = 'New The Paragraphs';
+textModify.innerHTML = 'New The Paragraphs';

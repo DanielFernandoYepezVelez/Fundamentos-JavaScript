@@ -2,7 +2,7 @@
 los selectores de className y TagName
 por que puede seleccionar cualquier
 selector y además puede entregar
-mas de uno, estylo array.
+mas de uno, estilo array.
 Tambien puedo Agregar CSS COMBINADO
 DE CLASES, ID, ETIQUETA en un solo
 querySelectorAll */

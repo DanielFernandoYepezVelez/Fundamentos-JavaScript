@@ -1,9 +1,9 @@
 /* Este selector devuelve todas
 las etiquetas que existan en el 
-DOM, y solo acepta nombre de 
+DOM con el nombre que el selector TagName,
+especifico y solo acepta nombre de 
 etiquetas, además puede aplicar lo
-mismo que a los selectores 
-getElementsClassName */
+mismo que a los selectores getElementsClassName */
 const primeraEtiqueta = document.getElementsByTagName('h1');
 
 /* Lo convierto en un array para poder
