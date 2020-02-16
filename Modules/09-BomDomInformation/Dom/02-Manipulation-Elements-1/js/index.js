@@ -17,6 +17,12 @@ console.log('---------------------------------');
 /* Creando Un nodo con etiquetas en Mayúsculas */
 const block = window.document.createElement('DIV');
 
+/* Agregamos Una Clase */
+block.className = 'enlace';
+
+/* Agregamos Un Id */
+block.id = 'nuevo-id';
+
 /* Asignando estilos al elemento creado(DIV) */
 block.style.width = '200px';
 block.style.height = '200px';

@@ -4,7 +4,7 @@ scripting.
 
 🎄NOTA => Un lenguaje de script o scripting es un
 lenguaje de programación cuyo código se inserta
-en el documento HTML y asi, ser interpretado por
+en el documento HTML y así, ser interpretado por
 un navegador.
 
 🎄Los Navegadores utilizan ECMAScript para 

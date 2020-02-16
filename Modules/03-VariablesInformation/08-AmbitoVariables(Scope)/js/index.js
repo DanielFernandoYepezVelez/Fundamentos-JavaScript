@@ -5,8 +5,8 @@ function increaseCount() {
     count++;
     return count;
 }
-console.log('Variable Global =>', increaseCount());
-console.log('Variable Global =>', increaseCount());
+console.log('Variable Count Global =>', increaseCount());
+console.log('Variable Count Global =>', increaseCount());
 console.log('-----------------------------');
 
 /* Local Variable */
@@ -14,14 +14,19 @@ function gretting() {
     let localGretting = 'Hello World';
     return localGretting;
 }
-console.log('Variable Global =>', gretting());
-console.log('Variable Global =>', gretting());
+console.log('Variable Gretting Local =>', gretting());
+console.log('Variable Gretting Local =>', gretting());
+console.log('-----------------------------');
+console.log('-----------------------------');
+console.log('-----------------------------');
+console.log('-----------------------------');
 console.log('-----------------------------');
 
 /* Imprimir Local Variable 
 (No es Permitido, por el Scope) */
 // console.log('Error Intencional Scope =>', localGretting);
 
+// -----------------------------------
 /* OTRA DEFINICIÓN MUY IMPORTANTE:
 EL PROBLEMA DE USAR VAR ES QUE NO EXISTE
 LIMITE PARA SU SCOPE EN NINGUN BLOQUE
@@ -31,6 +36,9 @@ PERO CON LET SI EXISTE DICHO LIMITE */
 var a = 'a';
 let b = 'b';
 const c = 'c';
+
+console.log('Globales Iniciales: ', a, b, c);
+console.log('-----------------------------');
 
 /* Scope de la FUNCIÓN */
 function functionScope() {
@@ -52,11 +60,19 @@ if (true) {
 console.log('-----------------------------');
 
 /* Scope Loop */
+/* La a no es global solo pertenece
+al ciclo, por que es local, pero
+como el var no aplica el scope
+entonces la variable global inicial
+se va a ver modificada */
 for (var a = 0; a < 5; a++) {
     const element = [a];
     console.log(element);
 }
+console.log('-----------');
 
+/* La b no es global solo pertenece
+al ciclo, por que es local */
 for (let b = 0; b < 5; b++) {
     const element = [b];
     console.log(element);
@@ -64,4 +80,10 @@ for (let b = 0; b < 5; b++) {
 console.log('-----------------------------');
 
 /* Scope Global */
+/* Aqui podemos ver que las variables
+globales inciales que se declararon con
+las palabras let y const conservan su
+valor inicial, gracias a su scope
+pero pasa lo contrario con la
+declaracion con la palabra var */
 console.log('GLOBALES: ' + a, b, c);

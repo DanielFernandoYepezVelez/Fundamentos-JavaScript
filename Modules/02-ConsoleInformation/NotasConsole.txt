@@ -28,7 +28,7 @@ puedo ver el contenido de las variables, funciones,
 objetos, arrays, DOM, etc, que tengo en el código
 JavaScript.
 
-            💎CONSOLS IMPORTANTE
+            💎CONSOLS IMPORTANTES
 💎console.log('Mensaje log');
 
 💎console.table([1, 2, 3]);

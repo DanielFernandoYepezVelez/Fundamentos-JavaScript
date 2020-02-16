@@ -85,10 +85,12 @@ es decir, si no corresponde al AMBITO existente, la
 función no se va a ejecutar(ES6).
 
 👑CONCLUSIÓN:
-Toda las variables que estan declradas por fuera de
+Toda las variables que estan declaradas por fuera de
 una estructura Algoritmica se pueden utilizar por que
 tienen un Ambito Global. Todas las variables que
 estan declaradas en el interior de una estructura 
 Algoritmica ¡NOOOOO! se pueden utilizar por fuera de
 dicha estructura Algoritmica donde se ejecuto dicha
-declaración.
+declaración.A no ser de que sea var, por que
+siempre se va a estar reescribiendo ya que su scope
+se lo permite.

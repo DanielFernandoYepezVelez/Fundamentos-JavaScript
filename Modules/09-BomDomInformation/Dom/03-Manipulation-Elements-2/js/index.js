@@ -37,16 +37,34 @@ list.insertBefore(elementSix, elementFive);
 
 /*3. Remover Elementos hijos */
 list.removeChild(elementSix);
+
+/* 4. Remover un elemento por su selector */
+const elementNewOne = window.document.createElement('li');
+const elementNewTwo = window.document.createElement('li');
+
+elementNewOne.innerHTML = 'Soy un li Nuevo UNO';
+elementNewTwo.textContent = 'Soy un li Nuevo DOS';
+
+list.insertAdjacentElement('afterbegin', elementNewOne);
+list.insertAdjacentElement('beforeend', elementNewTwo);
+
+const seleccionarLI = document.querySelectorAll('li');
+/* Remover un elemento por su selector */
+seleccionarLI[0].remove();
+/* Remover un elemento por su padre */
+list.removeChild(elementNewTwo);
+
+console.log(seleccionarLI);
 /* ----------------------------------------------------------------------- */
 
-/*4. Reemplazar elementos hijos */
+/*5. Reemplazar elementos hijos */
 /* Primer parametro el elemento que voy a
 insertar y el segundo parametro es el
 elemento que va hacer reemplazado */
 list.replaceChild(elementSix, elementFour);
 /* ----------------------------------------------------------------------- */
 
-/*5. Clonar Elementos */
+/*6. Clonar Elementos */
 /* Sin Elementos Internos */
 const listCloneFalse = list.cloneNode(false);
 console.log(listCloneFalse);

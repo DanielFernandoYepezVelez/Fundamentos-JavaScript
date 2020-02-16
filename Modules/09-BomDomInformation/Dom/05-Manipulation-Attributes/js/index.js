@@ -17,6 +17,10 @@ console.log(link);
 console.log(link.attributes);
 console.log('---------------------------------');
 
+/* Tambien puedo obtener atributos o ids */
+const verAttribute = link.getAttribute('href');
+console.log(verAttribute);
+
 /* Remover un atributo de un nodo
 o etiqueta desde JavaScript */
 link.removeAttribute('rel');
@@ -27,9 +31,19 @@ console.log('---------------------------------');
 es decir, puedo agregar clases sin la
 necesidad de especificar el valor de
 dicha clase.por que se agrega el valor de
-forma directa */
-link.classList.add('red');
-link.classList.add('roboto');
+forma directa, es decir aqui obtengo clases 
+o las elimino y estas clases estan en el 
+archivo CSS*/
+const verNameClass = link.className;
+console.log(verNameClass);
+console.log('---------------------------------');
+
+const addClass = link.classList.add('red');
+const addClassTwo = link.classList.add('roboto');
+const verClases = link.classList; // puedo ver el arreglo de clasess
+console.log(addClass);
+console.log(addClassTwo);
+console.log(verClases);
 console.log(link);
 console.log('---------------------------------');
 

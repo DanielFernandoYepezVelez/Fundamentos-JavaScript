@@ -6,7 +6,7 @@ exclusivamente para los strings.
 
 🎪Recordar que al invocar la propiedad .length, esta
 empieza su conteo desde el 1 y una cadena de
-caracteres inicia el conteo desde el 0.
+caracteres inicia el conteo desde el 0 en JavaScript.
 
 🥎MÉTODOS Y PROPIEDADES DE LAS CADENAS DE CARÁCTERES:
 
@@ -17,7 +17,8 @@ cadena de texto.
 incio de lo que se requiere renderizar por pantalla.
 
 🥎.substr(0, 7); = Recibe dos argumentos para mostrar
-el inicio y el fin de una cadena de caracteres,
+el inicio y el fin de una cadena de caracteres, es decir,
+funciona como un segmento del string.
 inicia a contar desde el indice cero(0).
 
 🥎.indexOf('F', 6); = Nos devuelve en que posición se
@@ -84,7 +85,7 @@ Mayúscula a minúscula.
 🎉Math.PI = Entrega el número PI(3.1416).
 
 🎉Math.round(3.5); = Redondea al numero mayor o al
-numero menor, depende si pasa  o no pasa el 0.5.
+numero menor, depende si pasa o no pasa el 0.5.
 
 🎉Math.ceil(2.9); = Aquí puedo controlar el redondeo
 de los números siempre hacia arriba, no se tiene en
