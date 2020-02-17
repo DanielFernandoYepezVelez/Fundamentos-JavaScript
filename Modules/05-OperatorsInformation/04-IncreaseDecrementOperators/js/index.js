@@ -17,20 +17,22 @@ console.log(`El Valor de \"X\" es => ${x} Y el valor de \"Y\" es => ${y}`);
 console.log('---------------------------');
 
 /* Post-Incremento */
-/* Primero asigno x a y y luego incremento x */
+/* Primero asigno X a Y y luego incremento x */
 y = x++;
 console.log(`El Valor de \"X\" es => ${x} Y el valor de \"Y\" es => ${y}`);
 console.log('---------------------------');
 
 /* Pre-Incremento */
-/* primero incremento x y posteriorment 
-asigno x a y con el incremento incluido */
+/* primero incremento X y posteriorment 
+asigno X a Y con el incremento incluido */
 y = ++x;
 console.log(`El Valor de \"X\" es => ${x} Y el valor de \"Y\" es => ${y}`);
 console.log('---------------------------');
 
 /* DECREMENTO */
 let b = 15;
+console.log(b);
+console.log('---------------------------');
 
 b--;
 console.log(b);
@@ -47,14 +49,14 @@ console.log(`El Valor de \"W\" es => ${w} Y el valor de \"Z\" es => ${z}`);
 console.log('---------------------------');
 
 /* Post-Decremento */
-/* Primero asigno w a z y luego decremento w */
+/* Primero asigno W a Z y luego decremento W */
 z = w--;
 console.log(`El Valor de \"W\" es => ${w} Y el valor de \"Z\" es => ${z}`);
 console.log('---------------------------');
 
 /* Pre-Decremento */
-/* primero incremento x y posteriorment 
-asigno x a y con el incremento incluido */
+/* primero decremento W y posteriorment 
+asigno W a Z con el decremento incluido */
 z = --w;
 console.log(`El Valor de \"W\" es => ${w} Y el valor de \"Z\" es => ${z}`);
 console.log('---------------------------');

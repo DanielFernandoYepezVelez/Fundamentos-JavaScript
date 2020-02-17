@@ -27,10 +27,10 @@ console.log('---------------------------------');
 
 // z = z % 2;
 x %= 2;
-console.log(x);
+console.log('Exacto => ', x);
 console.log('---------------------------------');
 
 // z = z % 3;
 z %= 3;
-console.log(z);
+console.log('Inexacto => ', z);
 console.log('---------------------------------');
