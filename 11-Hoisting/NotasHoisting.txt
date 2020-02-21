@@ -1,0 +1,13 @@
+QUE ES EL HOISTING:
+Es el uso de funciones y variables
+con las siguientes declaraciones:
+
+function()
+var
+
+utilizadas en un segmento del codigo
+antes de declararlas e inicializarlas
+respectivamente.
+Esto tiene que ver con lo que pasa en
+las funciones declarativas y las funciones
+expresivas o anonimas.
