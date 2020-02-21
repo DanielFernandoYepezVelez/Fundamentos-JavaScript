@@ -1,0 +1,5 @@
+ARGUMENTOS VALORES PUROS:
+Si bien los parametros de la funcion
+son variables, pero los ARGUMENTOS
+en la invocacion de la funcion son
+valores puros.

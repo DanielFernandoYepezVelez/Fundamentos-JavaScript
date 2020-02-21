@@ -1,0 +1,8 @@
+PARAMETROS DE OBJETO:
+En la funcion vamos a pasar los
+parametros como un OBJETO JSON
+y lo pasamos de forma general
+y dentro de la funcion podemos
+utilizar todas las propiedades
+y metodos de dicho objeto que 
+ya esta en la función.

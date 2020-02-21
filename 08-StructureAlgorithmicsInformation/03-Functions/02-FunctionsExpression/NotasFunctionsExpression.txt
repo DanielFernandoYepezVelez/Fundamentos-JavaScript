@@ -1,0 +1,14 @@
+FUNCTIONS EXPRESSION:
+Esta forma de crear una función es muy
+usada y consiste en declarar y asignar 
+una función a una constante, recordar
+que las funciones se deben ver como
+valores que retornan algo. Por otra
+parte lo que se debe tener encuenta con
+este tipo de función es que primero se
+debe declarar la función y posteriormente
+su invocación debe estar debajo, por que
+de lo contrario se ejecuta un error, lo
+que no pasa con el otro tipo de función 
+que se conoce como function declaration y
+esta es su principal diferencia.

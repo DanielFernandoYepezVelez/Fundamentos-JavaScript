@@ -1,0 +1,5 @@
+PARAMETROS VARIABLE:
+En las funciones declaramos
+especificamente variables como
+parametros de nuestra funcion
+inteligente.

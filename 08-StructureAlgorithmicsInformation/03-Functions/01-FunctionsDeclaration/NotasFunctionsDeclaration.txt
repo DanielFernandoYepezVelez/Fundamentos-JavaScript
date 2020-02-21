@@ -1,0 +1,8 @@
+FUNCTIONS DECLARATIONS:
+Es la creación de las functions 
+de forma tradicional y no tiene
+ningun tipo de problema la invocación
+de la misma, desde que la función exista,
+es decir, este creada correctamente el
+sistema se va a ejecutar de forma
+asertiva.

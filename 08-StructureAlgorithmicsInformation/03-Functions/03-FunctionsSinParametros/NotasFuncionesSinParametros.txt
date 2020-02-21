@@ -1,0 +1,7 @@
+FUNCIONES SIN PARAMETROS:
+Son las funciones que no se les
+declara ni objetos, variables, funciones,
+en los parametros, lo cual limita su
+capacidad de ejecución o inteligencia
+como una pieza de codigo clave en el
+desarrollo de un sistema de información.
