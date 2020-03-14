@@ -1,0 +1,14 @@
+COERCION IMPLICITA:
+Esta coercion es cuando hacemos
+una operacion entre un numero y
+un string, y javascript automatica-
+mente nos devuleve un string, es decir,
+javascript se encarga de que
+esta coercion sea posible.
+
+COERCION EXPLICITA:
+Esta coercion es cuando nosotros
+casteamos u obligamos a una variable
+que tiene un valor con un tipo de 
+dato definido, lo cambie a otro tipo
+de dato.

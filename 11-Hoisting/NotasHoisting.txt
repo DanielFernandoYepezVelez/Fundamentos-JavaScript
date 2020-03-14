@@ -7,7 +7,16 @@ var
 
 utilizadas en un segmento del codigo
 antes de declararlas e inicializarlas
-respectivamente.
+respectivamente, las funciones son llamadas
+correctamente siempre y cuando sean declarativas
+y a las variables les asigna el valor de undifined
+siempre y cuando tenga la declaracion de var.
+
 Esto tiene que ver con lo que pasa en
 las funciones declarativas y las funciones
 expresivas o anonimas.
+
+
+Es cuando las declaraciones de las variables
+y funciones se procesan antes de ejecutar
+cualquier código.
