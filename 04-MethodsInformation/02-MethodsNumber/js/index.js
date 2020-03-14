@@ -1,3 +1,6 @@
+/* AQUI DEBEMOS ESCRIBIR TODOS LOS METODOS PARA LOS NUMEROS EN JS, LOS TENGO EN LAS NOTAS */
+
+/* EJEMPLO AISLADO O INDEPENDIENTE */
 /* Operaciones con decimales */
 let precioVino = 200.3;
 let total = precioVino * 3;

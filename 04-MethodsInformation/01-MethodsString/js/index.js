@@ -1,7 +1,7 @@
 const name = 'Daniel Fernando Yepez Velez';
 
 /* LENGTH */
-/* Longitud de una cade de caracteres */
+/* Longitud de una cadena de caracteres */
 console.log('Nombre =>', name);
 console.log('Longitud Nombre =>', name.length);
 console.log('----------------------------------------');
@@ -19,6 +19,15 @@ Tambien puede mostrar solo el inicio de una cadena de
 caracteres */
 console.log('Nombre =>', name);
 console.log('Inicio y Fin Cadena =>', name.substr(0, 17));
+console.log('------------------------------------------');
+
+/* SLICE() */
+/* Empieza La Cadena de Caracteres de atras hacia delante y
+tambien puede funcionar como SUBSTR, es decir, recibe un 
+valor inicial y un valor final */
+console.log('Nombre =>', name);
+console.log('Inicio y Fin Cadena "SLICE" =>', name.slice(0, 15));
+console.log('Cadena Invertida "SLICE" =>', name.slice(-8));
 console.log('------------------------------------------');
 
 /* INDEXOF() */
@@ -69,9 +78,44 @@ console.log(name.concat(' Concatenando Un String Puro'));
 nameTwo = 23;
 console.log(name.concat(' ' + nameTwo));
 console.log('Type Variable Concatenada =>', typeof nameTwo);
-/* Puedo Concatenar variables de cualquier tipo */
+/*En conclusión, Puedo Concatenar variables de cualquier tipo */
 console.log('------------------------------------------');
 
+/* CHARAT() */
+/* Recibe como argumento un numero de indice para devolver 
+el "DATO" del indice indicado. */
+console.log('Nombre =>', name);
+console.log('Valor Devuelto =>', name.charAt(3));
+console.log('------------------------------------------');
 
-/* slice(-3) empieza de atras hacia delante y tambien
-hace lo mismo qe substring*/
+/* STARTSWITH() */
+/* Le estoy indicando la letra o la palabra con que inicia
+mi cadena de caracteres. me devuleve un valor de tipo
+boolean. */
+console.log('Nombre =>', name);
+console.log('Palabra Inicial =>', name.startsWith('Daniel'));
+console.log('Palabra Inicial =>', name.startsWith('Camilo'));
+console.log('Letra Inicial =>', name.startsWith('D'));
+console.log('Letra Inicial =>', name.startsWith('C'));
+console.log('------------------------------------------');
+
+/* ENDSWITH() */
+/* Le estoy indicando la letra o la palabra con que termina
+mi cadena de caracteres. Me devuleve un valor de tipo boolean.*/
+console.log('Nombre =>', name);
+console.log('Palabra Final =>', name.endsWith('Velez'));
+console.log('Palabra Final =>', name.endsWith('Vasquez'));
+console.log('Letra Final =>', name.endsWith('z'));
+console.log('Letra Final =>', name.endsWith('S'));
+console.log('------------------------------------------');
+
+/* INCLUDES() */
+/*Le estoy indicando que la letra o la palabra tiene alguna
+coincidencia o relación con mi cadena de caracteres.
+Me devuleve un valor de tipo boolean. */
+console.log('Nombre =>', name);
+console.log('Palabra Coincidencia =>', name.includes('Velez'));
+console.log('Palabra Coincidencia =>', name.includes('Vasquez'));
+console.log('Letra Coincidencia =>', name.includes('z'));
+console.log('Letra Coincidencia =>', name.includes('S'));
+console.log('------------------------------------------');

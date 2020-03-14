@@ -6,7 +6,9 @@ exclusivamente para los strings.
 
 🎪Recordar que al invocar la propiedad .length, esta
 empieza su conteo desde el 1 y una cadena de
-caracteres inicia el conteo desde el 0 en JavaScript.
+caracteres inicia el conteo desde el 0 en JavaScript
+por que al final del dia una cadena de caracteres
+es un array de strings.
 
 🥎MÉTODOS Y PROPIEDADES DE LAS CADENAS DE CARÁCTERES:
 
@@ -32,7 +34,8 @@ muestra del ultimo hacia el primero.
 
 🥎.match(/expresionRegular/gi); = Recibe como
 argumento una EXPRESIÓN REGULAR, y me devuelve la
-cadena de texto, dentro de un array.
+cadena de texto, dentro de un array. ¡FALTA, NECESITO
+APRENDER EXPRESIONES REGULARES!
 
 🥎.charAt(indice); = Recibe como argumento un numero
 de indice para devolver el "DATO" del indice indicado.
@@ -61,7 +64,7 @@ repetir la cadenas de texto completa.
 
 🏓.slice(16); = Recibe un argumento de tipo numerico
 y me permite indicar apartir de que indice va iniciar
-la lectura de la cadena de texto completa.
+la lectura de la cadena de texto completa.Puede invertir la cadena.
 
 🏓.split(','); = Es muy util porque me permite pasar
 datos de una variable a una estructura de tipo array
@@ -105,10 +108,11 @@ valor.
 numero. El 8 es la base y el 2 es el exponente.
 
 🎉Math.min(3,6,5,1,9);  = De un grupo de valores
-númericos, obtengo el número minímo.
+númericos, obtengo el número minímo. ¡IMPORTANTE!
 
 🎉Math.max(3,6,5,1,9);  = De un grupo de valores
-númericos, obtengo el número maxímo.
+númericos, obtengo el número maxímo. ¡IMPORTANTE!
 
-🎉Math.random(); = Obtengo un numero aleatorio
-en un rango entre 0 a 1.
+🎉Math.random(); = Obtengo un numero aleatorio decimal en un rango entre 0 a 1.
+
+TENER PRESENTE QUE AQUI FUNCIONA LA JERARQUIA DE LAS OPERACIONES MATEMÁTICAS.
