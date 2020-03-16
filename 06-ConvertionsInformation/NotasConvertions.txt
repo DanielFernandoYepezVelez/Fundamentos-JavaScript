@@ -21,3 +21,7 @@ numero.
 
 📌toString(); = Todos los tipos de datos a String
 excepto los datos de tipo null y undefined.
+
+NaN = Quiere decir "Not A Number(No es un numero)" y esto
+funciona para cuando los valores pasan de ser numericos 
+a valores de tipo string.

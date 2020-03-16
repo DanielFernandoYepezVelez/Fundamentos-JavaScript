@@ -1,13 +1,3 @@
-/* String Original */
-let cadenaNumber = "28";
-
-/* String a Number (NaN)*/
-console.log(cadenaNumber, typeof cadenaNumber, typeof Number(cadenaNumber), Number(cadenaNumber));
-
-let cadenaExtraña = '28 r .';
-console.log(cadenaExtraña, typeof cadenaExtraña, typeof Number(cadenaExtraña), Number(cadenaExtraña));
-console.log('--------------------------------------------');
-
 /* Number Original */
 let number = 10;
 

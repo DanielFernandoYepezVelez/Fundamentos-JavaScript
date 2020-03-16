@@ -4,7 +4,16 @@ una operacion entre un numero y
 un string, y javascript automatica-
 mente nos devuleve un string, es decir,
 javascript se encarga de que
-esta coercion sea posible.
+esta coercion sea posible sin nosotros
+indicarselo..
+
+POR QUE PUEDE PASAR ESTE TIPO DE COERCIÓN:
+Lo anterior funciona principalmente
+por que el operador de mas(+) nos sirve para
+concatenar, entonces, javascript piensa que debe
+concatenar y no sumar, pero cuando el signo cambia
+por ejemplo a menos(-), javascript si realiza
+una operación aritmética.
 
 COERCION EXPLICITA:
 Esta coercion es cuando nosotros
