@@ -7,21 +7,21 @@ numeros enteros.
 🏈parseFloat = Todos los string son convertidos a 
 numeros decimales.
 
-🏈toFixed(3); = Solo funciona para tipo de dato númerico
-y controla cuantos numeros decimales quiero que tenga
-el numero que se le aplique este método.
+MÉTODO TOFIXED:
+🏈toFixed(); = Solo funciona para tipo de datos númericos
+y controla cuantos numeros despues del punto decimal, es decir, cuantos decimales quiero que tenga el numero que se le esta aplicando este método.
 
 🏈parseFloat(numeroAconvertir).toFixed(2); = Aqui funciona
-para un dato de tipo string y se quiera pasar a numerico
-y controlar el numero de decimales, que debe tener dicho 
-numero.
+para un dato de tipo string y se quiera CONVERTIR a numerico y controlar el numero de decimales, que debe tener dicho numero, que en este caso son DOS decimales.
 
         📌Number A string
 📌String = Todos los Number a String.
 
-📌toString(); = Todos los tipos de datos a String
-excepto los datos de tipo null y undefined.
+📌.toString(); = Todos los tipos de datos pueden ser convertidos a String excepto los datos de tipo "null" y "undefined".
 
 NaN = Quiere decir "Not A Number(No es un numero)" y esto
 funciona para cuando los valores pasan de ser numericos 
 a valores de tipo string.
+
+COMO APLICAR LOS METODOS A DE CUALQUIER TIPO DE DATO:
+NOTA IMPORTANTE = Si yo quiero aplicar un Método de un tipo de dato especifico como por ejemplo un string y el metodo es .lenght, pero el tipo de dato que tengo es numerico, y como sabemos este metodo mencionado solo funciona para los datos de tipo string, entonces, primero hago la conversión del tipo de dato numerico a string para posteriormente aplicarle el metodo .lenght.
