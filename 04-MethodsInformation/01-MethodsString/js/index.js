@@ -1,4 +1,4 @@
-const name = 'Daniel Fernando Yepez Velez';
+let name = ' Daniel Fernando Yepez Velez';
 
 /* LENGTH */
 /* Longitud de una cadena de caracteres */
@@ -118,4 +118,41 @@ console.log('Palabra Coincidencia =>', name.includes('Velez'));
 console.log('Palabra Coincidencia =>', name.includes('Vasquez'));
 console.log('Letra Coincidencia =>', name.includes('z'));
 console.log('Letra Coincidencia =>', name.includes('S'));
+console.log('------------------------------------------');
+
+/* REPLACE() */
+/* Me sirve para reemplazar una cadena de texto completa o
+simplemente una fracción de la cadena existente. */
+console.log('Nombre =>', name);
+console.log('Palabra Reemplazada =>', name.replace('Daniel Fernando', 'danielito fernandito'));
+console.log('Letra Uno(Y) Reemplazada =>', name.replace('Y', 'y'));
+console.log('Letra Dos(a) Reemplazada =>', name.replace('a', 'A'));
+console.log('------------------------------------------');
+
+/* REPEAT() */
+/* Recibe un argumento de tipo numerico
+y me permite indicar el numero de veces que deseo 
+repetir la cadenas de texto completa. */
+console.log('Nombre =>', name);
+console.log('Cadena Repetida =>', name.repeat(2));
+console.log('------------------------------------------');
+
+/* SPLIT() */
+/* Es muy util porque me permite pasar
+datos de una variable a una estructura de tipo array
+y este método recibe como argumento el carácter 
+separador que va a indicar a que indice pertenece un
+valor y a que indice pertenece otro. */
+console.log('Nombre =>', name);
+console.log('String A Array =>', name.split(','));
+console.log('------------------------------------------');
+
+/* TRIM() */
+/* Me permite pasar por alto los caracteres
+en blanco que tienen una cadena de texto, en el extremo
+inicial y en el extremo final, no en otro lugar de la 
+cadena de caracteres. */
+let espacios = '          <- EspacioAqui       ESPACIOS CON BLANCO       ';
+console.log('Nombre =>', espacios);
+console.log('No Espacios =>', espacios.trim());
 console.log('------------------------------------------');

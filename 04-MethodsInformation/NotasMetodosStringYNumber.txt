@@ -62,9 +62,10 @@ una fracción de la cadena existente.
 y me permite indicar el numero de veces que deseo 
 repetir la cadenas de texto completa.
 
-🏓.slice(16); = Recibe un argumento de tipo numerico
-y me permite indicar apartir de que indice va iniciar
-la lectura de la cadena de texto completa.Puede invertir la cadena.
+🏓.slice(-3); = Empieza La Cadena de Caracteres de 
+atras hacia delante y tambien puede funcionar como 
+SUBSTR, es decir, recibe un valor inicial y un valor 
+final.
 
 🏓.split(','); = Es muy util porque me permite pasar
 datos de una variable a una estructura de tipo array
@@ -73,7 +74,9 @@ separador que va a indicar a que indice pertenece un
 valor y a que indice pertenece otro.
 
 🏓.trim(); = Me permite pasar por alto los caracteres
-en blanco que tienen una cadena de texto.
+en blanco que tienen una cadena de texto, en el extremo
+inicial y en el extremo final, no en otro lugar de la 
+cadena de caracteres.
 
 🏓.concat(concatenación); = Me permite concatenar
 textos, numeros etc.

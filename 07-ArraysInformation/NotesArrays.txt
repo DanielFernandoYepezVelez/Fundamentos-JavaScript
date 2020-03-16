@@ -35,6 +35,8 @@ ordenar los numeros con una función como parametro.
 array se ponga de revés, los ultimos seran los 
 primeros.
 
+🔒.isArray(); = Me ayuda a comprobar si un array es un array de JAVASCRIPT identificando su tipo de dato.Y en este caso me devuelve un tipo de dato Boolean(true o false).
+
 🔒
  ------------------------------------------------------------------------
 |ARRAY.FROM                                                              |
