@@ -4,12 +4,13 @@ y de forma inmediata */
     console.log('Creando un IIFE');
 })();
 
-/* y puedo pasarle parametros */
+/* y puedo pasarle parametros Al parentesis que hace que se ejecute a ella misma con su respectivo argumento(javascript)*/
 (function(tecnologi) {
     console.log(`Aprendiendo ${tecnologi}`);
 })('JavaScript');
 console.log('--------------------------------');
 
+/* FUNCIONES QUE SE CONOCEN COMO METODOS DE PROPIEDAD(METODOS NORMALES) */
 /* Cuando una funcion esta dentro de un objeto */
 const musica = {
     reproducir: function(id) {
@@ -20,7 +21,7 @@ const musica = {
     }
 };
 
-/* Actualizar objeto con funciones */
+/* Actualizar objeto con funciones Desde fuera */
 musica.delete = function(id) {
     console.log(`Eliminando canción con el id ${id}`);
 };

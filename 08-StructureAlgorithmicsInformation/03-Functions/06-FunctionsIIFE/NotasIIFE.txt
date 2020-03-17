@@ -1,0 +1,3 @@
+FUNCTIONS IIFE:
+
+Son functions que se declaran y se invocan inmediatamente.
