@@ -27,6 +27,8 @@ console.log('tipo de dato: ', typeof goku);
 console.log('-----------------------------------------');
 
 /* Object Complete */
+/* Aqui funcionan los metodos de los arreglos
+dentro de un objeto */
 personaDos.music.push('NuevoAlternativo');
 console.log(personaDos);
 console.log(personaDos.nacimiento());
@@ -123,6 +125,7 @@ let milk2 = {
 }
 
 console.log(milk2);
+console.log('Objeto dentro de Objeto =>', milk2.padre.name);
 console.log('-----------------------------------------');
 
 /* Declaracion de objetos vacios, Como los que se 

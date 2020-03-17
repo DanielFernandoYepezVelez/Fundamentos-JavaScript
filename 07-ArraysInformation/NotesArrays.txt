@@ -14,14 +14,10 @@ nuevo elemento o "DATO" al inicio de un array.
 🔒.shift(); = Estoy eliminando un elemento o "DATO"
 al inicio de un array.
 
-🔒.splice(2, 1); = Estoy eliminando un rango
-de un arreglo, el elemento dos del arreglo se va
-y solo se elimina un solo elemento.
+🔒.splice(2, 1); = Estoy eliminando en un rango
+de un arreglo, el elemento dos del arreglo se elimina y solo se elimina ese elemento , tener presente que el rango puede ser mayor a uno, es decir, un solo elemento.
 
-🔒.concat(); = Estoy concatenando los elementos de un 
-arreglo, con los elementos de otro. También me sirve
-para concatenar al interior del arreglo diferentes 
-tipos de variables.
+🔒.concat(); = Estoy concatenando los elementos de un arreglo, con los elementos de otro. También me sirve para concatenar al interior del arreglo diferentes tipos de variables.
 
 🔒.join(); = Permite configurar un arreglo para aplicar
 un espaciado entre cada uno de los elementos y lo
@@ -31,8 +27,7 @@ renderiza como texto plano.
 ordenados alfabéticamente y También me sirve para
 ordenar los numeros con una función como parametro.
 
-🔒.reverse() = Todos los valores de los indices de un 
-array se ponga de revés, los ultimos seran los 
+🔒.reverse() = Todos los valores de los indices de un array se ponga de revés, los ultimos seran los 
 primeros.
 
 🔒.isArray(); = Me ayuda a comprobar si un array es un array de JAVASCRIPT identificando su tipo de dato.Y en este caso me devuelve un tipo de dato Boolean(true o false).

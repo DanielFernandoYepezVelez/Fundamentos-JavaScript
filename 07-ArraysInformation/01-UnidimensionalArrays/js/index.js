@@ -145,6 +145,8 @@ console.log('--------------------------------------');
 /* ------------------------------------ */
 /* ------------------------------------ */
 
+/* Ordenar Numeros en JS Es Extraño,
+pero asi funciona mejor */
 /* Ordenar números con el método .sort() */
 const numbersOrder = [1, 3, 56, 78, 99, 33, 4, 5, 6, 7, 8, 9];
 
