@@ -1,5 +1,5 @@
 /* Iteradores Incluidos En JavaScript
-PARA ARRAYS, SETS, MAPS SOLO PARA ESTOS */
+PARA RECORRER ARRAYS, SETS, MAPS SOLO PARA ESTOS */
 const ciudades = ['Londres', 'New York', 'Madrid'];
 const ordenes = new Set([123, 231, 131, 102]);
 const datos = new Map();

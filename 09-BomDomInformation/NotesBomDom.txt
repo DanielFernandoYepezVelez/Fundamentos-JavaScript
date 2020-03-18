@@ -14,10 +14,11 @@ EL BOM(BROWSER OBJECT MODEL) Y EL DOM(DOCUMENT OBJECT MODEL):
                 \         \        \       \
               forms[]  image[]  layers[]  links[]
 
-EXPLICACIÓN DE DIAGRAMA ANTERIOR:
+EXPLICACIÓN DEL DIAGRAMA ANTERIOR:
 El BOM(BROWSER OBJECT MODEL) es todo lo que se ve en el
 navegador, es decir, la ventana completamente, incluyendo
-el contenido de la misma y todo esto lo maneja con objetos.
+el contenido de la misma y todo esto lo maneja con objetos,
+También se conoce el BOM como el WINDOW OBJECT.
 
 EL BOM(BROWSER OBJECT MODEL) en su interior tiene un objeto
 principal que se llama "WINDOW" este objeto en su interior
@@ -64,6 +65,9 @@ REDIRECCIONAR => window.location.href = 'https://twitter.com';
 HISTORIA DE NAVEGACIÓN => window.history.go(-2);
 INFORMACIÓN NAVEGADOR => window.navegador;
 (OBJETO)NOMBRE NAVEGADOR => window.navigator.vendor;
+window.navigator.appName;
+window.navigator.appVersion;
+window.navigator.userAgent;
 (OBJETO)IDIOMA DEL USUARIO => window.navigator.language;
 
 MÉTODOS(Objetos) DEL OBJETO PRINCIPAL DEL BOM "WINDOW":
