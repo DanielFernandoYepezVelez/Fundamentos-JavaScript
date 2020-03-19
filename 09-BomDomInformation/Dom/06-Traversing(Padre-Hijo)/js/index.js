@@ -1,19 +1,23 @@
 /* PADRE - HIJO */
+/* El traversing me sirve para recorrer todo
+el DOM. El orden de los elementos es padre-hijo,
+algo que con css no es posible */
+
 /* El traversing existe por que en CSS
 hoy en dia no existe un selector que pueda
-ir de un selector hijo a un selector padre,
-aunque en CSS si existen los selectores que van
+ir de un selector hijo a un selector padre.
+Aunque en CSS si existen los selectores que van
 del padre al hijo, entonces en javaScript por
 medio del traversing si se puede ir del
 HIJO al PADRE(Selectores).
- */
+*/
 
 /* QUE ES UN NODO
 Todas las conexiones en el DOM,
 es decir, los nodos son todo el HTML
 del documento.En conclusión, los nodos
 son las etiquetas HTML. El nombre
-de las etiquetas o nodos las podemos obtener
+de las etiquetas o nodos los podemos obtener
 a traves de la propiedad nodeName */
 
 const navigation = document.querySelector('#principal');
@@ -36,7 +40,7 @@ me permite acceder de forma interna a los
 elementos, es decir, dentro hacia dentro de forma
 progresiva */
 
-// Aqui me entrega el array de los hijos
+// Aqui me entrega el HTMLCollection(array) de los hijos
 // del elemento o nodo navigation que alberga el
 // id que fue obtenido a traves del querySelector
 // y este es el elemento, etiqueta o nodo PADRE.

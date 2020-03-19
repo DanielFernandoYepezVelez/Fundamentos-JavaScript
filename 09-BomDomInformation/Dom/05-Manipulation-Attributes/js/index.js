@@ -59,3 +59,18 @@ if (link.classList.contains('red')) {
     console.log('No Contiene la clase rojo', link);
 }
 console.log('---------------------------------');
+
+/* Eliminar un elemento Por Si Mismo*/
+const enlace = document.querySelectorAll('.enlance');
+console.log(enlace);
+// enlance.remove(); Esta Comentando, per si funciona
+// console.log(enlace);
+console.log('---------------------------------');
+
+/* Eliminar un elmento hijo desde el elemento PADRE */
+const navegation = document.querySelector('.navegation-wrapper');
+console.log(navegation.children);
+
+navegation.removeChild(enlace[0]);
+console.log(navegation.children);
+console.log('---------------------------------');

@@ -1,0 +1,8 @@
+CARPETA SELECTOR ATTRIBUTE:
+Cuando seleccione un elemento, nodo o etiqueta de HTML puedo acceder a todos los atributos que tiene dicho elemento, nodo o etiqueta de HTML como por ejemplo, id, class, type, contenido, además de modificar sus propiedades CSS desde JavaScript.
+Esto lo podemos identificar en la carpeta SelectorAttribute, que esta dentro de las carpetas de cada Selector Explicado.
+
+NOTA querySelectorAll:
+const primeraClase = document.querySelectorAll('.subtitle p:nth-child(odd)'); => Aqui le estoy pasando los hijos impares, solo los hijos impares con la palabra "odd".
+
+NOTA JQUERY: Tambien se le puede pasar al querySelectorAll un argumento de tipo jQuery.

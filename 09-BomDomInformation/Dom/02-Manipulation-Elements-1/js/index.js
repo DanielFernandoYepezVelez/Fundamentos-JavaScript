@@ -1,3 +1,6 @@
+// INSERTAR, AGREGAR O REEMPLAZAR ELEMENTOS DEBEN SER DESDE EL ELEMENTO PADRE.
+/* PERO UN ELEMENTO PUEDE SER ELMINADO EN SI MISMO SIN NECESIDAD DE DEPENDER DE UN ELEMENTO PADRE. */
+
 /* Crear un nuevo nodo o etiqueta desde 
 JavaScript y Adjuntarlo en el Body del HTML */
 const paragraphs = window.document.createElement('p');

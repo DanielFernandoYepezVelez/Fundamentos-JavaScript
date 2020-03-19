@@ -1,9 +1,11 @@
 /* Al Ejecutar este selector se le puede
-aplicar los mismos estilos que a los anteriores,
-la diferencia es que este selector me trae
-solo selectores de clase y ademas devuelve todas las
-clases que existen con el mismo nombre de la clase
-especificada. */
+aplicar los mismos estilos que a los anteriores
+Selectores, la diferencia es que este selector me trae
+solo el nombre de la clase que tenga un elemento, nodo
+o etiqueta de HTML y ademas devuelve todas las clases
+que existen con el mismo nombre de la clase 
+especificada en todos los elementos, etiquetas o nodos
+del DOM. */
 const primeraClase = document.getElementsByClassName('primeraClase');
 const convertirArray = Array.from(primeraClase);
 
