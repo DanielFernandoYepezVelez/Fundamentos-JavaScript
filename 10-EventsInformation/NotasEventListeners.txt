@@ -1,0 +1,5 @@
+EVENT LISTENERS:
+Cuando el usuario ejecute alguna acción dentro del programa, corre un segmento de codigo que ejecuta una funcionalidad, gracias a los EVENT LISTENERS.
+
+NOTA IMPORTANTE: Solo se puede ejecutar
+un evento a la vez.
