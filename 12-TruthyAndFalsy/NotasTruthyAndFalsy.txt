@@ -1,4 +1,0 @@
-TRUTHY AND FALSY:
-Son los valores que son verdaderos
-o falsos, aparte de los valores de 
-tipo boolean, es decir, true o false.
