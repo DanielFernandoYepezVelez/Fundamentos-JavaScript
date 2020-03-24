@@ -5,12 +5,16 @@ console.log('-----------------------------------------');
 
 /* Obtengo Todo lo del DOM(HTML) pero me lo entrega o me lo devuelve con un formato tipo array, es decir,cada elemento o nodo tiene su respectivo indice */
 let elementoAll = document.all;
+let convertirArray = Array.from(elementoAll);
+
 console.log('Document All => ', elementoAll);
+console.log('Document All ARRAY CONVERT => ', convertirArray);
 console.log('-----------------------------------------');
 
 /* Accedo al el elemento número 11 de todo el DOM(HTML)*/
 let elementoArray = document.all[11];
 console.log('Document All Array => ', elementoArray);
+console.log('Document All Array Convert => ', convertirArray[11]);
 console.log('-----------------------------------------');
 
 /* Acceder A segmentos del DOM(HTML) HEAD */
@@ -38,34 +42,34 @@ let elementoCharacterSet = document.characterSet;
 console.log('Document Character Set => ', elementoCharacterSet);
 console.log('-----------------------------------------');
 
-/* Acceder A segmentos del DOM(HTML) Tipo Array Forms */
+/* Acceder A segmentos del DOM(HTML) Tipo Array Forms(Formularios) */
 let elementoForms = document.forms;
 console.log('Document Forms => ', elementoForms);
 console.log('-----------------------------------------');
 
-/* Array */
+/* Array Forms(Formularios)*/
 let elementoArrayForms = document.forms[0];
 console.log('Document Array Forms => ', elementoArrayForms);
 console.log('-----------------------------------------');
 
-/* ID */
+/* ID Forms(Formularios)*/
 let elementoIdForms = document.forms[0].id;
 console.log('Document ID Forms => ', elementoIdForms);
 console.log('-----------------------------------------');
 
-/* CLASE */
-/* Este es tipo estring, es deicr, me devuelve el numero de clase
+/* CLASE Forms(Formularios)*/
+/* Este es tipo string, es decir, me devuelve el numero de clase
 que tenga el elemento una al lado de la otra, como un string */
 let elementoClaseForms = document.forms[0].className;
 console.log('Document CLASSNAME Forms => ', elementoClaseForms);
 console.log('-----------------------------------------');
 
-/* Este es tipo Array y es para cuando tengo mas de una sola clase */
+/* Este es tipo Array y es para cuando tengo mas de una clase */
 let elementoClaseTwoForms = document.forms[0].classList;
 console.log('Document CLASSLIST Forms => ', elementoClaseTwoForms);
 
 elementoClaseTwoForms = document.forms[0].classList[1];
-console.log('Document CLASS TWO Forms => ', elementoClaseTwoForms);
+console.log('Document CLASSLIST TWO Forms => ', elementoClaseTwoForms);
 console.log('-----------------------------------------');
 
 /* Para Obtener el numero de imagenes, es un formato tipo

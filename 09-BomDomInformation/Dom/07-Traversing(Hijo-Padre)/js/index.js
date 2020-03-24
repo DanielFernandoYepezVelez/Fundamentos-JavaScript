@@ -1,5 +1,8 @@
 const hijoEnlace = document.querySelectorAll('.enlace');
+let convertirArray = Array.from(hijoEnlace);
+
 console.log(hijoEnlace);
+console.log(convertirArray);
 console.log('------------------------');
 
 console.log(hijoEnlace[0]);

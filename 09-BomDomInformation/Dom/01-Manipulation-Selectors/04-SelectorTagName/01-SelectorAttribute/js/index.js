@@ -36,6 +36,7 @@ lineas comentandas siguientes */
 // primeraEtiqueta[1].innerHTML = 'Reescribiendo la etiqueta Uno';
 console.log('-------------------------');
 
+/* Aqui no Utilice  un ciclo */
 const segundaEtiqueta = document.getElementsByTagName('h2');
 console.log(segundaEtiqueta);
 

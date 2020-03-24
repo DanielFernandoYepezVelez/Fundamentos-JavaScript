@@ -8,15 +8,18 @@ console.log('----------------------------');
 console.log(enlaces[3])
 console.log('----------------------------');
 
+/* previousSibling Me retorna espacios en blanco */
 /* Aqui estoy en la posiciòn 3 de mi array
 pero voy al espacio de atras que es en blanco. */
 console.log(enlaces[3].previousSibling)
 console.log('----------------------------');
 
-/* Aqui estoy en la posiciòn numero 2 de mi
+/* previousElementSibling NO Me retorna espacios
+en blanco */
+/* Aqui YA estoy en la posiciòn numero 2 de mi
 array y con esta instrucciòn evito el espacio
 en blanco */
-/* Estan al mismo nivel, primo-hermano */
+/* Estan al mismo nivel, hermano */
 console.log(enlaces[3].previousElementSibling);
 console.log('----------------------------');
 
@@ -34,15 +37,19 @@ console.log('----------------------------');
 console.log(enlaces[0])
 console.log('----------------------------');
 
+/* nextSibling Me retorna espacios
+en blanco */
 /* Aqui obtengo el espacio en blanco
 que es la distancia entre los nodos 
 o elementos o etiquetas */
 console.log(enlaces[0].nextSibling);
 console.log('----------------------------');
 
+/* nextElementSibling NO Me retorna espacios
+en blanco */
 /* Aqui realmente obtengo la posiciòn
 numero UNO(1), es decir, el nodo siguiente */
-/* Que estan al mismo nivel, primo-hermano */
+/* Que estan al mismo nivel, hermano */
 console.log(enlaces[0].nextElementSibling);
 console.log('----------------------------');
 

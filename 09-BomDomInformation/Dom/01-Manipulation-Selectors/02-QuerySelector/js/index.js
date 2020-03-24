@@ -3,7 +3,7 @@ de id, la diferencia es que este selecciona
 diferentes selectores aparte del selector de
 ID, siempre retorna el PRIMERO si existen varios
 del mismo tipo de selector y aplica para todos
-los selectores */
+los selectores DE CSS*/
 
 /* OBTENER */
 /* Obtener Selector de ETIQUETA */

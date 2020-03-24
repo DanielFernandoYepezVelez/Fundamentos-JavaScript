@@ -47,7 +47,7 @@ progresiva */
 console.log(navigation.children);
 
 /* Aqui me esta entregrando el nombre del nodo
- o etiqueta */
+ o etiqueta PADRE*/
 console.log(navigation.nodeName);
 
 /* Aqui me esta entregando el nombre de la 

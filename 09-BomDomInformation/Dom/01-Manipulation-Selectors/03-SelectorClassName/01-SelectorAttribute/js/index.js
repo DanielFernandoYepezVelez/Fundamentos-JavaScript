@@ -38,6 +38,7 @@ convertirArray.forEach(function(primeraClase) {
 // primeraClase[1].innerHTML = 'Reescribiendo Class Uno';
 console.log('-----------------');
 
+/* No Utilice el iterador Lo hice de forma Manual */
 const segundaClase = document.getElementsByClassName('pruebaClaseUno');
 console.log(segundaClase);
 

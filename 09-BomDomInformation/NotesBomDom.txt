@@ -211,3 +211,11 @@ contentText = "Nuevo Texto"; NO PERMITE INTERPRETAR LAS ETIQUETAS HTML.
 --------------------------------------------------------------------------
 
 REEMPLAZANDO NODOS DEL DOM(Document Object Model):
+
+
+
+-----------------------------------------------------------------
+
+// INSERTAR, AGREGAR O REEMPLAZAR ELEMENTOS DEBEN SER DESDE EL ELEMENTO PADRE, es decir, se debe indicar el elemento padre como referencia para elegir la posicion del elemento HIJO.
+
+/* PERO UN ELEMENTO HIJO PUEDE SER ELMINADO EN SI MISMO O DIRECTAMENTAMENTE CON LA PALABRA "remove()" O TAMBIEN DEPENDIENDO DE UN ELEMENTO PADRE CON LA PALABRA "removeChild()". */

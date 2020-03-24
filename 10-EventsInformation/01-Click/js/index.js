@@ -56,3 +56,11 @@ function dobleClick(e) {
     console.log('EVENTO:', e.type);
     console.log('--------------------------------------------------');
 }
+
+/* EVENTO SUBMIT CUANDO SE ENVIA UN FORMULARIO */
+// document.querySelector('#formulario').addEventListener('submit', agregarTweet);
+
+/* EVENTO REAZISE CUANDO EL TELEFONO SE PONE HORIZONTAL(480px) */
+// document.querySelector('#formulario').addEventListener('reazise', agregarTweet);
+
+/* EVENTO TOGGLE LO QUE HACE ES QUITAR O AGREGAR UNA CLASE A UN ELEMENTO */

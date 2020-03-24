@@ -7,20 +7,29 @@ que existen con el mismo nombre de la clase
 especificada en todos los elementos, etiquetas o nodos
 del DOM. */
 const primeraClase = document.getElementsByClassName('primeraClase');
-const convertirArray = Array.from(primeraClase);
+let convertirArray = Array.from(primeraClase);
 
 console.log(primeraClase);
 console.log(convertirArray);
 console.log('--------------------------');
 
 const segundaClase = document.getElementsByClassName('pruebaClaseUno');
+convertirArray = Array.from(segundaClase);
+
 console.log(segundaClase);
+console.log(convertirArray);
 console.log('--------------------------');
 
 const terceraClase = document.getElementsByClassName('prueba');
+convertirArray = Array.from(terceraClase);
+
 console.log(terceraClase);
+console.log(convertirArray);
 console.log('--------------------------');
 
 const div = document.getElementsByClassName('claseDiv');
+convertirArray = Array.from(div);
+
 console.log(div);
+console.log(convertirArray);
 console.log('--------------------------');

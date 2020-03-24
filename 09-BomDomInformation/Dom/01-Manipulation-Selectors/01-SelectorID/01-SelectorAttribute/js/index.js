@@ -1,18 +1,24 @@
 /* OBTENER */
 /* Obtener solo nombre del ID */
 const gretting = document.getElementById('gretting');
+console.log(gretting);
+
 const id = gretting.id;
 console.log(id);
 console.log('----------------------------');
 
 /* Obtener solo nombre de la CLASE */
 const subtitle = document.getElementById('subtitle');
+console.log(subtitle);
+
 const clase = subtitle.className;
 console.log(clase);
 console.log('----------------------------');
 
 /* Obtener solo CONTENIDO del NODO o ELEMENTO */
 const content = document.getElementById('content');
+console.log(content);
+
 const getcontent1 = content.textContent;
 const getcontent2 = content.innerText;
 const getcontent3 = content.innerHTML;
@@ -25,9 +31,11 @@ console.log('----------------------------');
 /* MODIFICAR */
 /* Modificar CONTENIDO del NODO o ELEMENTO */
 const textModify = document.getElementById('textModify');
-const setText1 = textModify.textContent = 'The New Paragraphs'
-const setText2 = textModify.innerText = 'The New Paragraphs'
-const setText3 = textModify.innerHTML = 'The New Paragraphs'
+console.log(textModify);
+
+const setText1 = textModify.textContent = 'The New Paragraphs Modify'
+const setText2 = textModify.innerText = 'The New Paragraphs Modify'
+const setText3 = textModify.innerHTML = 'The New Paragraphs Modify'
 
 console.log(setText1);
 console.log(setText2);
@@ -60,7 +68,7 @@ content.style.padding = '20px';
 content.style.textAlign = 'center';
 // content.textContent = 'New Hello Community';
 // content.innerText = 'New Hello Community';
-content.innerHTML = 'New Hello Community';
+// content.innerHTML = 'New Hello Community'; /* FUNCIONA PERO LO COMENTE POR CONVENIENCIA */
 
 /* TEXT-MODIFY */
 textModify.style.background = 'black';

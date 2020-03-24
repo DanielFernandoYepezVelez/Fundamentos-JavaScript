@@ -1,3 +1,4 @@
+/* ESTO ES TRAVERSING QUE LO TENEMOS ESPECIFICADO MAS ADELANTE */
 /* Propiedades de los elementos */
 const listOne = window.document.getElementById('listOne');
 

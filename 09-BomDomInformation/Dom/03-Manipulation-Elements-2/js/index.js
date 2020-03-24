@@ -1,5 +1,10 @@
+// INSERTAR, AGREGAR O REEMPLAZAR ELEMENTOS DEBEN SER DESDE EL ELEMENTO PADRE, es decir, se debe indicar el elemento padre como referencia para elegir la posicion del elemento HIJO.
+
+/* PERO UN ELEMENTO HIJO PUEDE SER ELMINADO EN SI MISMO O DIRECTAMENTAMENTE CON LA PALABRA "remove()" O TAMBIEN DEPENDIENDO DE UN ELEMENTO PADRE CON LA PALABRA "removeChild()". */
+
 /*1. Insertar Elementos en diferentes posiciones */
 const list = window.document.getElementById('list');
+
 const elementFour = window.document.createElement('li');
 const elementFive = window.document.createElement('li');
 
@@ -10,8 +15,8 @@ elementFive.innerHTML = 'Element Five';
 
 /* VALORES DEL METODO INSERTADJACENTELEMENT ALTERNATIVA AL APPENDCHILD */
 /* Funciona dentro del id indicado */
-list.insertAdjacentElement('afterbegin', elementFour);
-list.insertAdjacentElement('beforeend', elementFive);
+list.insertAdjacentElement('afterbegin', elementFour); //Primer Lugar
+list.insertAdjacentElement('beforeend', elementFive); //Ultimo Lugar
 
 const title = window.document.createElement('h1');
 const otherTitle = window.document.createElement('h2');
@@ -19,8 +24,8 @@ title.innerHTML = 'Title of Test';
 otherTitle.innerHTML = 'Second Title of Test';
 
 /* Funciona por fuera del id indicado */
-list.insertAdjacentElement('beforebegin', otherTitle);
-list.insertAdjacentElement('afterend', title);
+list.insertAdjacentElement('beforebegin', otherTitle); //Primer Lugar por Fuera
+list.insertAdjacentElement('afterend', title); //Ultimo Lugar por Fuera
 
 /* METODO PARA INSERTAR ELEMENTOS POSICION ESPECIFICA*/
 const elementSix = window.document.createElement('li');
@@ -67,7 +72,7 @@ console.log(seleccionarLI);
 /* Primer parametro el elemento que voy a
 insertar y el segundo parametro es el
 elemento que va hacer reemplazado */
-list.replaceChild(elementSix, elementFour);
+// list.replaceChild(elementSix, elementFour);
 /* ----------------------------------------------------------------------- */
 
 /*6. Clonar Elementos */

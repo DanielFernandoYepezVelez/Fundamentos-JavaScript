@@ -1,16 +1,18 @@
+/* AQUI ESTOY ASIGNANDO LOS ATRIBUTOS DE FORMA DIRECTA
+ AL ELEMENTO */
 /* MANIPULAR LOS ATRIBUTOS */
 const link = window.document.getElementById('link');
 console.log(link);
 
-/* Comprueba que un elemento tenga un atributo
-elegido y si es asi, obtengo el valor de dicho
-atributo */
+/* Comprueba que un elemento tenga el nombre de un 
+atributo de un elemento mas no su respectivo valor
+y si es asi, obtengo el valor de dicho atributo */
 if (link.hasAttribute('href')) {
     console.log('Valor Atributo', link.getAttribute('href'));
 }
 console.log('---------------------------------');
 
-/* Asignarle un atributo
+/* Asignarle un atributo y su valor a un elemento
 desde javascript a una etiqueta o nodo */
 link.setAttribute('class', 'green');
 console.log(link);
@@ -31,11 +33,11 @@ console.log('---------------------------------');
 es decir, puedo agregar clases sin la
 necesidad de especificar el valor de
 dicha clase.por que se agrega el valor de
-forma directa, es decir aqui obtengo clases 
+forma directa, es decir, aqui obtengo clases 
 o las elimino y estas clases estan en el 
 archivo CSS*/
 const verNameClass = link.className;
-console.log(verNameClass);
+console.log('Nombre de la clase =>', verNameClass);
 console.log('---------------------------------');
 
 const addClass = link.classList.add('red');
@@ -58,19 +60,4 @@ if (link.classList.contains('red')) {
 } else {
     console.log('No Contiene la clase rojo', link);
 }
-console.log('---------------------------------');
-
-/* Eliminar un elemento Por Si Mismo*/
-const enlace = document.querySelectorAll('.enlance');
-console.log(enlace);
-// enlance.remove(); Esta Comentando, per si funciona
-// console.log(enlace);
-console.log('---------------------------------');
-
-/* Eliminar un elmento hijo desde el elemento PADRE */
-const navegation = document.querySelector('.navegation-wrapper');
-console.log(navegation.children);
-
-navegation.removeChild(enlace[0]);
-console.log(navegation.children);
 console.log('---------------------------------');
