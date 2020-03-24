@@ -1,6 +1,6 @@
 const inputText = document.querySelector('#inputText');
 
-/* Obtengo el valor del input al presionar las teclas */
+/* Obtengo el valor del input al presionar las teclas(VALUE) */
 /* inputText.addEventListener('keydown', obtenerInfo);
 
 function obtenerInfo(e) {
@@ -78,9 +78,13 @@ ES COMO TODO EN UNO, COPIAR, PEGAR, CORTAR, KEYDOWN, KEYUP, ETC */
 inputText.addEventListener('input', obtenerInfo);
 
 function obtenerInfo(e) {
+    console.log(e);
     console.log('EVENTO: ', e.type);
     console.log('----------------------------');
 }
+
+/* EVENTO SUBMIT CUANDO SE ENVIA UN FORMULARIO */
+// document.querySelector('#formulario').addEventListener('submit', agregarTweet);
 
 /* Este ultimo evento se utiliza mas que todo para los selects */
 const select = document.getElementById('select');

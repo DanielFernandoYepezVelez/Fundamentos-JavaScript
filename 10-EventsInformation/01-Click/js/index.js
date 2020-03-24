@@ -1,4 +1,4 @@
-/* SOLO SE PUEDE EJECUTAR UN EVENTO A LA VEZ */
+/* SOLO SE PUEDE EJECUTAR UN EVENTO A LA VEZ, SOLO UNOOOOOO!*/
 /* FORMA #1 */
 /* Evento De Click El Mas Usado */
 const button = document.getElementById('button');
@@ -14,13 +14,18 @@ para las SPA*/
 // });
 
 /* FORMA #2 */
-/* Del parametro "event" o "e" lo mas importante es el TARGET */
+/* Del parametro "event" o "e" lo mas importante es el TARGET,
+por que contiene absolutamente todo lo del DOM, ADEMAS
+de otras cosas importantes */
 button.addEventListener('click', ejecutarBoton);
 
 function ejecutarBoton(e) {
     e.preventDefault();
+
+    /* TODO ESTO ESTA EN EL TARGET */
     console.log(e);
-    /* Aqui estoy Accediendo al elemento con target */
+    /* Aqui estoy Accediendo al elemento con target,
+    me entrega todo el elemento */
     console.log(e.target);
     /* Aqui estoy Accediendo al id del elemento con target */
     console.log(e.target.id);
@@ -29,7 +34,7 @@ function ejecutarBoton(e) {
     /* Aqui estoy Accediendo a la clase del elemento con target */
     console.log(e.target.classList);
     /* Convertir en Un Array */
-    tokenList = e.target.classList
+    tokenList = e.target.classList;
     tokenConvertido = Array.from(tokenList);
     console.log('Array: ', tokenConvertido);
     /* Tipo De evento que el usuario ejecuto(CLICK) */
@@ -56,9 +61,6 @@ function dobleClick(e) {
     console.log('EVENTO:', e.type);
     console.log('--------------------------------------------------');
 }
-
-/* EVENTO SUBMIT CUANDO SE ENVIA UN FORMULARIO */
-// document.querySelector('#formulario').addEventListener('submit', agregarTweet);
 
 /* EVENTO REAZISE CUANDO EL TELEFONO SE PONE HORIZONTAL(480px) */
 // document.querySelector('#formulario').addEventListener('reazise', agregarTweet);
