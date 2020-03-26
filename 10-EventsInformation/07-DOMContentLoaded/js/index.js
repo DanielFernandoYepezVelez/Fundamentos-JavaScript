@@ -1,0 +1,2 @@
+/* DOMContentLoaded */
+/* Este evento funciona o se activa despues de que se carga todo el DOM o el documento HTML, por lo general, se utliza para obtener los datos del local Storage o Session Storage */

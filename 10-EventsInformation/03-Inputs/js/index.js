@@ -83,9 +83,6 @@ function obtenerInfo(e) {
     console.log('----------------------------');
 }
 
-/* EVENTO SUBMIT CUANDO SE ENVIA UN FORMULARIO */
-// document.querySelector('#formulario').addEventListener('submit', agregarTweet);
-
 /* Este ultimo evento se utiliza mas que todo para los selects */
 const select = document.getElementById('select');
 
