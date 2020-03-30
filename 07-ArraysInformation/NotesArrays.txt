@@ -17,6 +17,10 @@ al inicio de un array.
 🔒.splice(2, 1); = Estoy eliminando en un rango
 de un arreglo, el elemento dos del arreglo se elimina y solo se elimina ese elemento , tener presente que el rango puede ser mayor a uno, es decir, un solo elemento.
 
+🔒.splice(2, 1, textoAeditar); = Estoy editando(ACTUALIZAR) en un rango
+de un arreglo, el elemento dos del arreglo se elimina y solo se elimina ese elemento , tener presente que el rango puede ser mayor a uno, es decir, un solo elemento.
+
+--------------CONTINUAR
 🔒.concat(); = Estoy concatenando los elementos de un arreglo, con los elementos de otro. También me sirve para concatenar al interior del arreglo diferentes tipos de variables.
 
 🔒.join(); = Permite configurar un arreglo para aplicar
