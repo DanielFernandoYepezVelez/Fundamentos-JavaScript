@@ -1,0 +1,2 @@
+Cuando Tengo atributos personalizados en un elemento, ahi, utilizo la manipulacion de atributos como getAttribute y los demas.
+Se debe tener encuenta que este selector tambien funciona para lo demas atributos de un elemento o etiqueta.

@@ -6,3 +6,6 @@ NOTA querySelectorAll:
 const primeraClase = document.querySelectorAll('.subtitle p:nth-child(odd)'); => Aqui le estoy pasando los hijos impares, solo los hijos impares con la palabra "odd".
 
 NOTA JQUERY: Tambien se le puede pasar al querySelectorAll un argumento de tipo jQuery.
+
+CAMPO DE EXISTENCIA DE LOS ELEMENTOS:
+Los selectores nos sirven para acceder al DOM y tomar los elementos existentes alli, para interactuar con estos elementos desde JavaScript, por lo general, se utiliza la palabra document para acceder a estos elementos por que existente ahi, pero tambien se pueden acceder a los elementos desde un nivel o rango mas reducido que el document, es decir, si yo tomo un elemento para interactuar con él desde JavaScript y dicho elemento tiene elementos hijos, yo los puedo tomar a traves del elemento primeramente seleccionado, no tengo la necesidad de ir hasta el document, para acceder dicho elemento, por que me puede devolver uno o mas elementos iguales de los que yo necesito, por el contrario, el elemento padre accedido en primer lugar, tiene los elementos que realmente necesito, entonces este elemento padre me sirve como puerta de entrada a sus hijos, esto se identifica en los proyectos de los carritos de compras.
