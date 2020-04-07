@@ -29,6 +29,8 @@ console.log('--------------------------');
 const attribute = document.querySelector('[type=pruebaType]');
 const attributeClase = document.querySelector('[class=otraPruebaClase]');
 const attributeID = document.querySelector('[id=otraPruebaID]');
+/* Funciona Para Atributos personalizados dentro de una etiqueta o elemento */
+const btnAgregarCarrito = document.querySelectorAll('[data-id]');
 
 console.log(attribute);
 console.log(attributeClase);
