@@ -1,0 +1,4 @@
+Los radios button, los checkBox y en caso del que el selec tenga un valor definido no pueden ir al cargar la pagina, por que solo van a guardar el valor que se le asigno por defecto, que generalmente es el primero o numero uno como valor, por tal motivo, estos selectores deben definirsen en la funcion que va a ejecutar la funcionalidad de leer el valor o dato de dicho elemento.
+
+Cuando Hablo de definir, me refiero al acceso por estos elementos al DOM, como por ejemplo: 
+const radioButtonTipo = document.querySelector('input[name="tipo"]:checked').value;
