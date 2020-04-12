@@ -1,0 +1,21 @@
+CODIGO SINCRONO =>
+En el synchronous si tienes un programa de 2 lineas, la linea 2 no puede empezar sin haber terminado la linea 1.
+
+CODIGO ASINCRONO =>
+En el asynchronous puedes tener 2 lineas de codigo y la linea 2 ejecutarse y finalizar antes que la linea 1 termine de hacerlo.
+-----------------------------------------------------
+
+NOTA CODIGO ASINCRONO EN JAVASCRIPT =>
+En JavaScript la mayor parte de las veces que escribas código asíncrono será cuando se interactue con una API o REST-API.
+
+XMLHttpRequest(AJAX) y Fetch API son ejemplos de código asíncrono.
+
+JQuery es otro ejemplo de una libreria de este tipo.
+-----------------------------------------------------
+
+FUNCIONES DISPONIBLES EN JAVASCRIPT PARA EL CODIGO ASINCRONO =>
+
+CallBacks.
+Promises.
+Async-Await.
+------------------------------------------------------

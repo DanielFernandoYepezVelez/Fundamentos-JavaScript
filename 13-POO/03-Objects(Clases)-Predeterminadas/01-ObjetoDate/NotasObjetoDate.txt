@@ -1,2 +1,0 @@
-SET AND GET:
-Con set establesco valores con get obtengo valores y esto aplica para cualquier de los metodos de fecha de javascript.

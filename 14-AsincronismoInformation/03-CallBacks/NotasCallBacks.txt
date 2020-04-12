@@ -1,0 +1,12 @@
+CALLBACKS =>
+Son funciones dentro de otras funciones que nos sirven para manejar codigo asincrono, ademas, se conoce de esta manera, por que son funciones que se ejecutan en forma de cadena una seguida de la otra dentro de otra función.
+
+TENEMOS DOS TIPOS DE CALLBACKS =>
+Inline CallBack, por que la función no tiene nombre, es decir, es una función anonima.
+
+Callback Con Funcion Definida, por que la funcion si tiene nombre.
+
+ESTRUCTURA DE LOS CALLBACKS =>
+Es Muy Comun Que el primer parametro de un callback sea un error, seguido por los parametros necesarios, para que la función se ejecute correctamente.
+
+Cuando no tengo errores, se debe mandar un argumento de tipo null, al primer parametro definido como err a la funcion callback, para decirle a la funcion callback que el error no existe, por que la petición se hizo de forma Correcta.

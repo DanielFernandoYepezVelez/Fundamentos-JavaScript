@@ -1,0 +1,10 @@
+https://dog.ceo/dog-api/
+https://jsonplaceholder.typicode.com/
+https://reqres.in/
+https://www.omdbapi.com/ 
+https://openweathermap.org/api
+https://api.nasa.gov/
+https://pokeapi.co/
+
+API's PUBLICAS AGRUPADAS =>
+https://github.com/public-apis/public-apis

@@ -1,0 +1,20 @@
+NOTAS PROTOTYPES =>
+
+Todos Los Objetos en JavaScript, Asi sean Metodos o funciones de un Objeto que simula ser una CLASE, por medio de una funcion; Herendan de un Objeto Llamado PROTO.
+Dentro de PROTO encontramos el metodo constructor del Objeto Creado y seguidamente todos Los metodos o funciones predeterminadas en JavaScript que se le pueden pasar a todos los OBJETOS Creados.
+Todos los OBJETOS creados en los prototypes tienen su metodo inicial que es su constructor asi se utilice o no se utilice.
+
+Yo puedo Crear Mis Propios Objetos, Como se muestra en la parte inferior y Agregarle Mis Propias funciones o PROTOTYPES que van a pertenecer solo a ese OBJETO, que en este caso seria Cliente() y no pueden ser usados para otros OBJETOS en otras partes del programa, pues solo pertenecen al objeto CLIENTE().
+
+RAZONES POR LAS CUALES SE CREAN LOS PROTOTYPES =>
+1. Para que nuestros objetos creados no queden cargados con muchos metodos y asi evitar que el objeto quede muy grande y poco organizado.
+2. Si los metodos se crean dentro del ojeto, dichos metodos van a quedar disponibles para cualquier objeto de otro tipo, ya sea empleado, empresa, producto o lo que sea, y no solo Cliente(), que seria lo ideal.
+
+RUTA =>
+Click en el Objeto Creado.
+Click en su padre proto, encuentro los prototypes propios que solo pertenecen a ese objeto incluso su metodo constructor.
+Click otra vez en proto, encuentro todas las funciones predeterminadas que se le pueden pasar a todos los objeto creados en JavaScript.
+
+Click directo en un prototype, encuentro la palabra prototype.
+Click en la palabra prototype, encuentro su Propio metodo constructor, ademas de la palabra proto.
+click en proto, encuentro todo las funciones predeterminadas que se le pueden pasar a todos los objetos creados en JavaScript.

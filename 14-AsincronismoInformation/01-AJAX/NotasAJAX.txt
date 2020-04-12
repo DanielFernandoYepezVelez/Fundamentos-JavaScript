@@ -1,0 +1,6 @@
+AJAX =>
+Desde JavaScript no podemos comunicarnos directamente con lenguajes de backend o con bases de datos para obtener información de la misma, por ende, necesitamos un canal o intermediario que nos permita conmunicarnos con los recursos mencionados anteriormente, por eso exite AJAX, Fetch API o librerias como AXIOS que nos ayudan con este proceso.
+
+Tener encuenta que AJAX se considera una tecnologia obsoleta, pero es importante conocerla y entenderla, no se sabe en que momento nos podemos cruzar con ella.
+
+XMLHttoRequest => Este Objeto(Clase) puede manejar archivos con extenciones .txt, .json y no solo .xml, solo que en su momento se nombro asi, pero puede leer archivos de diferenetes extenciones.
