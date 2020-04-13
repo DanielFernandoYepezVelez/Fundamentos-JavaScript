@@ -6,11 +6,12 @@ const ciudades = ['Londres', 'New York', 'Madrid', 'Viena', 'Medellin'];
 paises.forEach(function(pais) {
     console.log(pais);
 });
-
 console.log('----------------------------------');
 
 /* Callback Con Funcion Definida, por que la funcion si tiene nombre */
 function Callback(ciudad) {
     console.log(ciudad);
 }
+
 ciudades.forEach(Callback);
+console.log('----------------------------------');

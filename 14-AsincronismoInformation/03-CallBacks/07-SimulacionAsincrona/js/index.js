@@ -1,4 +1,4 @@
-/* A veces los registros no vienen al tiempo, si no que llegan de forma secuencial con la ayuda de los callbacks */
+/* En este ejercicio se simula una peticion a una base de datos y este proceso se considera asincrono, por eso implemento los callbacks para tratar de controlar este proceso, para obtener los registros en diferentes peticiones. */
 
 /* Listado De Paises */
 const paises = ['colombia', 'Argentina', 'Venezuela', 'Panama', 'Ecuador'];
@@ -23,6 +23,7 @@ function mostrarPaises(err) {
 mostrarPaises();
 
 /* Agergamos un nuevo pais despues de dos segundos y de la ejecución de los primeros paises, con la ayuda de los callbacks */
+
 function nuevoPais(pais, functionCallback) {
     /* Este Codigo Se Ejecuta Despues De Dos Segundos */
     setTimeout(function() {
