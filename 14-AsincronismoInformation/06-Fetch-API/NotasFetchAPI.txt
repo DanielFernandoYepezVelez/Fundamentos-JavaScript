@@ -1,0 +1,4 @@
+ESTRUCTURA DE FETCH API =>
+Busca esta url, el contenido encontrado guardalo en la res del primer .then(), alli le indicamos el formato como quiero que devuelva los datos hay muchos solo debes buscarlos en el proto, y el segundo .then() me muestra los datos finalmente, obtenidos en la url mencionada anteriormente.
+
+El proto tiene todos los metodos que le puedo pasar a esa respuesta obtenida por fetch y ejecutada por .then().

@@ -1,0 +1,19 @@
+PROMESAS =>
+Las promesas son de las nuevas carcteristicas de javascript y son totalmente soportadas en las ultimas versiones de chrome. Son muy importantes cuando estemos trabajando con fetch API.
+
+FUNCIONAMIENTO DE LAS PROMESAS =>
+Las Promesas tienen la caracteristica de que el valor que estemos revisando NO esta disponible en el momento, pero, la idea es que este disponible en el futuro. Por eso se asigno una constante con el nombre de ESPERANDO.
+
+Estructura PROMESAS =>
+RESOLVE =>
+Resolve Se ejecuta cuando la promesa se cumple.
+Para que el resolve se ejecute correctamente se debe estar acompañado de la palabra .then().
+.then() espera que resolve se cumpla para poder ejecutar el codigo de dicho resolve.
+
+REJECT =>
+Resject Se ejecuta cuando la promesa NO se cumple.
+Para que el reject se ejecute correctamente se debe estar acompañado de la palabra .catch().
+.catch() espera que reject se cumpla para poder ejecutar el codigo de dicho reject.
+
+EJEMPLO TEORICO DE RESOLVE Y .THEN() =>
+Vamos a leer 5000 fotografias de una API, pero no sabes cuanto tiempo va a tomar eso, ahi entro a utilizar resolve y cuando alla terminado, entonces mandamos a llamar resolve através del .then() para que se muestre por pantalla el resultado.
