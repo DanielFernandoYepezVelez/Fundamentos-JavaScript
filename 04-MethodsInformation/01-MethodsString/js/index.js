@@ -11,6 +11,9 @@ console.log('----------------------------------------');
 Tambien puede recibir un argumento de fin */
 console.log('Nombre =>', name);
 console.log('Inicio Cadena =>', name.substring(5));
+console.log('Inicio Cadena y fin =>', name.substring(5, 8));
+/* No se suele utilizar mucho */
+console.log('Inicio Cadena y fin =>', name.substring(3, 10 - 1));
 console.log('-----------------------------------------');
 
 /* SUBSTR() */
@@ -32,7 +35,7 @@ console.log('------------------------------------------');
 
 /* INDEXOF() */
 /* Devuelve la posición de un caracter en la cadena(array) 
-al pasarle un argumento que exista en la cadena */
+al pasarle un argumento que exista en la cadena, la primera coincidencia */
 console.log('Nombre =>', name);
 console.log(`Posicion Letter Find => ${name.indexOf('i')}`);
 
@@ -118,6 +121,7 @@ console.log('Palabra Coincidencia =>', name.includes('Velez'));
 console.log('Palabra Coincidencia =>', name.includes('Vasquez'));
 console.log('Letra Coincidencia =>', name.includes('z'));
 console.log('Letra Coincidencia =>', name.includes('S'));
+console.log('Letra Coincidencia =>', name.includes('S', 3));
 console.log('------------------------------------------');
 
 /* REPLACE() */

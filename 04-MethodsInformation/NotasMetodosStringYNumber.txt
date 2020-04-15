@@ -1,8 +1,9 @@
+                OBJETO(Clase) String
           🎪STRING O CADENA DE CARACTERES:
 🎪Cuando yo aplico una función a un string lo que en
 realidad estoy haciendo es invocar o llamar una
 función o atributo ya creado y establecido por JS,
-exclusivamente para los strings.
+exclusivamente para los strings(Objeto).
 
 🎪Recordar que al invocar la propiedad .length, esta
 empieza su conteo desde el 1 y una cadena de
@@ -87,6 +88,7 @@ minúscula a Mayúscula.
 🏓.toLowerCase(cadena); = Convierte texto de
 Mayúscula a minúscula.
 
+              OBJETO(Clase) Math
         🎉NUMEROS ENTEROS Y DECIMALES:
 🎉Math.PI = Entrega el número PI(3.1416).
 
