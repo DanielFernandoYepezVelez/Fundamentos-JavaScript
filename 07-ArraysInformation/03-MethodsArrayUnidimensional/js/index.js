@@ -8,6 +8,11 @@ const longitud = colores.length;
 console.log('Longitud Array Inicial => ', longitud);
 console.log('-----------------------------------------');
 
+// const booleanArray = isArray(colores);
+// console.log(booleanArray);
+// console.log('-----------------------------------------');
+
+
 /* Devuelve la posición o indice de un elemento existente en un array */
 const posicionElemento = colores.indexOf('Rojo');
 console.log('Indice Elemento =>', posicionElemento);

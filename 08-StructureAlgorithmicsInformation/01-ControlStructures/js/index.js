@@ -126,6 +126,31 @@ if (month === 'January') {
 }
 console.log('------------------------------');
 
+/* Condicional Simplificada */
+const numeroCon = 2;
+
+if (numeroCon % 2 === 0) console.log(`Condicional Simplificado => ${numeroCon} es par`)
+else(console.log(`Condicional Simplificado => ${numeroCon} es impar`));
+console.log('------------------------------');
+
+/* Operador Ternario */
+const numeroOperador = 3;
+
+(numeroOperador % 2 === 0) ? console.log(`Operador Ternario => ${numeroOperador} es par`): console.log(`Operador Ternario => ${numeroOperador} es impar`);
+console.log('---------------------------------');
+
+/* Operador Ternario Con Mas De Una Linea */
+(numeroOperador % 2 === 0) ?
+(
+    console.log(`Operador Ternario Con Dos Lineas => ${numeroOperador} es par`),
+    console.log(`Operador Ternario Con Dos Lineas => ${numeroOperador} es par`)
+) :
+(
+    console.log(`Operador Ternario Con Dos Lineas => ${numeroOperador} es impar`),
+    console.log(`Operador Ternario Con Dos Lineas => ${numeroOperador} es impar`)
+);
+console.log('----------------------------------');
+
 /* Condicional Swicht */
 const weekDay = 7;
 
