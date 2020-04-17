@@ -20,24 +20,27 @@ de un arreglo, el elemento dos del arreglo se elimina y solo se elimina ese elem
 🔒.splice(2, 1, textoAeditar); = Estoy editando(ACTUALIZAR) en un rango
 de un arreglo, el elemento dos del arreglo se elimina y solo se elimina ese elemento , tener presente que el rango puede ser mayor a uno, es decir, un solo elemento.
 
---------------CONTINUAR
-🔒.concat(); = Estoy concatenando los elementos de un arreglo, con los elementos de otro. También me sirve para concatenar al interior del arreglo diferentes tipos de variables.
+🔒.slice(a, b) => Recibe indices como parametros para extraer contenido de un array o tambien puede extraer una copia completa e igual del array indicado.
+
+🔒.isArray(); = Me ayuda a comprobar si un array es un array de JAVASCRIPT identificando su tipo de dato.Y en este caso me devuelve un tipo de dato Boolean(true o false).
+
+🔒.reverse() = Todos los valores de los indices de un array se ponga de revés, los ultimos seran los 
+primeros.
 
 🔒.join(); = Permite configurar un arreglo para aplicar
 un espaciado entre cada uno de los elementos y lo
 renderiza como texto plano.
 
+🔒.concat(); = Estoy concatenando los elementos de un arreglo, con los elementos de otro. También me sirve para concatenar al interior del arreglo diferentes tipos de variables.
+
+--------------CONTINUAR
 🔒.sort(); = Permite mostrar los elementos de un arreglo
 ordenados alfabéticamente y También me sirve para
 ordenar los numeros con una función como parametro.
 
-🔒.reverse() = Todos los valores de los indices de un array se ponga de revés, los ultimos seran los 
-primeros.
+🔒Array.from(ArrayAqui); = Permite convertir un DomList o un array que devuelve el DOM, para convertirlo en un array tipo JAVASCRIPT y asi aplicar todos los metodos y propiedades vistas.
+ ----------------------------------------------------------
 
-🔒.isArray(); = Me ayuda a comprobar si un array es un array de JAVASCRIPT identificando su tipo de dato.Y en este caso me devuelve un tipo de dato Boolean(true o false).
-
-🔒
- ------------------------------------------------------------------------
 |ARRAY.FROM                                                              |
 |document.write(`array.from(map): El array esta en la consola`);         |
 |var semanitaHtml = Array.from(document.querySelectorAll(".semanaDias"));|
