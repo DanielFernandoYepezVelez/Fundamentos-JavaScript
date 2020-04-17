@@ -1,5 +1,5 @@
 CALLBACKS =>
-Son funciones dentro de otras funciones que se ejecutan en forma de cadena, es decir, una funcion seguida de la otra.
+Son funciones dentro de otras funciones que se ejecutan en forma de cadena, es decir, una funcion seguida de la otra, en conclusión, un callback es una función que es ejecuta o disparada por otra función.
 
 TENEMOS DOS TIPOS DE CALLBACKS =>
 Inline CallBack, por que la función no tiene nombre, es decir, es una función anonima.

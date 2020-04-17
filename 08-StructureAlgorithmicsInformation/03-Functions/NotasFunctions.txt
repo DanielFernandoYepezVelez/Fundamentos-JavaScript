@@ -1,0 +1,24 @@
+FUNCIONES =>
+Son fragmentos de codigo que escribimos para ejecutar una tarea y no volver a escribir el mismo codigo mas de una vez.
+
+Nos ayudan a modularizar el codigo.
+
+Las funciones deben realizar una sola tarea.
+
+Las funciones siempre deben retornar algo(variables, arrays, objetos, funciones), si no lo hacen, esto no se llama funcion, su definición es procedimiento.
+
+Se deben ver como variables que retornan un valor, pero en este caso son funciones.
+-----------------------------------------
+
+SYNTAXIS DE HACE TRES AÑOS =>
+function nombreFuncion() {
+  //codigo;
+}
+nombreFuncion();
+
+SYNTAXIS ACTUAL => 
+const nombreFuncion = () => {
+  //codigo;
+}
+nombreFuncion();
+-----------------------------------------

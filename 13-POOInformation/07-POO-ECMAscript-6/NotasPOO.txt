@@ -1,0 +1,17 @@
+CLASES =>
+Son plantillas que se utilizan para crear objetos iguales.
+
+MÈTODO O FUNCIÒN CONSTRUCTOR =>
+Necesitamos una función constructora. Se tiene que llamar constructor y se ejecuta cada vez que creemos un objeto.
+
+THIS =>
+Hace referencia a la (CLASE)objeto.
+
+nombre de la (CLASE)objeto = nombre del parámetro.
+apellido de la (CLASE)objeto = apellido del parámetro.
+edad de la (CLASE)objeto = edad del parámetro.
+
+Se le pueden asignar propiedades que no haya en los paràmetros, pero siempre utilizando this para referenciar a la (CLASE)objeto y deben ir dentro del constructor.
+
+INSTANCIAR =>
+Cuando creamos un objeto, a esa acción se le denomina INSTANCIAR un CLASE(Objeto).

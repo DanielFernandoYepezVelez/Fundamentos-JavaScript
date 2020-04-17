@@ -1,0 +1,8 @@
+NOTA POO EN JAVASCRIPT =>
+En Javascript Realmente todo es un OBJETO, pero con la nueva especificación ECMAScript se incluyeron Clases, y se puede programar bajo el paradigma de POO de forma similar a lenguajes como: JAVA, C#, PHP, Python, etc.
+Pero detras de esas Clases, lo que corre son objetos, con sus respectivos atributos y métodos o funciones(prototypes).
+
+OBJETOS(Clases) EN JAVASCRIPT =>
+Son estructuras de datos que representan propiedades, valores y acciones que puede realizar el objeto instanciado del Objeto(CLASE).
+
+Todos los objetos tienen propiedades o atributos y comportamientos o acciones representados por pares de clave(Key):valor(value).

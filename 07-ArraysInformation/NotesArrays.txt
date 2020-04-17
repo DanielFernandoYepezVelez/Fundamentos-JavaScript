@@ -33,42 +33,30 @@ renderiza como texto plano.
 
 🔒.concat(); = Estoy concatenando los elementos de un arreglo, con los elementos de otro. También me sirve para concatenar al interior del arreglo diferentes tipos de variables.
 
---------------CONTINUAR
-🔒.sort(); = Permite mostrar los elementos de un arreglo
-ordenados alfabéticamente y También me sirve para
-ordenar los numeros con una función como parametro.
+🔒.split('') = Convierte  en un array el elemento iterable. Un elemento iterable es aquel que se puede recorrer, como por ejemplo un string.
 
-🔒Array.from(ArrayAqui); = Permite convertir un DomList o un array que devuelve el DOM, para convertirlo en un array tipo JAVASCRIPT y asi aplicar todos los metodos y propiedades vistas.
- ----------------------------------------------------------
+        📌CALLBACKS RECORREN UNO A UNO LOS ELEMENTOS DE LOS ARRAYS UNIDIMENSIONALES
+📌Array.from(ElementoIterableAqui); = Permite convertir un NodeList o un array que devuelve el DOM, para convertirlo en un array tipo JAVASCRIPT y asi aplicar todos los metodos y propiedades vistas en los arrays, en conclusión, Convierte en un array el elemento iterable. Un elemento iterable es aquel que se puede recorrer, por eso se menciona el NodeList.
 
-|ARRAY.FROM                                                              |
-|document.write(`array.from(map): El array esta en la consola`);         |
-|var semanitaHtml = Array.from(document.querySelectorAll(".semanaDias"));|
-|var creacion = semanitaHtml.map(dia => dia.textContent);                |
-|console.log(creacion);                                                  |
-|array.from(map <=> mapear) = me permite convertir una cadena de texto   |
-|desde HTML5 en un array en y para JAVASCRIPT.                           |
- ------------------------------------------------------------------------
+📌.sort([callBack(opcional)]); = Ordena los elementos de un array alfabéticamente gracias al valor Unicode que tienen las letras, si le pasamos un callback los ordena en función del algoritmo que le pasemos. 
+(Permite mostrar los elementos de un arreglo ordenados alfabéticamente y También me sirve para ordenar los numeros con una función como parametro).
 
-    📌BUSCANDO ELEMENTOS O DATOS DENTRO DE UN ARRAY:
+📌.forEach(callback(valorActual, [index(opcional)])); = Ejecuta la función indicada una vez por cada elemento del array.
+
+📌.some(callBack); = Comprueba si al menos un elemento del array cumple la condición, recorre uno a uno. Devuelve un tipo de dato lógico(Boolena).
+
+📌.every(callback); = Comprueba si todos los elementos del array cumplen la condicion, recorre uno a uno. Devuelve un tipo de dato lógico(Boolena).
+
+📌.map(callback); = Transforma(hacer operaciones, encontrar longitud, etc.) todos los elementos del array y devuelve un nuevo array.
+
+📌.filter(callBack); = filtra todos los elementos del array que cumplen la condición y devuelve un nuevo array.
+
+📌.reduce(callback); = reduce todos los elementos del array a un unico valor.
+
+
+--------------BUSCAR ESTOS DOS FUNCIONES QUE RECIBEN COMO PARAMETRO UN CALLBACK
 📌.find(); = Busca un elemento o valor que exista en
 el interior del array(SIEMPRE DA EL PRIMER RESULTADO).
 
 📌.findIndex(); = Busca y Devuelve el indice de un 
 elemento o valor existente en un array.
-
-📌.filter(); = Busca un elemento o valor y Devuelve
-todas las veces que exista ese elemento o valor en el
-array.
-
-📌.some(); = Evalua un parametro dentro de un rango
-determinado y si los valores del array hacen parte de
-dicho rango, entonces Devuelve un tipo de dato 
-lógico(Boolena).
-
-📌.map() = Permite buscar un elemento en un array y 
-sobre ese elemento incia a iterar o buscar y puede 
-devolver el numero de caracteres de ese dato y hace 
-lo mismo sobre cada uno de los "DATOS" existente en
-un arreglo. 
-(IMPORTANTISIMA).Devuelve un nuevo Arreglo.
