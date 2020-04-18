@@ -85,8 +85,7 @@ En este Objeto se encuentra toda la estructura HTML de mi web-site y es útil
 para acceder u obtener los "VALORES ó DATOS" de los elementos o nodos de 
 HTML, a través de los propios atributos de cada elemento o nodo HTML, pero
 todo esto se maneja desde JavaScript por medio del OBJETO "DOCUMENT" con sus
-respectivos métodos y atributos. Lo que permite generar una pagina web
-dinámica con JavaScript.
+respectivos métodos y atributos. Lo que permite generar una pagina web dinámica con JavaScript, pero no es javaScript, es algo que viene integrado en el navegador y se usa con javaScript como una especia de API(Aplication Programming Interface).
 
 MÉTODOS PARA OBTENER LOS DATOS DE LA ESTRUCTURA HTML A TRAVÉS DEL OBJETO 
 "DOCUMENT":
@@ -216,6 +215,6 @@ REEMPLAZANDO NODOS DEL DOM(Document Object Model):
 
 -----------------------------------------------------------------
 
-// INSERTAR, AGREGAR O REEMPLAZAR ELEMENTOS DEBEN SER DESDE EL ELEMENTO PADRE, es decir, se debe indicar el elemento padre como referencia para elegir la posicion del elemento HIJO.
+// INSERTAR, AGREGAR O REEMPLAZAR ELEMENTOS DEBEN SE DESDE EL ELEMENTO PADRE, es decir, se debe indicar el elemento padre como referencia para elegir la posicion del elemento HIJO.
 
 /* PERO UN ELEMENTO HIJO PUEDE SER ELMINADO EN SI MISMO O DIRECTAMENTAMENTE CON LA PALABRA "remove()" O TAMBIEN DEPENDIENDO DE UN ELEMENTO PADRE CON LA PALABRA "removeChild()". */

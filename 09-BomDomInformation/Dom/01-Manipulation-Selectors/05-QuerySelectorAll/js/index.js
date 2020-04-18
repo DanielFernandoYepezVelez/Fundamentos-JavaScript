@@ -10,8 +10,12 @@ querySelector */
 const primeraEtiqueta = document.querySelectorAll('h1');
 let convertirArray = Array.from(primeraEtiqueta);
 
+/* OTRA FORMA DE CONVERTILO EN UN ARRAY, PERO NO HAY SOPORTE PARA TODOS ES No HAY SOPORTE PARA TODOS LOS NAVEGADORES=> */
+const convertirArraySpreadOperator = [...document.querySelectorAll('h1')]
+
 console.log(primeraEtiqueta);
 console.log(convertirArray);
+console.log('Array con Spread Operator => ', convertirArraySpreadOperator);
 console.log('---------------------------------');
 
 const primeraClase = document.querySelectorAll('.subtitle');

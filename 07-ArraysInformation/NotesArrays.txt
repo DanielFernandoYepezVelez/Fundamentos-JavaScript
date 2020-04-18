@@ -18,7 +18,7 @@ al inicio de un array.
 de un arreglo, el elemento dos del arreglo se elimina y solo se elimina ese elemento , tener presente que el rango puede ser mayor a uno, es decir, un solo elemento.
 
 🔒.splice(2, 1, textoAeditar); = Estoy editando(ACTUALIZAR) en un rango
-de un arreglo, el elemento dos del arreglo se elimina y solo se elimina ese elemento , tener presente que el rango puede ser mayor a uno, es decir, un solo elemento.
+de un arreglo, el elemento dos del arreglo se elimina y solo se elimina ese elemento , tener presente que el rango puede ser mayor a uno, es decir, un solo elemento.(UBICA LOS ELEMENTOS EN DIFERENTES PARTES DEL ARRAY).
 
 🔒.slice(a, b) => Recibe indices como parametros para extraer contenido de un array o tambien puede extraer una copia completa e igual del array indicado.
 
@@ -43,6 +43,10 @@ renderiza como texto plano.
 
 📌.forEach(callback(valorActual, [index(opcional)])); = Ejecuta la función indicada una vez por cada elemento del array.
 
+📌.find(callBack); = Devuelve el valor del primer elemento del array que cumple la condición de la función callBack.
+
+📌.findIndex(callback); = El método findIndex() devuelve el índice del primer elemento de un array que cumpla con la función de prueba proporcionada. En caso contrario devuelve -1.
+
 📌.some(callBack); = Comprueba si al menos un elemento del array cumple la condición, recorre uno a uno. Devuelve un tipo de dato lógico(Boolena).
 
 📌.every(callback); = Comprueba si todos los elementos del array cumplen la condicion, recorre uno a uno. Devuelve un tipo de dato lógico(Boolena).
@@ -52,11 +56,3 @@ renderiza como texto plano.
 📌.filter(callBack); = filtra todos los elementos del array que cumplen la condición y devuelve un nuevo array.
 
 📌.reduce(callback); = reduce todos los elementos del array a un unico valor.
-
-
---------------BUSCAR ESTOS DOS FUNCIONES QUE RECIBEN COMO PARAMETRO UN CALLBACK
-📌.find(); = Busca un elemento o valor que exista en
-el interior del array(SIEMPRE DA EL PRIMER RESULTADO).
-
-📌.findIndex(); = Busca y Devuelve el indice de un 
-elemento o valor existente en un array.

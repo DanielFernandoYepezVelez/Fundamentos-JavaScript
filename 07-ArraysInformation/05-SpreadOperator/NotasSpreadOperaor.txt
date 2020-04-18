@@ -1,0 +1,5 @@
+Spread Operator (Operador De Expansion) =>
+Su principal función es expandir el contenido de un array.
+
+Su Sintaxis Son Tres Puntos Suspensivos =>
+...

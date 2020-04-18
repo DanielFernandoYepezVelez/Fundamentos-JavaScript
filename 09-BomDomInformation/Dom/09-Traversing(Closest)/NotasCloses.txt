@@ -1,0 +1,3 @@
+closest(selector) => Selleciona al nodo o elemento mas cercano que cumpla con el selector(Introducido anteriormente).
+
+NOTA => Buscar Información por que aun es experimental.

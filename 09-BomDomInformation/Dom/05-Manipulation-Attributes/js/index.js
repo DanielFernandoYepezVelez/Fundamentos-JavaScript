@@ -1,7 +1,34 @@
-/* ME FUNCIONA PRINCIPALMENTE PARA CUANDO TENGO ATRIBUTOS DEFINIDOS
-DE FORMA PERSONALIZADA COMO POR EJEMPLO => data_id = 1 */
-/* AQUI ESTOY ASIGNANDO LOS ATRIBUTOS DE FORMA DIRECTA
- AL ELEMENTO */
+/*
+ATRIBUTOS DE LOS ELEMENTOS(NODOS) =>
+/* ME FUNCIONA TAMBIEN PARA CUANDO TENGO ATRIBUTOS DEFINIDOS DE FORMA PERSONALIZADA COMO POR EJEMPLO => data_id = 1 EN UN ELEMENTO O NODO;
+
+element.hasAttribute('attribute');
+element.getAttribute('attribute');
+element.setAttribute('attribute', value);
+element.removeAttribute('attribute');
+------------------------------------------
+
+CLASES DE LOS ELEMENTOS(NODOS) =>
+element.classList.add('class', 'class', ...);
+element.classList.remove('class', 'class', ...);
+element.classList.toggle('class',[,force]); 
+element.classList.contains('class');
+element.classList.replace('oldClass', 'newClass');
+
+Agregale una nueva o varias nuevas clases al elemento.
+remueve una clase o varias clases del elemento.
+Si tiene la clase se la quita y si no la tiene se la pone.
+valida si contiene una clase actualmente.
+Reemplaza la clase actual por una nueva.
+--------------------------------------------
+
+ATRIBUTOS DIRECTOS O ESTABLECIDOS EN LOS ELEMENTOS(NODOS) =>
+id,
+value,
+data_id
+*/
+
+/* AQUI ESTOY ASIGNANDO LOS ATRIBUTOS DE FORMA DIRECTA AL ELEMENTO */
 /* MANIPULAR LOS ATRIBUTOS */
 const link = window.document.getElementById('link');
 console.log(link);
@@ -18,7 +45,7 @@ console.log('---------------------------------');
 desde javascript a una etiqueta o nodo */
 link.setAttribute('class', 'green');
 console.log(link);
-console.log(link.attributes);
+console.log('todos los Atributos del nodo =>', link.attributes);
 console.log('---------------------------------');
 
 /* Tambien puedo obtener atributos o ids */

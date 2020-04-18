@@ -33,6 +33,16 @@ console.log('--------------------------------------');
 numbersOrder.forEach((number, index) => console.log(index, ' <=> ', number));
 console.log('--------------------------------------');
 
+/* Find */
+const nuevosNumeros = [1, 2, 3, 4, 10, 12, 13];
+const numberNew = nuevosNumeros.find(element => element > 10);
+console.log('Find() =>', numberNew);
+
+/* FindIndex */
+const newIndex = nuevosNumeros.findIndex(number => number > 10);
+console.log('FindIndex() =>', newIndex);
+console.log('--------------------------------------');
+
 /* Some */
 const words = ['HTML', 'CSS3', 'JavaScript'];
 console.log(words.some(word => word.length > 2));
