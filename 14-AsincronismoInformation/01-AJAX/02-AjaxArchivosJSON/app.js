@@ -6,7 +6,7 @@ const boton2 = document.getElementById('boton2');
 boton1.addEventListener('click', obtenerEmpleado);
 boton2.addEventListener('click', obtenerEmpleados);
 
-/* Funcionalidad Para Obtener Los Empleado Con AJAX */
+/* Funcionalidad Para Obtener Un Empleado Con AJAX */
 function obtenerEmpleado() {
     const xhr = new XMLHttpRequest();
 
@@ -38,7 +38,6 @@ function obtenerEmpleados() {
     xhr.open('GET', './empleados.json', true);
 
     xhr.onload = function() {
-
         if (this.status === 200) {
             const htmlEmpleados = document.querySelector('#empleados');
             const empleados = JSON.parse(this.responseText);

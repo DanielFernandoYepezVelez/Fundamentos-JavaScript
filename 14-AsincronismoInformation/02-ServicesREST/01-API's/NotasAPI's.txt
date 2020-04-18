@@ -9,7 +9,7 @@ No programamos en la API de GOOGLE MAPS, ellos nos ofrecen una serie de funcione
 
 Y esto usualmente es la capa de abstracción, no programamos directamente en GOOGLE MAPS, programamos sobre nuestros archivos de JavaScript, pero enviamos una petición(Request) estructurada a la API de GOOGLE MAPS.
 
-Las API's deben responder a los request o peticiones de HTTP: GET, POST, PUT, PATCH, DELETE.
+Las API's deben responder a los request o peticiones del Protocolo HTTP: GET, POST, PUT, PATCH, DELETE.
 
 Cada API tiene sus propias reglas, métodos o funciones, estructuras.
 ------------------------------------------------------

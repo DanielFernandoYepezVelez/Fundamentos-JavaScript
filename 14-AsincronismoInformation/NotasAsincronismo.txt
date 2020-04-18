@@ -6,7 +6,7 @@ En el asynchronous puedes tener 2 lineas de codigo y la linea 2 ejecutarse y fin
 -----------------------------------------------------
 
 NOTA CODIGO ASINCRONO EN JAVASCRIPT =>
-En JavaScript la mayor parte de las veces que escribas código asíncrono será cuando se interactue con una API o REST-API.
+En JavaScript la mayor parte de las veces que escribas código asíncrono será cuando se interactue con una API o REST-API o Base De Datos.
 
 XMLHttpRequest(AJAX) y Fetch API son ejemplos de código asíncrono.
 
