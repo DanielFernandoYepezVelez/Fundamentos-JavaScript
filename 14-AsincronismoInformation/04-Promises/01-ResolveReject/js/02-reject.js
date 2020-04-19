@@ -1,6 +1,6 @@
 const aplicarDescuento = new Promise(function(resolve, reject) {
-
     const descuento = false;
+
     if (descuento) {
         resolve('Descuento Aplicado');
     } else {
@@ -9,9 +9,9 @@ const aplicarDescuento = new Promise(function(resolve, reject) {
     }
 });
 
-aplicarDescuento.then(function(res) {
-    console.log(res);
-
-}).catch(function(err) {
-    console.log(err);
-});
+aplicarDescuento
+    .then(function(res) {
+        console.log(res);
+    }).catch(function(err) {
+        console.log(err);
+    });

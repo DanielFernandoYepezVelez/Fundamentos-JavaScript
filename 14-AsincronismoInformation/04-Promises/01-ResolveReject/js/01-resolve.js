@@ -5,8 +5,9 @@ const esperando = new Promise(function(resolve, reject) {
     }, 5000);
 });
 
-/* Para que el resolve se ejecute correctamente se debe estar acompañado de la palabra .then */
+/* Para que el resolve se ejecute correctamente se debe estar acompañado de la palabra .then() */
 /* .then() espera que resolve se cumpla para poder ejecutar el codigo */
-esperando.then(function(mensaje) {
-    console.log(mensaje);
-});
+esperando
+    .then(function(mensaje) {
+        console.log(mensaje);
+    });
