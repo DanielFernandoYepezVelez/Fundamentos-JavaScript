@@ -19,3 +19,10 @@ CallBacks.
 Promises.
 Async-Await.
 ------------------------------------------------------
+
+ACCIONES ASINCRONAS =>
+Peticiones a API's.
+Trabajar con archivos.
+Peticiones a Base de datos.
+Trabajar con el Sistema Operativo.
+------------------------------------------------------

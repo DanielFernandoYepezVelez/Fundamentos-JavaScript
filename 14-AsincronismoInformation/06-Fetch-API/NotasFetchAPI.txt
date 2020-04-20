@@ -1,4 +1,24 @@
-ESTRUCTURA DE FETCH API =>
-Busca esta url, el contenido encontrado guardalo en la res del primer .then(), alli le indicamos el formato como quiero que devuelva los datos hay muchos solo debes buscarlos en el proto, y el segundo .then() me muestra los datos finalmente, obtenidos en la url mencionada anteriormente.
+FETCH API =>
+Proporciona una interfaz JavaScript para acceder y manipular partes del cana HTTP, como peticiones y respuestas.Tambien provee un método global fetch() que proporciona una forma fácil y lógica de obtener recursos de forma asincrona por la red.
 
-El proto tiene todos los metodos que le puedo pasar a esa respuesta obtenida por fetch y ejecutada por .then().
+Esta basado en promesas, por lo cual tiene un response(resolve) y un reject internos, por eso despues de la peticion se utiliza directamente un .then() y un .catch() por que internamente fetch() ya tiene incorporados los callback obligatorios en la Creacion de las promesas.
+
+RESPONSE(RESOLVE) =>
+Como respuesta tiene varios métodos que puedo utilizar, acontinuación vamos a mencionar algunos:
+
+.arrayBuffer(): Archivos Binarios en bruto(mp3, pdf, jpg, etc). Se Utiliza cuando se necesita manipular el contenido del archivo.
+
+.blob(): Archivos Binarios en bruto(mp3, pdf, jpg, etc). Se utiliza cuando no se va a manipular el contenido del archivo, si no que se va a trabajar con el archivo directamente.
+
+.clone(): Crea un clon de un objeto de respuesta, idénticos en todos los sentidos, pero almacenado en una variable diferente.
+
+.formData(): Se Utiliza para leer el Objeto(Clase) formData.
+
+.json(): Convierte los archivos JSON en objetos JavaScript.
+
+.text(): Se Utiliza cuando queremos leer un archivo .txt, Siempre se codifica en UTF-8.
+
+NOTA MÉTODOS => El proto tiene todos los metodos que le puedo pasar a esa respuesta obtenida por fetch y ejecutada por .then().
+
+ESTRUCTURA DE FETCH API =>
+Busca esta url, el contenido encontrado guardalo en RESPONSE(RESOLVE) ejecutado o disparado por .then(), a esa RESPONSE(RESOLVE) le indicamos el formato como quiero que devuelva los datos. Hay muchos métodos solo debes buscarlos en el proto y el segundo .then() me muestra los datos finalmente, obtenidos en la url mencionada anteriormente de forma asincrona y manejado por las promesas.
