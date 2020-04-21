@@ -73,3 +73,5 @@ block.style.fontSize = '2rem';
 
 app.appendChild(block);
 console.log('---------------------------------');
+
+// document.createTextNode('holamundo'); CONSULTAR SOBRE ESTO ES SIMPLE PERO IMPORTANTE

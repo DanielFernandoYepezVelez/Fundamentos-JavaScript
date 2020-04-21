@@ -1,0 +1,6 @@
+CONVERTIR UN FORMATO DE FECHA TIPO UNIX =>
+Se debe multiplicar por mil para que funcione la conversion De Un Formato De Fecha Tipo UNIX.
+let actualizado = new Date(datosMoneda.LASTUPDATE * 1000).toLocaleDateString('COL');
+
+FORMATO UNIX =>
+1289567

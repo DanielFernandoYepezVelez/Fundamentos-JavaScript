@@ -22,3 +22,13 @@ const nombreFuncion = () => {
 }
 nombreFuncion();
 -----------------------------------------
+
+RETURN =>
+Es muy importante recordar que lo que se devuelva en los returns van a ser el valor del la function completa.
+Recordar que puede retornar un valor, una variable, un arreglo, un objeto, pero las funciones siempre deben retornar algo, es la mejor practica.
+Cuando Estoy Retornando Un objeto la sintaxis del return es la siguiente:
+                    return {
+                      ObjetoRetornado
+                    }
+NOTA => Debo confirmar si funciona igual para los arreglos, aunque no creo.
+-----------------------------------------

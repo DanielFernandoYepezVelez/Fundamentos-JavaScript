@@ -6,3 +6,7 @@ OBJETOS(Clases) EN JAVASCRIPT =>
 Son estructuras de datos que representan propiedades, valores y acciones que puede realizar el objeto instanciado del Objeto(CLASE).
 
 Todos los objetos tienen propiedades o atributos y comportamientos o acciones representados por pares de clave(Key):valor(value).
+
+INSTANCIAR UNA CLASE U OBJETO =>
+Esta palabra puede ir dentro de un arreglo con el método .push(new objetoInstancia).
+Recordar que no necesariamente tienes que definir una constante o una variable para instanciar o crear un objeto.

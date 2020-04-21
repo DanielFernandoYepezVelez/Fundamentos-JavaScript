@@ -1,0 +1,8 @@
+CONVERTIR OBJETOS A UN ARRAY =>
+Existen ocasiones donde API nos van a retornar un objeto y no un array y recorrer un objeto hasta el momento no se como, pero si se como recorrer un arreglo, entonces la conversion funciona de la siguiente manera:
+
+Object.entries(AquiVaElObjeto);
+
+EJEMPLO DE UN PROYECTO REALIZADO(Criptomonedas API) =>
+La API Me retorna Un Objeto, Y Yo No Se Como Recorrer Un Objeto, Pero Si Se Como Recorrer Un Array, Entonces Convierto Un Objeto A Un Array.
+const convertirObjeto = Object.entries(monedas.formatoMonedas.Data);
