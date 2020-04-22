@@ -1,0 +1,2 @@
+SYMBOLS =>
+Es un nuevo tipo de dato primitivo, y te permite crear propiedades unicas.
