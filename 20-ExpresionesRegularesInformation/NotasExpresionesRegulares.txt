@@ -1,0 +1,46 @@
+EXPRESIONES REGULARES =>
+Son una secuencia de caracteres que forman un patrón de busqueda, principalmente utilizada para la busqueda de patrones de cadenas de carcateres u operaciones de sustituciones.
+
+SINTAXIS =>
+/patron/ SIEMPRE DEBE IR /...../
+
+BANDERAS =>
+i: ignore case. No diferencia entre mayusculas y minúsculas
+g: global. Busca de forma global, es decir, no se para después de la primera coincidencia.
+
+COMODINES =>
+-SUSTITUCIÓN: Define un comodín dentro del patron. Es decir, cualquier caracter dentro del patron. El Simbolo es el '.', en conclusión, cada "." equivale a cualquier caracter que llegue al patron, pero el punto o los puntos deben de ir dentro del patron.
+
+-LISTADO DE CARACTERES VÁLIDOS: Entre corchetes se pone una lista de los caracteres válidos. [aeiou] con esto cogeríamos todas las vocales. Tambien se puede con numeros [12345]
+
+-RANGOS: Entre corchetes si ponemos un guión entre dos carcateres establecemos un rango. [a-z] todas las letras minusculas. Esto no se hace de acuero al afabeto, sino a la tabla de caracteres ASCII.
+
+-MEZCLA ENTRE RANGOS Y LISTAS: Podemos unir los dos anteriores en una sola expresión. [0-5ou] Serian numeros del 0 al 5, la letra "o" y la letra "u".
+
+-CADENAS COMPLETAS:
+Para Establecer una cadena completa debe ir entre paréntesis, si queremos más palabras irán separadas por un pipe. (lorem|amet) es válida la palabra "lorem" y la palabra "amet".
+----------------------------------------------------
+
+-DELIMITADORES:
+^ Antes de este simbolo no puede haber nada.
+$ Despues de este simbolo no puede haber nada
+^hola$
+
+-CANTIDAD:
+-LLAVES: Lo que está antes tiene que aparecer la cantidad exacta de veces. Hay tres combinaciones posibles:
+{n} Se tiene que repetir n veces.
+{n,m} Se tiene que repetir entre n y m veces, ambas incluidas.
+{n,} Se tiene que repetir como minimo n veces.
+^[a-zA-Z]{1,3}@{1}$
+
+-ASTERISCO: Lo que está antes del asterisco puede estar, puede no estar y se puede repetir.  
+A-[0-9]*
+.*@.*\..*
+
+-INTERROGACION: Lo que está antes de la interrogación puede no estar, pero si está solo puede aparecer una vez.
+^[ae]?$
+
+-OPERADOR MAS: Lo que esta antes del + tiene que estar una vez como minimo.  A-[0-9]+
+
+PAGINA PARA HACER PRUEBAS =>
+https://regex101.com Es Muy Confiable.
