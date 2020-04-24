@@ -7,6 +7,7 @@ SINTAXIS =>
 BANDERAS =>
 i: ignore case. No diferencia entre mayusculas y minúsculas
 g: global. Busca de forma global, es decir, no se para después de la primera coincidencia.
+-----------------------------------------------------
 
 COMODINES =>
 -SUSTITUCIÓN: Define un comodín dentro del patron. Es decir, cualquier caracter dentro del patron. El Simbolo es el '.', en conclusión, cada "." equivale a cualquier caracter que llegue al patron, pero el punto o los puntos deben de ir dentro del patron.
@@ -41,6 +42,20 @@ A-[0-9]*
 ^[ae]?$
 
 -OPERADOR MAS: Lo que esta antes del + tiene que estar una vez como minimo.  A-[0-9]+
+--------------------------------------------------------
+
+CARACTERES:
+\s: Coincide con un carácter de espacio, entre ellos incluidos espacio, tab, salto de página, salto de linea y retorno de carro. ^[a-zA-Z]+\s[a-zA-Z]+$
+
+\S: Coincide con todo menos carcateres de espacio ^\S{5}$
+
+\d: Coincide con un carácter de numero. Equivalente a [0-9] ^\d{5}$
+
+\D: Coincide con cualquier carácter NO númerico. Equivalente a [^0-9] ^\D{5}$
+
+\w: Coincide con cualquier carácter alfanúmerico, incluyendo el guión bajo. Equivalente a [A-Za-z-0-9] ^\w+@$
+
+\W: Coincide con todo menos carcateres de palabras. ^\W-$
 
 PAGINA PARA HACER PRUEBAS =>
 https://regex101.com Es Muy Confiable.
