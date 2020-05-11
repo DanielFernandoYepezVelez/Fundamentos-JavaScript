@@ -2,7 +2,7 @@ ASYNC =>
 Se puede implementar en cualquier función que tenga un proceso asincrono y dicho proceso este manejado, con callbacks o promesas, pero generalmente, se utiliza el async cuando vamos a implementar await.
 
 Se debe tener muy encuenta que al implementar esta palabra en una función siempre se va a retornar una promesa,
-en caso de que el codigo se este manejando con promesas, ASYNC lo detecta y no devuelve otra promesa, solo devuelve la promesa con la que se esta menjando el codigo incialmente, por eso, lo mejor es utilizarlo directamente con el AWAIT la ejecución de la promesa retornada se maneja como una promesa normal con .then() o .catch().
+en caso de que el codigo se este manejando con promesas, ASYNC lo detecta y no devuelve otra promesa, solo devuelve la promesa con la que se esta menjando el codigo incialmente, por eso, lo mejor es utilizarlo directamente con el AWAIT para que la ejecución de la promesa retornada se dispare directamente, y no se tenga que manejar como una promesa normal con .then() Y/O .catch(), para lograr que se ejecute, pero si no se utiliza el await se puede ejecutar de forma normal con el .then() Y/O .catch().
 
 AWAIT =>
 El await solo puede ser utilizados dentro de funciones asincrono indetificadas con la palabra ASYNC y lo que hace es un bloque al codigo, convirtiendo el codigo asincrono en codigo sincrono diciendole al programa que no se puede ejecutar una linea de codigo sin haber ejecuta su linea anterior primero.

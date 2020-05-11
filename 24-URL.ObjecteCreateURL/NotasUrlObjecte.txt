@@ -1,0 +1,3 @@
+URL.ObjecteCreateURL(AquiVaObjetoFile)
+
+Me da una url donde se puede mostrar la imagen en miniatura despues de leerla con la propiedad .files, tambien me funciona para imagenes que traiga o solicite de una API y necesite renderizar en el navegador
