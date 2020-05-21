@@ -1,0 +1,39 @@
+				NOTAS WEBPACK 
+QUE ES WEBPACK =>
+Es un bundler(empaquetador de módulos) para aplicaciones JavaScript modernas. Pero tambien sirve como servidor de desarrollo, como manejador de dependencias, administrador de tarear, cambiar o convertir formatos o extensiones, entre muchas tareas mas.
+Webpack procesa toda la aplicación y mapea todas las dependencias de un módulo, con esto crea uno o varios paquetes o bundlers.
+
+FUNCIONALIDAD DE WEBPACK =>
+En webpack hay 4 conceptos muy importantes para entender el funcionamiento del mismo =>
+
+	1.Entry(Entarada) => Un punto de entrada que especifica que modulo debe utilizar webpack para comenzar a crear la gráfica de dependencias, webpack se encargá de saber que 		dependencias tiene este módulo.
+	En general el punto de entrada y la configuración se guarda en un archivo, aunque en la versión 4 ya no es necesario.
+
+	2.Output(Salida) => La salida le dirá a webpack, en que parte se debe almacenar el bundle que se ha creado.
+	Normalmente la entrada esta en una carpeta llamada src/ y la salida a una carpeta llamada dist/
+
+	3.Loaders(Cargadores) => Este punto es muy importante en webpack por que el mismo, solo entiende archivos JavaScript, pero con los loaders puedes cargar otros formatos como 		sass, less, imágenes, html.
+	Importar archivos css es algo que gulp o grunt no pueden hacer y que le da mucho mas poder a webpack sobre las herramientas mencionadas anteriormente.
+	Los loaders permiten agregar archivos staticos(JS, CSS, Imagenes) e integrarlos con webpack.
+	Tambien Agregar o importar una hoja de estilos css en un archivo JS
+
+	Loaders tiene 2 palabras claves:
+	test: Le dice al archivo webpack que archivos deben ser transformados.
+	use: Le dice al archivo webpack que loader estamos utilizando para este archivo.
+
+	4.Plugins(Complementos) => Los loaders nos permiten utilizar distintos tipos de módulos y otros formatos. Pero los plugins realizan otro tipo de tareas como optimizar el bundler, 			administración avanzada de los assets.
+	Un plugin se instala via NPM y se importa al archivo webpack con la palabra require().
+	Los plugins nos ayudan con la salida de los archivos minificados y optimizados para producción.
+
+BABEL =>
+Es un transpilador para convertir codigo de JS Moderno a codigo JS que pueda ser soportado por todos los navegadores del mundo, a traves de webpack.
+"babel-loader": "^8.1.0", => Este es el que se conecta con webpack.
+
+DEPENDECIAS DE DESARROLLO NECESARIAS PARA UTILIZAR WEBPACK Y BABEL=>
+"@babel/cli": "^7.8.4",
+"@babel/core": "^7.9.6",
+"@babel/preset-env": "^7.9.6",
+"@babel/register": "^7.9.0",
+"babel-loader": "^8.1.0",
+"webpack": "^4.43.0",
+"webpack-cli": "^3.3.11"

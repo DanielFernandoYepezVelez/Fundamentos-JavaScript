@@ -10,7 +10,10 @@ console.log('-------------------------');
 
 /* Enviar elementos de un array a una función */
 const addNumbers = (a, b, c) => {
-    return console.log(a + b + c);
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    return console.log('SUMA FINAL:', a + b + c);
 }
 
 const numbersAdd = [1, 2, 3];
@@ -51,7 +54,7 @@ console.log('-------------------------');
 
 /* Enviar Un Número de argumentos indefinidos a una función (parametros REST) */
 const restParams = (...numeritos) => {
-    return console.log(numeritos);
+    return console.log('Array =>', numeritos);
 }
 
 restParams(5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5);

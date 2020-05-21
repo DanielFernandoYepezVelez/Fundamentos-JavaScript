@@ -1,8 +1,7 @@
 ANTES DE AJAX SE DEBE ENTENDER COMO FUNCIONA LA WEB DE FORMA SIMPLE =>
-Desde el cliente o navegador se hacen peticiones a través del protocolo HTTP a un servidor o a una nube que es lo mismo, para obtener Toda la información, posteriormente el servidor no delvuelve una respuesta que es la web que se renderiza en el navegador que esta compuesta por (HTML, CSS, JavaScript, imagenes, videos, etc) asi funciona todas las webs que NO utilizan AJAX.
+Desde el cliente o navegador se hacen peticiones a través del protocolo HTTP a un servidor o a una nube que es lo mismo, para obtener Toda la información, posteriormente el servidor nos delvuelve una respuesta que es la web que se renderiza en el navegador que esta compuesta por (HTML, CSS, JavaScript, imagenes, videos, etc) asi funciona todas las webs que NO utilizan AJAX.
 
-Pero con AJAX lo que hacemos es interceptar la respuesta del servidor para que la pagina NO se recarge o NO se refresque. De esta manera no se solicitan todos los datos(HTML, CSS, JavaScript, imagenes, videos, etc) en una sola petición sino, que se solicitan ciertos datos, y estos datos cuando llegan lo que hacemos es guardarlos en un Objeto y no se recarga la pagina, por que no estamos cargando los datos solicitados en el navegador, si no en un objeto denominado XMLHttpRequest y trabajamos con dicho objeto.
-Tener encuenta que AJAX es asincrono.
+Pero con AJAX lo que hacemos es interceptar la respuesta del servidor para que la pagina NO se recarge o NO se refresque. De esta manera no se solicitan todos los datos(HTML, CSS, JavaScript, imagenes, videos, etc) en una sola petición sino, que se solicitan ciertos datos, y estos datos cuando llegan lo que hacemos es guardarlos en un Objeto y no se recarga la pagina, por que no estamos cargando los datos solicitados en el navegador, si no en un objeto denominado XMLHttpRequest y trabajamos con dicho objeto.Tener encuenta que AJAX es asincrono.
 
 ASINCRONO =>
 No esta sincronizado con la pagina, la pagina va por un lado y la petición con los datos van por otro.

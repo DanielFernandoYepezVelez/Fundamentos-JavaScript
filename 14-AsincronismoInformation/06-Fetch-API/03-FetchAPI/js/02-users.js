@@ -23,4 +23,7 @@ function cargarAPI() {
 
             document.getElementById('resultado').innerHTML = arrayUsers;
         })
+        .catch(err => {
+            console.log(err);
+        });
 }

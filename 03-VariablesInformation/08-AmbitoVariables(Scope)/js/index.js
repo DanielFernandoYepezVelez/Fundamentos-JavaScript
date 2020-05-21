@@ -17,22 +17,24 @@ function gretting() {
 console.log('Variable Gretting Local =>', gretting());
 console.log('Variable Gretting Local =>', gretting());
 console.log('-----------------------------');
-console.log('-----------------------------');
-console.log('-----------------------------');
-console.log('-----------------------------');
-console.log('-----------------------------');
 
 /* Imprimir Local Variable 
 (No es Permitido, por el Scope) */
-// console.log('Error Intencional Scope =>', localGretting);
+try {
+    console.log('Error Intencional Scope =>', localGretting);
+} catch {
+    console.log('Scope No Permite Mostrar Una Variable Local');
+    console.log('----------------------------------');
+}
 
 // -----------------------------------
 /* OTRA DEFINICIÓN MUY IMPORTANTE:
 EL PROBLEMA DE USAR VAR ES QUE NO EXISTE
 LIMITE PARA SU SCOPE EN NINGUN BLOQUE
 DE CÓDIGO, POR ENDE LA VARIABLE SIEMPRE
-SE ESTA REESCRIBIENDO DE FORMA NO CONTROLADA
-PERO CON LET SI EXISTE DICHO LIMITE */
+SE ESTA REESCRIBIENDO DE FORMA NO CONTROLADA,
+SI SIEMPRE SE ESTA DECLARANDO, OJO CON ESTO
+PERO, CON LET SI EXISTE DICHO LIMITE */
 var a = 'a';
 let b = 'b';
 const c = 'c';

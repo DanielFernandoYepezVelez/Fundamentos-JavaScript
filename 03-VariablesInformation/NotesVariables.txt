@@ -23,15 +23,13 @@ STRING: Cadena.
 TRUE: Verdadero.
 FALSE: Falso.
 
-🥇TIPOS DE DATOS COMPUESTOS(Se pueden combinar
-                             de "ARRAY a OBJECT"):
+🥇TIPOS DE DATOS COMPUESTOS:
 Arrays o Vectores.
 Objects u Objetos.
 
-🥇TIPOS DE DATOS ESPECIALES(LENGUAJE DE 
-                          PROGRAMACIÓN JAVASCRIPT):
-"Date" => A TRAVÉS DE INSTANCIAR UN OBJETO DE LA
-CLASE(MODULO) DATE(), OBTENGO DIA, MES, AÑO, HORA,
+🥇TIPOS DE DATOS ESPECIALES:
+"Date" => A TRAVÉS DE INSTANCIAR UN OBJETO DEL
+OBJETO(CLASE) DATE(), OBTENGO DIA, MES, AÑO, HORA,
 ETC.
 
 🥇"undefined" => ES UNA VARIABLE QUE EXISTE, 
@@ -78,7 +76,8 @@ acceder a las variables que estén en una función
 predecesora y traerlas hacia una función hija o 
 función interna. PERO desde una función predecesora
 o padre no se puede acceder a las variables que estén
-en una funcion interna, es decir, en una función hija.
+en una funcion interna, es decir, en una función hija
+de la misma.
 
 👑NOTA => EL scope funciona También para las funciones,
 es decir, si no corresponde al AMBITO existente, la

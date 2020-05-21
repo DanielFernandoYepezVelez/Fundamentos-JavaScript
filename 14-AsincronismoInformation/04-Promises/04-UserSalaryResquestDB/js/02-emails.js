@@ -39,7 +39,7 @@ const getUser = (id) => {
 const getEmail = (user) => {
     const emailDB = emails.find(email => email.id === user.id);
 
-    return promise = new Promise((resolve, reject) => {
+    return new Promise((resolve, reject) => {
         if (!emailDB) {
             reject(`El usuario ${user.name} No tiene un email en la base de datos`);
         } else {

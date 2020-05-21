@@ -1,10 +1,9 @@
-/* Los parentesis hacen que se llame asi misma
-y de forma inmediata */
+/* Los parentesis hacen que la function se llame asi misma y de forma inmediata */
 (function() {
     console.log('Creando un IIFE');
 })();
 
-/* y puedo pasarle parametros Al parentesis que hace que se ejecute a ella misma con su respectivo argumento(javascript)*/
+/* y puedo pasarle parametros Al parentesis que hace que se ejecute la funcion a ella misma con su respectivo argumento(javascript)*/
 (function(tecnologi) {
     console.log(`Aprendiendo ${tecnologi}`);
 })('JavaScript');

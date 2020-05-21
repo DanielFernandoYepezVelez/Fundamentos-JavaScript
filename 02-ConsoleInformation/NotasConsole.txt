@@ -13,7 +13,7 @@ con los valores que tienen dichos elementos.
 global del navegador que es "window", me muestra
 todo lo que tenemos allí. Y lo mismo pasa con el
 método y a la vez objeto "document" me muestra
-todo lo que tenemos en el document(body[HTML]).
+todo lo que tenemos en el document-body-HTML.
 
 🧶Tambien puedo escribir cualquier instrucción
 completa que se puede ejecutar con el objeto global

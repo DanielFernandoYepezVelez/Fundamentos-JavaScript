@@ -57,7 +57,7 @@ utilizadas en un segmento del codigo
 antes de declararlas e inicializarlas
 respectivamente, las funciones son llamadas
 correctamente siempre y cuando sean declarativas
-y a las variables les asigna el valor de undifined
+y a las variables les asigna el valor de undefined
 siempre y cuando tenga la declaracion de var.
 
 Esto tiene que ver con lo que pasa en

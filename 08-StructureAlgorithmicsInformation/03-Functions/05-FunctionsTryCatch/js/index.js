@@ -1,5 +1,7 @@
 /* Utilizo el tryCatch para que la ejecución del programa continue y apesar de que no exista una función invocada en dicho programa. Y asi, El pograma ejecute todas las demás, no se recomienda utilizarlo siempre. */
 
+/* SOLO SE UTILIZA UN TRY CATCH CUANDO PUEDA EXISTIR UN ERROR EN LA APLICACIÓN Y SE NECESITE MANEJARLO, MAS NO PREVENIRLO, SOLO MANEJARLO, DANDOLE OPCIONES AL USUARIO */
+
 /* Para insertar en HTML, o agregar una clase no se recomienda mucho */
 try {
     noExiste(); // Funcion NO EXISTE

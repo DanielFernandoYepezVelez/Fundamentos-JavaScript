@@ -14,7 +14,7 @@ console.log('Confirmando Si Es Un Array => ', booleanArray);
 console.log('-----------------------------------------');
 
 /* BUSCAR EN UN ARRAY */
-/* Devuelve la PRIMERA posición o indice de un elemento existente en un array, si no lo encuentra devuelve un -1 */
+/* Devuelve la PRIMERA posición del indice de un elemento existente en un array, si no lo encuentra devuelve un -1 */
 const posicionElemento = colores.indexOf('Rojo');
 console.log('Indice Elemento Primer Posición =>', posicionElemento);
 console.log('-----------------------------------------');

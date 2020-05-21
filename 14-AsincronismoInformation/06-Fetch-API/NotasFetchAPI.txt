@@ -1,7 +1,7 @@
 FETCH API =>
 Proporciona una interfaz JavaScript para acceder y manipular partes del cana HTTP, como peticiones y respuestas.Tambien provee un método global fetch() que proporciona una forma fácil y lógica de obtener recursos de forma asincrona por la red.
 
-Esta basado en promesas, por lo cual tiene un response(resolve) y un reject internos, por eso despues de la peticion se utiliza directamente un .then() y un .catch() por que internamente fetch() ya tiene incorporados los callback obligatorios en la Creacion de las promesas.
+Esta basado en promesas, por lo cual tiene un response(resolve) y un reject internos, por eso despues de la peticion se utiliza directamente un .then() y un .catch() por que internamente fetch() ya tiene incorporados el callback con sus dos parametros obligatorios en la Creacion de las promesas.
 
 RESPONSE(RESOLVE) =>
 Como respuesta tiene varios métodos que puedo utilizar, acontinuación vamos a mencionar algunos:

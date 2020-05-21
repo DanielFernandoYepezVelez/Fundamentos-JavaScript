@@ -1,6 +1,7 @@
 'use strict';
 
 /* Variables Y Constantes De Tipo Objeto */
+/* Objeto Literal */
 var userOne = {
     name: 'Daniel',
     lastName: 'Yepez Velez',
@@ -8,6 +9,7 @@ var userOne = {
     age: 27
 };
 
+/* Objeto Literal */
 const userTwo = {
     name: 'Maria',
     lastName: 'Restrepo Guzman',
@@ -15,6 +17,7 @@ const userTwo = {
     age: 35
 }
 
+/* Objeto Literal */
 var userThree = {
     name: 'Cristina',
     lastName: 'Galarzo',

@@ -17,7 +17,7 @@ leerTodos()
 /* Tambien puedo capturar el error con try-catch */
 const leerTodos = async() => {
     try {
-        const response = await fetch('https://jsonplaceholder.typicode.com/tods');
+        const response = await fetch('https://jsonplaceholder.typicode.com/todos');
 
         if (response.ok === true) {
             const datos = await response.json();

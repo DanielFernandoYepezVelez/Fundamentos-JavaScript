@@ -32,7 +32,7 @@ const getName = () => {
 
 const sayHello = async() => {
     const name = await getName();
-    return `Hello ${name}`; //Error Inminente
+    return `Hello ${name}`; //Error Inminente sino se pone el await, por que se debe esperar la promesas durante 2 segundos
 }
 
 /* Pongo El .then() por que el async retorna una promesa, tambien se pued aplicar el .catch() */

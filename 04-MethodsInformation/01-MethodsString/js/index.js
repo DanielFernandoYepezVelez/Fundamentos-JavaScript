@@ -30,7 +30,7 @@ tambien puede funcionar como SUBSTR, es decir, recibe un
 valor inicial y un valor final */
 console.log('Nombre =>', name);
 console.log('Inicio y Fin Cadena "SLICE" =>', name.slice(0, 15));
-console.log('Cadena Invertida "SLICE" =>', name.slice(-8));
+console.log('Cadena Invertida "SLICE" =>', name.slice(-10));
 console.log('------------------------------------------');
 
 /* INDEXOF() */

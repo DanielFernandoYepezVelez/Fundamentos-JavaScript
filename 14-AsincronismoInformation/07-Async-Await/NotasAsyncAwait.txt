@@ -1,11 +1,11 @@
 ASYNC =>
 Se puede implementar en cualquier función que tenga un proceso asincrono y dicho proceso este manejado, con callbacks o promesas, pero generalmente, se utiliza el async cuando vamos a implementar await.
 
-Se debe tener muy encuenta que al implementar esta palabra en una función siempre se va a retornar una promesa,
-en caso de que el codigo se este manejando con promesas, ASYNC lo detecta y no devuelve otra promesa, solo devuelve la promesa con la que se esta menjando el codigo incialmente, por eso, lo mejor es utilizarlo directamente con el AWAIT para que la ejecución de la promesa retornada se dispare directamente, y no se tenga que manejar como una promesa normal con .then() Y/O .catch(), para lograr que se ejecute, pero si no se utiliza el await se puede ejecutar de forma normal con el .then() Y/O .catch().
+Se debe tener muy encuenta que al implementar esta palabra(ASYNC) en una función siempre se va a retornar una promesa,
+en caso de que el codigo se este manejando con promesas, ASYNC lo detecta y no devuelve otra promesa, solo devuelve la promesa con la que se esta menjando el codigo incialmente, por eso, lo mejor es utilizarlo directamente con el AWAIT para que la ejecución de la promesa retornada se dispare directamente, y no se tenga que manejar como una promesa normal con .then() Y/O .catch(), para lograr que se ejecute, pero si no se utiliza el await se puede ejecutar de forma normal con el .then() Y/O .catch(), asi tenga la palabra ASYNC, por que esta siempre nos va a retornar una promesa que solo debemos ejecutar con .then() o directamente con AWAIT.
 
 AWAIT =>
-El await solo puede ser utilizados dentro de funciones asincrono indetificadas con la palabra ASYNC y lo que hace es un bloque al codigo, convirtiendo el codigo asincrono en codigo sincrono diciendole al programa que no se puede ejecutar una linea de codigo sin haber ejecuta su linea anterior primero.
+El await solo puede ser utilizados dentro de funciones asincrono indetificadas con la palabra ASYNC y lo que hace es un bloqueo al codigo, convirtiendo el codigo asincrono en codigo sincrono diciendole al programa que no se puede ejecutar una linea de codigo sin haber ejecuta su linea anterior primero.
 
 MANEJAR LOS ERRORES =>
 Como con los callbacks manejabamos los errores como parametro incial, en la promesas lo manejamos con el reject, en ASYNC-AWAIT se manejan los errores con el try-catch. Pero se debe tener encuenta que asi no apliquemos un try-catch, los errores se disparan en el codigo que tiene la funcion con la palabra async y se deben manejar con el .catch() de la promesa y del callback reject, pero si, el error se maneja con el try-catch no hay necesidad de llamar el metodo del reject que es el .catch(), tener encuenta eso. por que el async es totalmente equivalente a una promesa, algo similar a lo que pasa con fetch, recordar tambien que se puede utilizar el Promise.resolve o Promise.reject, por que async retorna una promesa.

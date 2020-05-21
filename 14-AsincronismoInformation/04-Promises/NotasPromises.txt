@@ -1,5 +1,5 @@
 PROMESAS =>
-Una promesa es un objeto(clase) que en su interior tiene dos callbacks, uno llamado resolve y otro llamado reject.Además, Las promesas son de las nuevas carcteristicas de javascript(ES6) y son totalmente soportadas en las ultimas versiones de chrome. Son muy importantes cuando estemos trabajando con fetch API.
+Una promesa es un objeto(clase) que en su interior tiene un callback con dos parametros, uno llamado resolve y otro llamado reject.Además, Las promesas son de las nuevas carcteristicas de javascript(ES6) y son totalmente soportadas en las ultimas versiones de chrome. Son muy importantes cuando estemos trabajando con fetch API.
 
 FUNCIONAMIENTO DE LAS PROMESAS =>
 Las Promesas tienen la caracteristica de que el valor que estemos revisando NO esta disponible en el momento, pero, la idea es que este disponible en el futuro. Por eso se asigno una constante con el nombre de ESPERANDO.
