@@ -26,12 +26,16 @@ console.log(users);
 
 const newUsers = ['marta', 'jaime', 'laura'];
 
-/* Agrego Tres O 200 Usuarios Nuevos Mas Facil */
+/* Agrego Tres ó 200 Usuarios Nuevos Mas Facil */
 /* DELANTE unshift */
 /* CUALQUIER LUGAR splice */
 /* ULTIMO push */
 users.splice(2, 0, ...newUsers);
 console.log(users);
+
+/* Otra Forma De Editar Un Array */
+usersAll = ['usersAll1', 'usersAll2', ...users, 'usersAll3', 'usersAll4', ...newUsers];
+console.log('Todos Los Usuarios =>', usersAll);
 console.log('-------------------------');
 
 /* Copiar Arrays */
@@ -52,6 +56,7 @@ arrayConcat = [...arrayUno, ...arrayDos]
 console.log('Nuevo => ', arrayConcat);
 console.log('-------------------------');
 
+
 /* Enviar Un Número de argumentos indefinidos a una función (parametros REST) */
 const restParams = (...numeritos) => {
     return console.log('Array =>', numeritos);
@@ -65,6 +70,20 @@ console.log('-------------------------');
 el spread operator me muestra un error */
 console.log('Maximo => ', Math.max(...arrayUno));
 console.log('Minimo => ', Math.min(...arrayUno));
+console.log('-------------------------');
+
+/* Spread Operator Tampien Para Los Objetos */
+const userData = { name: "Daniel", lastName: "Yepez" };
+const userDetails = { phone: '38389292', email: 'dfyepex@gmail.com', city: "Barcelona" };
+const userOne = { userData, ...userDetails };
+const userTwo = {...userData, userDetails };
+const userThree = {...userData, ...userDetails };
+
+console.log(userData);
+console.log(userDetails);
+console.log(userOne);
+console.log(userTwo);
+console.log(userThree);
 console.log('-------------------------');
 
 /* Eliminar Elementos Duplicados de un array */
