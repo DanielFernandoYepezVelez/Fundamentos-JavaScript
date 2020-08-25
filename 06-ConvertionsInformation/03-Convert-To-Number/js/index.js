@@ -13,6 +13,10 @@ console.log('--------------------------------------------');
 console.log(cadenaNumber, typeof cadenaNumber, typeof parseFloat(cadenaNumber), parseFloat(cadenaNumber));
 console.log('--------------------------------------------');
 
+/* Revisar si un numero es entero o no */
+console.log(typeof cadenaNumber, Number.isInteger(cadenaNumber));
+console.log('--------------------------------------------');
+
 /* String a Number (NaN) Not A Number*/
 let cadenaExtraña = '28 r .';
 console.log(cadenaExtraña, typeof cadenaExtraña, typeof Number(cadenaExtraña), Number(cadenaExtraña));

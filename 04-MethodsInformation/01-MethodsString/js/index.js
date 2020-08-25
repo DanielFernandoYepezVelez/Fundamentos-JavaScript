@@ -9,6 +9,11 @@ console.log('----------------------------------------');
 /* SUBSTRING() */
 /* Mostrar el inicio de la cadena de caracteres.
 Tambien puede recibir un argumento de fin */
+
+/* NOTA => Si pones el numero mayor al principio
+y el numero menor al final, El metodo es inteligente,
+para intercambiar el orden, esa es la única diferencia 
+con el slice, que este método no hace nada */
 console.log('Nombre =>', name);
 console.log('Inicio Cadena =>', name.substring(5));
 console.log('Inicio Cadena y fin =>', name.substring(5, 8));
@@ -137,8 +142,12 @@ console.log('------------------------------------------');
 /* Recibe un argumento de tipo numerico
 y me permite indicar el numero de veces que deseo 
 repetir la cadenas de texto completa. */
+
+/* NOTA => Si le pasan un numero decimal, el numero se redondea
+al numero mayor (2.4 pasa a 3) */
 console.log('Nombre =>', name);
 console.log('Cadena Repetida =>', name.repeat(2));
+console.log('Cadena Repetida =>', name.repeat(2.4));
 console.log('------------------------------------------');
 
 /* SPLIT() */
@@ -158,5 +167,18 @@ inicial y en el extremo final, no en otro lugar de la
 cadena de caracteres. */
 let espacios = '          <- EspacioAqui       ESPACIOS CON BLANCO       ';
 console.log('Nombre =>', espacios);
+console.log('No Espacios Al Inicio =>', espacios.trimStart());
+console.log('No Espacios Al Final =>', espacios.trimEnd());
 console.log('No Espacios =>', espacios.trim());
+console.log('------------------------------------------');
+
+/* TOSTRING */
+/* Convertir el numero de type number a un numero de tipo
+string */
+const number = 300;
+console.log(number.toString());
+
+/* METODOS ENCADENAMOS */
+espacios = '          <- EspacioAqui       ESPACIOS CON BLANCO       ';
+console.log('Nombre =>', espacios.toLowerCase().trimStart().trimEnd());
 console.log('------------------------------------------');

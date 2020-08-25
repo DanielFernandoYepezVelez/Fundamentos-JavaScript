@@ -1,4 +1,5 @@
-/* EL OBJETO MATH ES ESTATICO, ES DECIR, TENEMOS QUE ESCRIBIR SU NOMBRE PARA UTILIZARLO */
+/* EL OBJETO MATH ES ESTATICO, ES DECIR, TENEMOS QUE ESCRIBIR SU NOMBRE PARA UTILIZARLO 
+Y NO ES NECESARIO INSTANCIAR LA CLASE */
 
 /* Propiedad Para Obtener El Numero PI */
 const PI = Math.PI;
@@ -35,9 +36,9 @@ const potencia = Math.pow(base, exponente);
 console.log(`Potencia Del Numero 5 => ${potencia}`);
 console.log('---------------------------------');
 
-/* Método Para Obtener Un Numero pseudoAleatorio Entre El 1 y 0 */
+/* Método Para Obtener Un Numero pseudoAleatorio Entre El 0 Y 1 */
 const numeroALEATORIO = Math.random();
-console.log(`Numero Aleatorio Entre 1 y 0 => ${numeroALEATORIO}`);
+console.log(`Numero Aleatorio Entre 0 Y 1 => ${numeroALEATORIO}`);
 
 /* FORMULA QUE SIEMPRE SE USA PARA GENERAR UN NUMERO ALEATORIO ENTRE 5 Y 10 */
 const max = 10;
