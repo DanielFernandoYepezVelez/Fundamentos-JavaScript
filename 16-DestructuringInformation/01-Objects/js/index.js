@@ -12,6 +12,11 @@ console.log(`Forma Normal => ${nombre}`);
 console.log(`Forma Normal => ${apellidos}`);
 console.log(`Forma Normal => ${tipo}`);
 
+/* Accediendo Al Objeto De Forma Poco Conocida */
+console.log(`Forma POCO CONOCIDA, PERO IMPORTANTE => ${persona['nombre']}`);
+console.log(`Forma POCO CONOCIDA, PERO IMPORTANTE => ${persona['apellidos']}`);
+console.log(`Forma POCO CONOCIDA, PERO IMPORTANTE => ${persona['tipo']}`);
+
 /* Accediendo Al Objeto Con Destructuring */
 /* Cambio El Nombre De Las Constantes Para Que No Me Presente Conflicto, Pero El Valor
 De Dichas Constantes Es El Mismo Del Objeto Literal Persona */

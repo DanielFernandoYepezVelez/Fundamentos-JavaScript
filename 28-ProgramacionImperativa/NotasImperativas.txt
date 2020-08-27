@@ -1,0 +1,2 @@
+Programación Imperativa:
+Aqui Se modifica la variable, el objeto, el array ó la funcion actual.

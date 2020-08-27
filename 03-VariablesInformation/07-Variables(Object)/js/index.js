@@ -37,3 +37,14 @@ console.log('User Three =>', userThree);
 window.document.writeln('User One => ', userOne, '<br />');
 window.document.writeln('User Two => ', userTwo, '<br />');
 window.document.writeln('User Three => ', userThree, '<br />');
+
+/* Acceder A Un Objeto Por Una Propiedad Especifica */
+/* Forma Común */
+console.log('Acceder A Una Propiedad Especifica Forma Comùn =>', userOne.name);
+console.log('Acceder A Una Propiedad Especifica Forma Comùn =>', userOne.lastName);
+console.log('Acceder A Una Propiedad Especifica Forma Comùn =>', userOne.age);
+
+/* No Es Muy Común */
+console.log('Acceder A Una Propiedad Especifica Forma NO Comùn, Pero IMPORTANTE =>', userOne['name']);
+console.log('Acceder A Una Propiedad Especifica Forma NO Comùn, Pero IMPORTANTE =>', userOne['lastName']);
+console.log('Acceder A Una Propiedad Especifica Forma NO Comùn, Pero IMPORTANTE =>', userOne['age']);
