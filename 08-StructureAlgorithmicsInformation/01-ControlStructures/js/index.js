@@ -1,3 +1,18 @@
+/* Codigo Vida Real(BUENAS PRÁCTICAS) */
+/* Los Returns funcionan dentro de funciones o metodos */
+function ejecutarReturn() {
+    if (false) {
+        console.log('La condición se cumple');
+        return;
+    }
+
+    if (true) {
+        console.log('La condición se cumple');
+        return;
+    }
+}
+ejecutarReturn();
+
 /* Condición Con Un Valor De Tipo Booleano */
 if (true) {
     console.log('La condición se cumple');
@@ -149,6 +164,13 @@ console.log('---------------------------------');
     console.log(`Operador Ternario Con Dos Lineas => ${numeroOperador} es impar`),
     console.log(`Operador Ternario Con Dos Lineas => ${numeroOperador} es impar`)
 );
+console.log('----------------------------------');
+
+/* Operador Ternanrio Anidado(POCO COMÚN) */
+const autenticado = true;
+const puedePagar = true;
+
+console.log(autenticado ? puedePagar ? 'Esta Autenticado Y Puede Pagar' : 'Esta Autenticado No Puede Pagar' : 'No Estas Autenticado');
 console.log('----------------------------------');
 
 /* Condicional Swicht */

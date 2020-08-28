@@ -28,6 +28,23 @@ for (let entrada of datos.entries()) {
 }
 console.log('--------------------------------');
 
+/* Entries Para Los Objetos */
+/* Recorrer un objeto */
+const automovil = {
+    modelo: 'Camaro',
+    motor: 6.1,
+    marca: 'Chevrolet',
+    venta: true
+};
+
+/* Objeto Completo */
+console.log(automovil);
+
+for (let [llave, valor] of Object.entries(automovil)) {
+    console.log(llave + ' -- ' + valor);
+}
+console.log('--------------------------------');
+
 /* Values Iterador (SOLO ENTREGA LOS VALORES) */
 /* Values para las ciudades en los arreglos el value
 es por defecto asi que no es necesario poner Values(),

@@ -7,7 +7,7 @@ Con el primero(for-Of) obtengo el valor existente en la posición del array por 
 Con el segundo(for-In) obtengo el indice existente en la posición del array por medio de la palabra LLAVE o CLAVE, pero también puedo obtener su valor, por medio de dicho indice. Este tipo de ciclo se usa principalmente para recorrer objetos de formato .JSON.
 
 NOTA =>
-los ciclos vienen pueden venir acompañados de los contadores, acumuladores, break y continue.
+los ciclos pueden venir acompañados de los contadores, acumuladores, break y continue.
 
 break = Rompe la ejecución del ciclo.
 continue = Se salta la posición(es) que le indiquemos con una condición y después continúa su ejecución.

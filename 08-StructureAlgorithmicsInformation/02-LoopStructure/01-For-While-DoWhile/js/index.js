@@ -44,6 +44,26 @@ for (let i = 0; i < numbers.length; i++) {
 };
 console.log('-------------------------------');
 
+/* Break (ROMPE LA EJECUCIÓN DEL CICLO) */
+for (let index = 0; index < 10; index++) {
+    if (index === 5) {
+        console.log('CINCO ROMPE');
+        break;
+    }
+    console.log(index);
+}
+console.log('-------------------------------');
+
+/* Continue (CONTINUA CON LA EJECUCIÓN DEL CICLO) */
+for (let index = 0; index < 10; index++) {
+    if (index === 5) {
+        console.log('CINCO CONTINUA');
+        continue;
+    }
+    console.log(index);
+}
+console.log('-------------------------------');
+
 /* Agregando valores de un arreglo a otro */
 const products = [
     { name: 'PS4', price: 250 },
