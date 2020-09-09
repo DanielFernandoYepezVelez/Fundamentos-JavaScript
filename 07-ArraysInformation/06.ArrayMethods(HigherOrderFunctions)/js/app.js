@@ -157,6 +157,11 @@ console.log(autosFind);
 autosFind = autos.find((autos) => autos.puertas > 2 && autos.color === 'Rojo');
 console.table(autosFind); */
 
+/* findIndex */
+/* Me retorna el indice del primer elemento, si no existe me regresa un (-1) */
+/* autosFindIndex = autos.findIndex((autos) => autos.puertas > 2 && autos.color === 'Rojo');
+console.log(autosFindIndex) */
+
 // reduce
 /* Funciona Con Valores Numericos O Precios Retorna Un Unico Valor, Por Que Se Le Mandan Dos Argumentos, El Primero Es Un Valor Acumulativo Donde Se Va Almacenar El Resultado Final Y El Otro Argumento Es Para Indicar EL Valor Unico De Cada Elemento Del Array Y Por Ultimo Se Debe Indicar El Valor Inicial En Que Debe Iniciar el Primer Argumento */
 /* let autosReduce;
@@ -172,6 +177,29 @@ const newReduce = reduce.reduce((total, valorUnico) => total + valorUnico, 100);
 console.log(newReduce); */
 
 // some
-/* Me retorna Un True O False Si Se Cumple Con La Condición Definida En Su Retorno De Forma Directa, No Se Sabe En Que Momento Se Cumple La Condición, Pero Si Existe Dicha Condición Dentro Del Array */
-const condicion = autos.some((auto) => auto.precio > 20000 && auto.puertas > 2);
-console.log(condicion);
+/* Me retorna Un True O False Si Se Cumple Con La Condición Definida En Su Retorno De Forma Directa, No Se Sabe En Que Momento Se Cumple La Condición, Pero Si Existe Dicha Condición Dentro Del Array y que al menos uno cumpla la condicion, para retornar un true */
+/* const condicion = autos.some((auto) => auto.precio > 20000 && auto.puertas > 2);
+console.log(condicion); */
+
+/* every */
+/* Me retorna un true o false si todos los elementos del array cumple la condición */
+/* const condicion = autos.every((auto) => auto.precio > 200);
+console.log(condicion); */
+
+/* INCLUDES 
+Se utiliza en el mundo real y solo sirve para un arreglo normal, es decir, que no sea para un arreglo de objetos.Me retorna un valor booleano, true o false */
+const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio'];
+
+/* const resultado = meses.includes('Enero');
+console.log(resultado); */
+
+/* FINDINDEX */
+/* Me retorna el indice del primer elemento, si no existe me regresa un (-1) */
+const indice = meses.findIndex(mes => mes === 'Abril');
+console.log(indice);
+
+if (indice !== (-1)) {
+    console.log('si existe');
+} else {
+    console.log('No Existe');
+}

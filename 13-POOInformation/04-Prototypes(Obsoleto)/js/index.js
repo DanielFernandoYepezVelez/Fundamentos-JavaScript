@@ -1,4 +1,4 @@
-/* CREANDO UN OBJETO */
+/* CREANDO UN OBJETO CONSTRUCTOR */
 function Cliente(nombre, saldo) {
     /* Atributos */
     this.nombre = nombre;

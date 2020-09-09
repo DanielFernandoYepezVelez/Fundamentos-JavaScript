@@ -1,4 +1,4 @@
-/* EVENT BUBBLING (Se conoce como una burbuja de eventos) */
+/* EVENT BUBBLING (Se conoce como una burbuja de eventos que se propaga) */
 /* Cuando seleccionas un elemento y automaticamente se seleccionan otros elementos con dicho elemento mencionado anteriormente. */
 
 /* Aqui podemos ver que si damos click en el input se ejecuta todo

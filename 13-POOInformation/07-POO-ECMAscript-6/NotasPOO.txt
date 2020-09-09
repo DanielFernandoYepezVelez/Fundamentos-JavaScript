@@ -15,3 +15,10 @@ Se le pueden asignar propiedades que no haya en los paràmetros, pero siempre ut
 
 INSTANCIAR =>
 Cuando creamos un objeto, a esa acción se le denomina INSTANCIAR un CLASE(Objeto).
+
+ATRIBUTOS PRIVADOS =>
+En JavaScript para indicarle a otro programador que un atributo de una Clase es privado se utilizaba el _nombrePropiedad, pero no nos da esa funcionalidad de encapsulación, solo era una simulación.
+
+La funcionalidad de encapsulación llego hace poco en JavaScript Y Aún no esta soportada por todos los navegadores.
+#nombrePropiedad.
+this.#nombrePropiedad.

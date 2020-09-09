@@ -1,6 +1,18 @@
+WEB SITE MOMENT JS=>
+https://momentjs.com/
+
 CONVERTIR UN FORMATO DE FECHA TIPO UNIX =>
 Se debe multiplicar por mil para que funcione la conversion De Un Formato De Fecha Tipo UNIX.
 let actualizado = new Date(datosMoneda.LASTUPDATE * 1000).toLocaleDateString('COL');
 
 FORMATO UNIX =>
 1289567
+
+LIBRERIA MOMENT JS =>
+Es una aliada para manejar de forma facil y eficiente las fechas en JavaScript.
+
+Para no instalar debo adjuntar los cdns, tanto de la libreria moment como el local/es,
+para que me de las fechas en español.
+
+Instalar =>
+Con npm se puede installar como cualquier libreria normal.
