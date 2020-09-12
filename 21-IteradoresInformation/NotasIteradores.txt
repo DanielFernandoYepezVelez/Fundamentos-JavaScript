@@ -1,1 +1,2 @@
 ITERADORES =>
+Para Entender Como Funcionan Los Ciclos O Iteradores En Su Core, De Forma Interna.

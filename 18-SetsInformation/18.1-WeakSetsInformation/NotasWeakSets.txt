@@ -1,0 +1,2 @@
+WEAKSETS =>
+Son una variación de los sets que solo nos permiten almacenar objetos, pero no son iterables y además no se puede identificar su longitud con el método .size.

@@ -22,3 +22,8 @@ En JavaScript para indicarle a otro programador que un atributo de una Clase es 
 La funcionalidad de encapsulación llego hace poco en JavaScript Y Aún no esta soportada por todos los navegadores.
 #nombrePropiedad.
 this.#nombrePropiedad.
+
+Voy Acceder A Las Propiedades Del Elemento HTML, En este caso, Voy A Acceder Al Atributo name.
+name me entrega el nombre del campo y se lo asigno, a la propiedad del Objeto Literal y eso es igual
+al valor que se esta ingresando a dicho campo.
+citaObj[e.target.name] = e.target.value;

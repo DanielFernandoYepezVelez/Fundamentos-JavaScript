@@ -20,7 +20,8 @@ persona[nombre] = 'Daniel Fernando Symbol';
 persona[apellido] = 'Yepez Velez Symbol';
 persona[edad] = '27 Symbol';
 
-/* Los iteradores No Muestran Las Propiedades Tipo Symbol */
+/* Los iteradores No Muestran Las Propiedades Tipo Symbol, Por Que Los Symbols, No Son
+Iterables */
 for (const i in persona) {
     console.log(`${i}: ${persona[i]}`);
 }
