@@ -1,8 +1,0 @@
-MAPS =>
-Es muy similar a los sets(), es decir, lista de valores, solo que almacena los valores como un array asociativo de PHP o un objeto JSON en JavaScript, es decir, formato tipo clave-valor. Puede almacenar valores de cualquier tipo de dato y tambien elimina elementos duplicados, es decir, no los elimina, sino que toma el ultimo llave-valor que se encuentre repetido.
-
-PARA QUE SRIVEN =>
-Para almacenar datos que esten compuestos de llave-valor, 
-
-ESPECIALMENTE DISEÑADOS PARA agregar, quitar o recorrer elementos.
-CUANDO SON MUY GRANDES tienen mejor PERFORMANCE o ACTUACIÓN que los objetos.
