@@ -12,6 +12,6 @@ setInterval(function() {
 }, 4000);
 
 /* Arrow Function */
-setInterval(function() {
+setInterval(() => {
     console.log('Esta es la definicion de un callback, con intervalo constante y arrow function');
 }, 5000);
