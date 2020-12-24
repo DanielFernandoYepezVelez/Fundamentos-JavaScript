@@ -1,5 +1,6 @@
 Spread Operator (Operador De Expansion) =>
-Su principal función es expandir el contenido de un array.
+Su Principal Función Es Expandir O Copiar El Contenido De Un 
+Elemento, Ya Sea Un Array O Un Objeto.
 
 Su Sintaxis Son Tres Puntos Suspensivos =>
 ...
