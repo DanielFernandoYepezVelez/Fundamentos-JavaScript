@@ -1,3 +1,7 @@
-Como "FILTER" Es Una Función De Alto Nivel(Hight Order Function), Yo Puedo Pasarle otra funcion como argumento, y el resultado del "FILTER" lo recibe la función que se paso como argumento, COMO un nuevo argumento de dicha función, el cual es recibo por un parametro que se debio definir con anterioridad.
+Como "FILTER" Es Una Función De Alto Nivel(Hight Order Function), 
+Yo Puedo Pasarle otra funcion como argumento, y el resultado del 
+"FILTER" lo recibe la función que se paso como argumento, 
+COMO un nuevo argumento de dicha función, el cual es recibo por
+un parametro que se debio definir con anterioridad.
 
 Los Hight Order Function Soportan El Encadenamiento De Métodos O Chaining.
