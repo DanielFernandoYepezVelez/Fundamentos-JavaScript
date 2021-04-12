@@ -1,3 +1,4 @@
+/* Recordar Que En Los Sets Solo Se Puede Almacenar Valores */
 /* Creamos un objeto(Clases) SET */
 const carrito = new Set();
 
@@ -14,10 +15,12 @@ console.log(carrito);
 console.log('Longitud =>', carrito.size);
 console.log('---------------------------------------');
 
-/* Creando e inicializando un SET */
-const numeros = new Set([1, 1, 1, 1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+/* Creando e inicializando un SET Para Eliminar Los Duplicados De Un Array */
+const numeros = [1, 1, 1, 1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const noDuplicados = new Set(numeros);
 console.log(numeros);
 console.log('Longitud =>', numeros.size);
+console.log('Nuevo Set =>', noDuplicados);
 console.log('---------------------------------------');
 
 /* Comprobar que un valor exista dentro del SET */
@@ -28,7 +31,9 @@ console.log('---------------------------------------');
 
 /* Eliminar un valor de un SET() */
 carrito.delete('Disco #3')
-console.log('Eliminando Disco #3 =>', carrito);
+console.log('Eliminando Disco #3 =>', carrito.delete('Disco #3'));
+console.log('Si El Valor Pasado Existe Me Retorna Un True');
+console.log('Si El Valor Pasado No Existe Me Retorna Un False');
 console.log('---------------------------------------');
 
 /* Los SETS() Se pueden iterar con los forEach */
@@ -36,8 +41,13 @@ carrito.forEach(elemento => {
     console.log('Iterador => ', elemento);
 });
 
-/* Las llaves y los valores son lo mismo */
+/* El Index Es El Mismo Valor Como Tal!!! */
 carrito.forEach((elemento, index) => {
+    console.log(index, elemento);
+});
+
+/* El Tercer Parametro Me Muestra El Set() Completo Al Que Pertenece El Elemento */
+carrito.forEach((elemento, index, pertenece) => {
     console.log(index, elemento);
 });
 console.log('---------------------------------------');
