@@ -3,4 +3,4 @@ Lo sets permite crear una lista de valores, es similar a un arreglo solo que no 
 Cuando algo ya es duplicado en el set, simplemente no se agrega.
 
 PARA QUE SIRVEN =>
-Para Almacenar datos que esten compuestos solo del valor.
+Para Almacenar datos que esten compuestos solo del valor, cualquier tipo de valor.
