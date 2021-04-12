@@ -1,3 +1,4 @@
 WEAKMAPS =>
-Son una variación de los Maps, almacenan llave - valor, pero tienen algunas restricciones, como por ejemplo,
-No se pueden iterar, no se conoce la longitud del elemento.
+Son una variación de los Maps, almacenan llave - valor, pero tienen algunas restricciones, 
+como por ejemplo, No se pueden iterar, no se conoce la longitud del elemento y solo se
+pueden definir objetos.
