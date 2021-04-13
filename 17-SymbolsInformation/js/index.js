@@ -42,3 +42,14 @@ console.log(persona[nombre]);
 console.log(persona[apellido]);
 console.log(persona[edad]);
 console.log('----------------------------------------');
+
+/* Definir La Descripción De Un Symbol() */
+const nombreCliente = Symbol('Nombre Del Cliente');
+const cliente = {};
+
+cliente[nombreCliente] = 'Pedro';
+
+console.log(cliente);
+console.log(nombreCliente);
+console.log(cliente[nombreCliente]);
+console.log('----------------------------------------');

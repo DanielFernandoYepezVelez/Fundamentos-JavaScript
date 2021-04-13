@@ -1,2 +1,3 @@
 ITERADORES =>
-Para Entender Como Funcionan Los Ciclos O Iteradores En Su Core, De Forma Interna.
+Aqui Estamos Creando Un Iterador Desde Cero Para Entender Como Funcionan Los Ciclos 
+Es Decir, For, ForEach En Su Core O De Forma Interna, Es Simplemente Un Acercamiento.
