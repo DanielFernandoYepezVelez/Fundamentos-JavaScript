@@ -1,3 +1,3 @@
 SYMBOLS =>
-Los Symbols Son Inmutables, Es Decir, Cada Instancia Es Diferente.
 Es un nuevo tipo de dato primitivo, y te permite crear propiedades unicas.
+Los Symbols No Se Instancian Con El New Y Cada Instancia Del Symbol Es Diferente.
