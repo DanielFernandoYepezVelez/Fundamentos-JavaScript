@@ -1,3 +1,13 @@
+/* Los Symbols No Se Instancian Con El New Y Cada Symbol Es Diferente */
+const sym = Symbol('1');
+const sym2 = Symbol('1');
+
+if (sym === sym2) {
+    console.log('Son Iguales');
+} else {
+    console.log('Son Diferentes');
+}
+
 /* Crear Un Objeto Persona */
 let persona = {};
 
