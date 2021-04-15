@@ -1,8 +1,13 @@
 /* Iteradores Incluidos En JavaScript
 PARA RECORRER ARRAYS, SETS, MAPS SOLO PARA ESTOS */
+
+/* Estos Tres Son Iterables Con Un ForEach.
+Pero Vamos A Ver Otras Opciones De Iterables Y Asi,
+Tener Mas Recursos A La De Iterar Estos Elementos */
 const ciudades = ['Londres', 'New York', 'Madrid'];
 const ordenes = new Set([123, 231, 131, 102]);
 const datos = new Map();
+
 datos.set('nombre', 'Daniel');
 datos.set('profesion', 'Desarrollador Web');
 

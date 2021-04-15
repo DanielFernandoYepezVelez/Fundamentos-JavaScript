@@ -1,0 +1,7 @@
+IndexDB =>
+Es Una Base De Datos Que Existe En El Navegador.
+
+Transacción =>
+La TRANSACCIÓN Se Conoce A La Ejecución Del Paso 
+A Paso Exitosamente Entre Un Sistema Y Su O Sus 
+Bases De Datos Asociadas.

@@ -1,1 +1,2 @@
-GENERADORES =>
+GENERADOR => 
+Es Una Función Que Retorna Un Iterador.

@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function crmDB() {
     /* Crear La Base De Datos */
-    let crmDB = indexedDB.open('crm', 1);
+    let crmDB = window.indexedDB.open('crm', 1);
 
     /* Si Existe Un Error En La Creacion De La DB */
     crmDB.onerror = function() {
@@ -21,7 +21,7 @@ function crmDB() {
     /* Si Se Creo Correctamente La DB */
     crmDB.onsuccess = function() {
         console.log('La Base De Datos Se Creo Exitasamente');
-        /* Referencia De La Base De Datos */
+        /* Referencia De La Base De Datos (result) */
         DB = crmDB.result;
     }
 
@@ -31,7 +31,7 @@ function crmDB() {
     Se Crean Las Columnas Que Va Tener Mi CRMDB Cuando Se Va A Crear
     La Base De Datos Por Primera Vez */
     crmDB.onupgradeneeded = function(e) {
-        /* Referencia De La Base De Datos */
+        /* Referencia De La Base De Datos (result) */
         const db = e.target.result;
 
         const objectStore = db.createObjectStore('crm', {
@@ -48,7 +48,12 @@ function crmDB() {
     }
 }
 
-/* Para Un CRUD Con Esta Base De Datos Se Deben Ejecutar Algo Llamado TRANSACCIONES */
+/* Agregamos CLientes A Nuestra Base De Datos.
+   Para Un CRUD Con Esta Base De Datos Se Deben 
+   Ejecutar Algo Llamado TRANSACCIONES */
+
+/* La TRANSACCIÓN Se Conoce A La Ejecución Del Paso A Paso Exitosamente Entre 
+   Un Sistema Y Su O Sus Bases De Datos Asociadas */
 function crearCliente() {
     /* Referencia A La Base De Datos Y Los Permisos Que Va A Tener(Lectura Y Escritura) */
     let transaction = DB.transaction(['crm'], 'readwrite');
@@ -67,8 +72,10 @@ function crearCliente() {
     const objectStore = transaction.objectStore('crm');
 
     /* Objeto Literal */
+    /* Como Tiene Un setTimeOut() Trata De Insertar El Mismo Correo 
+       Varia Veces Por Eso Se Muestra El Error. */
     const nuevoCliente = {
-        telefono: 2838338833,
+        telefono: 2847765,
         nombre: 'Daniel',
         email: 'dani.@gmail.com'
     };
