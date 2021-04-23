@@ -1,0 +1,6 @@
+JEST:
+Trabaja Con Node, Por Ende, Necesitamos Los Archivos De
+Configuración Inicial (package.json).
+
+npm run test | npm test | npm t => LLama Al Binario De Jest Para Ejecutarlo,
+Dicho Binario Se Encuentra En node_modules/bin/jest
