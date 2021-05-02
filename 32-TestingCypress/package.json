@@ -1,0 +1,14 @@
+{
+  "name": "32-testingcypress",
+  "version": "1.0.0",
+  "description": "Aprendiendo Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Fernando Yepez Velez",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.2.0"
+  }
+}

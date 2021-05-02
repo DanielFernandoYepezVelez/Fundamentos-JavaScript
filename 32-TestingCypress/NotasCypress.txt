@@ -1,0 +1,35 @@
+DOCUMENTACIÓN =>
+www.cypress.io
+
+¿QUE ES CYPRESS?
+Es Una Herramienta Para Hacer Testing, Se Conoce Como
+Una Herramienta De La "Siguiente Generación".
+
+Cuando Escribes Pruebas Son De Código, Pero No Sabes
+Lo Que El Usuario Experimenta. Con CYPRESS Es Posible
+Saber Lo Que El Usuario Experimenta.
+
+Funciona En El Navegador, Por Lo Tanto Puedes
+Probar Con CYPRESS Proyectos Hechos En Java, C#,
+Python, PHP, NodeJS, ReactJS, VueJS.
+
+En Conclusión, Este Tipo De Prueba Esta Mucho Más
+Orientada A Lo Que El Usuario Ve En Pantalla.
+
+¿QUE OFRECE?
+Ofrece Pruebas Que Antes No Se Podian Hacer.
+Ofrece Pruebas End-To-End, Es Decir, De Extremo A Extremo.
+Ofrece Pruebas Unitarias Y De Integración.
+
+EJECUCIÓN CYPRESS:
+npx Ejecuta Las Dependecias Que No Tenemos Instaladas De
+Forma Completa En Nuestro Computador, Como Es El Caso De
+CYPRESS.
+
+npm Ejecuta Lo Que Tenemos En El package.json En La Parte
+De Los Scripts, Es Decir, Los Comandos Que Definimos De
+Forma Predeterminada Para La Aplicación.
+
+DOS COMANDOS QUE UTILIZAMOS EN CYPRESS:
+npx cypress open => Abre La Aplicación De Escritorio De CYPRESS.
+npx cypress run => Ejecuta La Pruebas En El cli De CYPRESS.
